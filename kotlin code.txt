@@ -1,0 +1,98 @@
+//plugins
+	//for referencing views
+		id 'kotlin-android-extensions' 
+	id 'kotlin-kapt'
+	
+	//works with navigation safe args dependency
+		id 'androidx.navigation.safeargs.kotlin' 
+
+//dependencies
+	classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.3.1"
+	
+supportActionBar?.hide() – to hide actionbar
+color –  to pick color    https://material.io/design/color/the-color-system.html#tools-for-picking-colors  
+?. for safe calls
+Left alt+enter – If alt+enter is not working
+findFragmentbyId – to find fragment
+
+//Google Api Services
+	https://console.developers.google.com/ 
+
+//Internet Permission
+	<uses-permission android:name="android.permission.INTERNET" /> 
+	
+//maven repository
+	maven {
+	          url 'https://maven.google.com'
+	        }  
+google sign in android
+https://firebase.google.com/docs/auth/android/google-signin - google sign in
+
+//android studio keyboard shortcuts
+	Ctrl+ I – to implement methods
+	Ctrl+ O – to override functions
+	Ctrl + B – To go to declaration
+	Ctrl + D – To duplicate line
+	Ctrl + Q - To know about function
+	Ctrl + P - To see parameters
+Toast.makeText(context,"Please enter all the information",Toast.LENGTH_SHORT).show() – Toast statement
+Toast(this).apply {						-		Custom Toast
+                duration = Toast.LENGTH_LONG
+                view = layoutInflater.inflate(R.layout.custom_toast,clToast)
+                show()
+            }
+Gradle-Tasks-android-signingReport – SH1 certificate
+val dashboardIntent = Intent(this, DashboardActivity::class.java) – Intent
+startActivity(dashboardIntent)
+finish()
+Intent(this, ThirdActivity::class.java).also {
+                startActivity(it)
+            }
+it.putExtra("EXTRA_NAME",name) – to pass value through intent
+val name = intent.getStringExtra("EXTRA_NAME") – to get value from intent
+private lateinit var – Initialize variable
+Build-Generate Signed Bundle/apk – To build apk
+google play console – to deploy apps
+android:windowSoftInputMode="stateVisible|adjustResize" – To move views upwards while using keyboard
+imageView2.setImageResource(bundle!!.getInt("image")) – to set image
+implementation 'androidx.recyclerview:recyclerview:1.1.0' – recycler view
+implementation 'com.squareup.picasso:picasso:2.71828' - to display image from url
+implementation 'com.amitshekhar.android:android-networking:1.0.2' - android networking library
+//libraries
+	//coroutines
+		implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.1'
+		implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.1'
+
+	//retrofit2
+		implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+		implementation 'com.squareup.retrofit2:converter-gson:2.6.0'
+	
+	// Navigation Component
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.2.2'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.2.2'
+
+    // Room components
+    implementation "androidx.room:room-runtime:2.2.5"
+    kapt "androidx.room:room-compiler:2.2.5"
+    implementation "androidx.room:room-ktx:2.2.5"
+    androidTestImplementation "androidx.room:room-testing:2.2.5"
+
+    // Lifecycle components
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+    implementation "androidx.lifecycle:lifecycle-common-java8:2.2.0"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
+
+    // Kotlin components
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.5"
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.5"
+	
+Log.d("MyIntentService","Service is stopping...") – to print log msg
+sample APi or https://reqres.in/ - for api calls
+
+//for viewing json on chrome
+	json viewer chrome extensions 
+Retrofit, Volley - Kotlin Networking
+//api
+	//cat-facts api
+		https://alexwohlbruck.github.io/cat-facts/docs/
