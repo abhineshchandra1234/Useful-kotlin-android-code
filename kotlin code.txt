@@ -53,7 +53,8 @@ val name = intent.getStringExtra("EXTRA_NAME") – to get value from intent
 private lateinit var – Initialize variable
 Build-Generate Signed Bundle/apk – To build apk
 google play console – to deploy apps
-android:windowSoftInputMode="stateVisible|adjustResize" – To move views upwards while using keyboard
+//To move views upwards while using keyboard
+	android:windowSoftInputMode="stateVisible|adjustResize"  -- use inside manifest file activity
 imageView2.setImageResource(bundle!!.getInt("image")) – to set image
 implementation 'androidx.recyclerview:recyclerview:1.1.0' – recycler view
 implementation 'com.squareup.picasso:picasso:2.71828' - to display image from url
@@ -96,3 +97,9 @@ Retrofit, Volley - Kotlin Networking
 //api
 	//cat-facts api
 		https://alexwohlbruck.github.io/cat-facts/docs/
+		
+	//fake api - Free to use fake Online REST API for testing and prototyping
+		https://jsonplaceholder.typicode.com/
+		
+//change actionbar name
+	setupActionBarWithNavController(findNavController(R.id.fragment))
