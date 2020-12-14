@@ -15,6 +15,9 @@ color –  to pick color    https://material.io/design/color/the-color-system.ht
 Left alt+enter – If alt+enter is not working
 findFragmentbyId – to find fragment
 
+//Firebase console
+	https://console.firebase.google.com/u/0/
+
 //Google Api Services
 	https://console.developers.google.com/ 
 
@@ -24,7 +27,8 @@ findFragmentbyId – to find fragment
 //maven repository
 	maven {
 	          url 'https://maven.google.com'
-	        }  
+	        } 
+	 maven { url 'https://jitpack.io' }
 google sign in android
 https://firebase.google.com/docs/auth/android/google-signin - google sign in
 
@@ -63,30 +67,39 @@ implementation 'com.amitshekhar.android:android-networking:1.0.2' - android netw
 	//coroutines
 		implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.1'
 		implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.1'
+		implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.1.1'
+		implementation  'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
+		
 
 	//retrofit2
 		implementation 'com.squareup.retrofit2:retrofit:2.9.0'
 		implementation 'com.squareup.retrofit2:converter-gson:2.6.0'
+		implementation 'com.squareup.okhttp3:logging-interceptor:4.5.0'
 	
 	// Navigation Component
-    implementation 'androidx.navigation:navigation-fragment-ktx:2.2.2'
-    implementation 'androidx.navigation:navigation-ui-ktx:2.2.2'
+		implementation 'androidx.navigation:navigation-fragment-ktx:2.2.2'
+		implementation 'androidx.navigation:navigation-ui-ktx:2.2.2'
 
     // Room components
-    implementation "androidx.room:room-runtime:2.2.5"
-    kapt "androidx.room:room-compiler:2.2.5"
-    implementation "androidx.room:room-ktx:2.2.5"
-    androidTestImplementation "androidx.room:room-testing:2.2.5"
+		implementation "androidx.room:room-runtime:2.2.5"
+		kapt "androidx.room:room-compiler:2.2.5"
+		implementation "androidx.room:room-ktx:2.2.5"
+		androidTestImplementation "androidx.room:room-testing:2.2.5"
 
     // Lifecycle components
-    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
-    implementation "androidx.lifecycle:lifecycle-common-java8:2.2.0"
-    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
+		implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+		implementation "androidx.lifecycle:lifecycle-common-java8:2.2.0"
+		implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
 
     // Kotlin components
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
-    api "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.5"
-    api "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.5"
+		implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
+		api "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.5"
+		api "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.5"
+		
+	// AnyChart components
+		implementation 'com.github.AnyChart:AnyChart-Android:1.1.2'
+		implementation 'com.android.support:multidex:1.0.3'
+		multiDexEnabled true -- inside defaultConfig
 	
 Log.d("MyIntentService","Service is stopping...") – to print log msg
 sample APi or https://reqres.in/ - for api calls
