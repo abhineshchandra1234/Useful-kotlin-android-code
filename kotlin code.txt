@@ -42,6 +42,9 @@ https://firebase.google.com/docs/auth/android/google-signin - google sign in
 Toast.makeText(context,"Please enter all the information",Toast.LENGTH_SHORT).show() – Toast statement
 Toast(this).apply {						-		Custom Toast
                 duration = Toast.LENGTH_LONG
+				
+				
+this is a sample text				
                 view = layoutInflater.inflate(R.layout.custom_toast,clToast)
                 show()
             }
@@ -75,6 +78,7 @@ implementation 'com.amitshekhar.android:android-networking:1.0.2' - android netw
 		implementation 'com.squareup.retrofit2:retrofit:2.9.0'
 		implementation 'com.squareup.retrofit2:converter-gson:2.6.0'
 		implementation 'com.squareup.okhttp3:logging-interceptor:4.5.0'
+		implementation 'com.squareup.retrofit2:adapter-rxjava2:2.5.0'
 	
 	// Navigation Component
 		implementation 'androidx.navigation:navigation-fragment-ktx:2.2.2'
@@ -100,13 +104,34 @@ implementation 'com.amitshekhar.android:android-networking:1.0.2' - android netw
 		implementation 'com.github.AnyChart:AnyChart-Android:1.1.2'
 		implementation 'com.android.support:multidex:1.0.3'
 		multiDexEnabled true -- inside defaultConfig
+		
+	//ViewModel and LiveData
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+
+    //Recyclerview
+    implementation 'androidx.recyclerview:recyclerview:1.2.0-beta01'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    // Gson
+    implementation "com.google.code.gson:gson:2.8.6"
+
+    // Glide
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+
+    // Paging
+    implementation "androidx.paging:paging-runtime:2.1.2"
+
+    //Rx
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.7'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
 	
 Log.d("MyIntentService","Service is stopping...") – to print log msg
 sample APi or https://reqres.in/ - for api calls
 
 //for viewing json on chrome
 	json viewer chrome extensions 
-Retrofit, Volley - Kotlin Networking
+//Kotlin Networking
+	Retrofit, Volley 
 //api
 	//cat-facts api
 		https://alexwohlbruck.github.io/cat-facts/docs/
@@ -116,3 +141,6 @@ Retrofit, Volley - Kotlin Networking
 		
 //change actionbar name
 	setupActionBarWithNavController(findNavController(R.id.fragment))
+	
+//for viewing error
+	verbose - caused by or general error msg
