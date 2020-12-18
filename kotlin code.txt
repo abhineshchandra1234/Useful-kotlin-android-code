@@ -39,6 +39,9 @@ https://firebase.google.com/docs/auth/android/google-signin - google sign in
 	Ctrl + D – To duplicate line
 	Ctrl + Q - To know about function
 	Ctrl + P - To see parameters
+
+//to generate constructors
+	right-click -> generate -> secondary constructors
 Toast.makeText(context,"Please enter all the information",Toast.LENGTH_SHORT).show() – Toast statement
 Toast(this).apply {						-		Custom Toast
                 duration = Toast.LENGTH_LONG
