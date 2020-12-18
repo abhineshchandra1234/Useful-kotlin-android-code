@@ -110,8 +110,9 @@ implementation 'com.amitshekhar.android:android-networking:1.0.2' - android netw
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
 
     //Recyclerview
-    implementation 'androidx.recyclerview:recyclerview:1.2.0-beta01'
-    implementation 'androidx.cardview:cardview:1.0.0'
+    	implementation "com.androidx.support:recyclerview-v7:23.0.1"
+	//CardView
+    implementation 'com.androidx.support:cardview-v7:23.0.1'
 
     // Gson
     implementation "com.google.code.gson:gson:2.8.6"
