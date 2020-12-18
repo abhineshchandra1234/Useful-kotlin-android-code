@@ -49,14 +49,15 @@ this is a sample text
                 show()
             }
 Gradle-Tasks-android-signingReport – SH1 certificate
-val dashboardIntent = Intent(this, DashboardActivity::class.java) – Intent
-startActivity(dashboardIntent)
-finish()
-Intent(this, ThirdActivity::class.java).also {
+//Intent
+	val dashboardIntent = Intent(this, DashboardActivity::class.java)
+	startActivity(dashboardIntent)
+	finish()
+	Intent(this, ThirdActivity::class.java).also {
                 startActivity(it)
             }
-it.putExtra("EXTRA_NAME",name) – to pass value through intent
-val name = intent.getStringExtra("EXTRA_NAME") – to get value from intent
+	it.putExtra("EXTRA_NAME",name) – to pass value through intent
+	val name = intent.getStringExtra("EXTRA_NAME") – to get value from intent
 private lateinit var – Initialize variable
 Build-Generate Signed Bundle/apk – To build apk
 google play console – to deploy apps
