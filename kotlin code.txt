@@ -117,6 +117,8 @@ implementation 'com.amitshekhar.android:android-networking:1.0.2' - android netw
     	implementation 'androidx.recyclerview:recyclerview:1.1.0'
 	//CardView
 		implementation "androidx.cardview:cardview:1.0.0"
+//Networking
+	implementation 'com.amitshekhar.android:android-networking:1.0.2'
 
     // Gson
 		implementation "com.google.code.gson:gson:2.8.6"
