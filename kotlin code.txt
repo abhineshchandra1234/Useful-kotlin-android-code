@@ -165,3 +165,4 @@ sample APi or https://reqres.in/ - for api calls
 	
 //fonts
 	https://fonts.google.com/
+	search font.ttf
