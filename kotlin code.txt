@@ -154,14 +154,17 @@ sample APi or https://reqres.in/ - for api calls
 	verbose - caused by or general error msg
 	
 //push code to github
-	git status
-	git init
-	git add -A
-	git commit -m "first commit!"
+	shift + insert -  to copy cmds in bash
+	open git bash at desired location
+	git init - to initialize the repository
+	git add . - to add all the files to the given folder.
+	git status - to view all the files which are going to be staged to the first commit.
+	git commit -m 'first commit' - which adds the change to the local repository.
+	The HTTPS or URL is copied from the given GitHub account, which is the place of the remote repository.
+	git remote add origin 'your_url_name'
+	git push -u origin master - used for pushing local content to GitHub.
 	
-	git remote add github https://github.com/abhineshchandra1234/Useful-kotlin-android-code.git
-	git branch -M master
-	git push -u github master
+	ref - https://www.datacamp.com/community/tutorials/git-push-pull
 	
 //fonts
 	https://fonts.google.com/
