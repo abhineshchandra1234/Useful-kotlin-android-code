@@ -163,6 +163,8 @@ sample APi or https://reqres.in/ - for api calls
 	The HTTPS or URL is copied from the given GitHub account, which is the place of the remote repository.
 	git remote add origin 'your_url_name'
 	git push -u origin master - used for pushing local content to GitHub.
+	//change remote url git
+		git remote set-url origin https://hostname/USERNAME/REPOSITORY.git
 	
 	ref - https://www.datacamp.com/community/tutorials/git-push-pull
 	
