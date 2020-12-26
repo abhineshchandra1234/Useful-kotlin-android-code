@@ -138,7 +138,7 @@ sample APi or https://reqres.in/ - for api calls
 
 //for viewing json on chrome
 	json viewer chrome extensions 
-//Kotlin Networking
+//Kotlin Networking(for api calls)
 	Retrofit, Volley 
 //api
 	//cat-facts api
