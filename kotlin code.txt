@@ -185,3 +185,7 @@ sample APi or https://reqres.in/ - for api calls
 
 //redo
 	ctrl+shift+z
+	
+//to find recruiters
+	company_name recruiter on linkedin
+	find maild id and send resume
