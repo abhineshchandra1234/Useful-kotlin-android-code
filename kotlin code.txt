@@ -176,3 +176,6 @@ sample APi or https://reqres.in/ - for api calls
 
 //custom toolbar
 	https://youtu.be/e5_C9e_gKOM
+
+//redo
+	ctrl+shift+z
