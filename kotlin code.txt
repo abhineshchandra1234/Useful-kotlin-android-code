@@ -152,6 +152,9 @@ sample APi or https://reqres.in/ - for api calls
 	//Documentation and Test Consoles for Over 1400 Public APIs
 		https://any-api.com/
 		
+	//to generate fake api
+		https://www.mockable.io/a/#/
+		
 //change actionbar name
 	setupActionBarWithNavController(findNavController(R.id.fragment))
 	
