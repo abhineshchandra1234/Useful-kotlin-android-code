@@ -149,6 +149,9 @@ sample APi or https://reqres.in/ - for api calls
 	//fake api - Free to use fake Online REST API for testing and prototyping
 		https://jsonplaceholder.typicode.com/
 		
+	//Documentation and Test Consoles for Over 1400 Public APIs
+		https://any-api.com/
+		
 //change actionbar name
 	setupActionBarWithNavController(findNavController(R.id.fragment))
 	
