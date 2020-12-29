@@ -40,6 +40,7 @@ https://firebase.google.com/docs/auth/android/google-signin - google sign in
 	Ctrl + Q - To know about function
 	Ctrl + P - To see parameters
 	Alt + F7 - To find usages
+	shift + F6 - to rename files
 	tab - right-click -> close other tabs
 
 //to generate constructors
