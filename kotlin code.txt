@@ -196,3 +196,7 @@ sample APi or https://reqres.in/ - for api calls
 //to find recruiters
 	company_name recruiter on linkedin
 	find maild id and send resume
+	
+//animations
+	button or icon animation
+	ref - https://youtu.be/ALj2KO7CAqM
