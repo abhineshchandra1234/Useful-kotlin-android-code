@@ -217,4 +217,9 @@ sample APi or https://reqres.in/ - for api calls
 		to get nested data value
 			iterate json array
 			ref - https://stackoverflow.com/questions/17441246/org-json-jsonarray-cannot-be-converted-to-jsonobject
+			
+//MQTT
+	add libraries
+	add connect,publish,subscribe
+	add permissions
 
