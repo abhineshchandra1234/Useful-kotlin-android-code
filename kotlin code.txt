@@ -221,5 +221,6 @@ sample APi or https://reqres.in/ - for api calls
 //MQTT
 	add libraries
 	add connect,publish,subscribe
-	add permissions
+	add permissions in manifest
+	makes changes in application tab in manifest
 
