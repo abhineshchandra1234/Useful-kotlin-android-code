@@ -212,4 +212,9 @@ sample APi or https://reqres.in/ - for api calls
 		edit post class to receive data
 		convert response from class to string 
 		ref - https://medium.com/@hissain.khan/parsing-with-google-gson-library-in-android-kotlin-7920e26f5520
+		to access nested data
+		val user: ArrayList<User>
+		to get nested data value
+			iterate json array
+			ref - https://stackoverflow.com/questions/17441246/org-json-jsonarray-cannot-be-converted-to-jsonobject
 
