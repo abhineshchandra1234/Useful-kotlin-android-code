@@ -226,4 +226,8 @@ sample APi or https://reqres.in/ - for api calls
 	
 //drawable
 	copy asset by creating a folder and pasting in res folder
+	
+//swipe view
+	use viewpager2 to create swipe views
+	ref - https://youtu.be/COZ3j8Dwlog
 
