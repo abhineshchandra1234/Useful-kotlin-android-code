@@ -223,6 +223,7 @@ sample APi or https://reqres.in/ - for api calls
 	add connect,publish,subscribe
 	add permissions in manifest
 	makes changes in application tab in manifest
+	always remember to disconnect before new connection
 	
 //drawable
 	copy asset by creating a folder and pasting in res folder
