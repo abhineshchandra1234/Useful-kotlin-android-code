@@ -223,7 +223,8 @@ sample APi or https://reqres.in/ - for api calls
 	add connect,publish,subscribe
 	add permissions in manifest
 	makes changes in application tab in manifest
-	always remember to disconnect before new connection
+	always remember to disconnect current connection before getting data from new connection
+	it can handle only one topic
 	disconnect on messeage arrived
 	always call function after successful subscribe
 	
