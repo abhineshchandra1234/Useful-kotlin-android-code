@@ -242,4 +242,7 @@ sample APi or https://reqres.in/ - for api calls
 	Handler(Looper.getMainLooper()).postDelayed({
       //Do something after 100ms
     }, 100)
+    
+//Singleton
+	to access same variable and functions across different activities
 
