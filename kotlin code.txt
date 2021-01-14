@@ -245,4 +245,8 @@ sample APi or https://reqres.in/ - for api calls
     
 //Singleton
 	to access same variable and functions across different activities
+	
+//Starting Background Services
+	//JobScheduler
+		ref - https://guides.codepath.com/android/starting-background-services#jobscheduler
 
