@@ -237,4 +237,9 @@ sample APi or https://reqres.in/ - for api calls
 	
 //Http request
 	add android:usesCleartextTraffic="true" inside application tag to read data
+	
+//Delay
+	Handler(Looper.getMainLooper()).postDelayed({
+      //Do something after 100ms
+    }, 100)
 
