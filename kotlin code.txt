@@ -186,6 +186,7 @@ sample APi or https://reqres.in/ - for api calls
 //fonts
 	https://fonts.google.com/
 	search font.ttf
+	android:font="@fonts/custom.ttf"
 
 //custom toolbar
 	https://youtu.be/e5_C9e_gKOM
