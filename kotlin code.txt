@@ -249,4 +249,15 @@ sample APi or https://reqres.in/ - for api calls
 //Starting Background Services
 	//JobScheduler
 		ref - https://guides.codepath.com/android/starting-background-services#jobscheduler
+		
+		
+//Fullscreen Mode
+	override fun onCreate(savedInstanceState: Bundle?) {
+    requestWindowFeature(Window.FEATURE_NO_TITLE)
+    super.onCreate(savedInstanceState)     
+    window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+            WindowManager.LayoutParams.FLAG_FULLSCREEN)
+   setContentView(R.layout.activity_test_test)
+   }
+   ref  - https://stackoverflow.com/questions/45408167/how-to-create-the-activity-full-screen-in-android-programmatically-using-kotlin/45408235
 
