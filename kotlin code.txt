@@ -261,4 +261,17 @@ sample APi or https://reqres.in/ - for api calls
    setContentView(R.layout.activity_test_test)
    }
    ref  - https://stackoverflow.com/questions/45408167/how-to-create-the-activity-full-screen-in-android-programmatically-using-kotlin/45408235
+   
+//Activity lifecycle
+	//when activity is visible
+		onCreate	called when activity is first created.
+		onStart		called when activity is becoming visible to the user.
+		onResume	called when activity will start interacting with the user.
+	//when activity is stopped
+		onPause		called when activity is not visible to the user.
+		onStop		called when activity is no longer visible to the user.
+	//when activity is again visible
+		onRestart	called after your activity is stopped, prior to start.
+	//when app is closed
+		onDestroy	called before the activity is destroyed.
 
