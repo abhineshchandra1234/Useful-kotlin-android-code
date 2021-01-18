@@ -275,10 +275,14 @@ sample APi or https://reqres.in/ - for api calls
 	//when app is closed
 		onDestroy	called before the activity is destroyed.
 		
-		
-//Intent service
-	runs automatically in sepearate thread not able to do multi-threading
-//Service
-	runs in the main thread, manually specify seperate thread, able to do multi-threading
+//Services
+	Keeps running once started only stop manually or when app is killed
+	//Intent service
+		runs automatically in sepearate thread not able to do multi-threading
+	//Service
+		runs in the main thread, manually specify seperate thread, able to do multi-threading
+		//sepearate thread
+			 Thread{
+			}.start()
 	
 
