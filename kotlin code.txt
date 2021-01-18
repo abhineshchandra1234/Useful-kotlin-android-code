@@ -274,4 +274,11 @@ sample APi or https://reqres.in/ - for api calls
 		onRestart	called after your activity is stopped, prior to start.
 	//when app is closed
 		onDestroy	called before the activity is destroyed.
+		
+		
+//Intent service
+	runs automatically in sepearate thread not able to do multi-threading
+//Service
+	runs in the main thread, manually specify seperate thread, able to do multi-threading
+	
 
