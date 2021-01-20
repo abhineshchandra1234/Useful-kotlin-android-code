@@ -291,4 +291,11 @@ sample APi or https://reqres.in/ - for api calls
 //rename variable
 	select variable -> refractor -> rename
 	
+//gradle location github
+	//project level
+		outside -> build.gradle
+	//module level
+		app -> build.gradle
+	
+	
 
