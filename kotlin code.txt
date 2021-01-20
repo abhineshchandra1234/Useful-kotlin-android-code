@@ -284,5 +284,8 @@ sample APi or https://reqres.in/ - for api calls
 		//sepearate thread
 			 Thread{
 			}.start()
+			
+//java to kotlin code
+	code -> convert java to kotlin code
 	
 
