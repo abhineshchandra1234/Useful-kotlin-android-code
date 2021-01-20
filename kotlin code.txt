@@ -288,4 +288,7 @@ sample APi or https://reqres.in/ - for api calls
 //java to kotlin code
 	code -> convert java to kotlin code
 	
+//rename variable
+	select variable -> refractor -> rename
+	
 
