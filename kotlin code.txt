@@ -307,10 +307,15 @@ sample APi or https://reqres.in/ - for api calls
     		}
 		
 	MainActivity
-	private lateinit var binding: ActivityMainBinding
-	oncreate{
-	 binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-	}
+		private lateinit var binding: ActivityMainBinding
+		oncreate{
+		 	binding = ActivityMainBinding.inflate(layoutInflater)
+        		setContentView(binding.root)
+	
+			binding.btnShowSnackbar.setOnClickListener {
+            		...
+        		}
+		}
+	
 	
 
