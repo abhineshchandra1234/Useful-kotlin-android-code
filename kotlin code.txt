@@ -296,6 +296,15 @@ sample APi or https://reqres.in/ - for api calls
 		outside -> build.gradle
 	//module level
 		app -> build.gradle
+		
+//view binding
+	Module gradle
+	 defaultConfig {
+	 	...
+	 }
+	 buildFeatures {
+        	viewBinding true
+    		}
 	
 	
 
