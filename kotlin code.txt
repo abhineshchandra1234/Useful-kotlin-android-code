@@ -305,6 +305,12 @@ sample APi or https://reqres.in/ - for api calls
 	 buildFeatures {
         	viewBinding true
     		}
-	
+		
+	MainActivity
+	private lateinit var binding: ActivityMainBinding
+	oncreate{
+	 binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+	}
 	
 
