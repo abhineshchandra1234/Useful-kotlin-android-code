@@ -327,6 +327,15 @@ sample APi or https://reqres.in/ - for api calls
         i++
     } 
     //it will increase i value also and if used (it) it will increase (i*i) value
+    
+//Apply
+	val intent = Intent().apply {
+            putExtra("","")
+            putExtra("",0)
+            action = ""
+        }
+	it will return intent object with all below functions. You can use it to start new activity. It will serve as intent class and you can access
+	every function of it.
 	
 	
 
