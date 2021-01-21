@@ -75,11 +75,17 @@ implementation 'androidx.recyclerview:recyclerview:1.1.0' – recycler view
 implementation 'com.squareup.picasso:picasso:2.71828' - to display image from url
 implementation 'com.amitshekhar.android:android-networking:1.0.2' - android networking library
 //libraries
+	// Preferences DataStore
+    		implementation "androidx.datastore:datastore-preferences:1.0.0-alpha04"
+    
 	//coroutines
 		implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.1'
 		implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.1'
 		implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.1.1'
-		implementation  'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
+		
+	// Coroutine Lifecycle Scopes
+    		implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
+    		implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0"		
 		
 
 	//retrofit2
