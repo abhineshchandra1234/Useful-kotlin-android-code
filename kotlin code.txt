@@ -316,6 +316,11 @@ sample APi or https://reqres.in/ - for api calls
             		...
         		}
 		}
+		
+//Elvis Operator
+	When we have a nullable reference b, we can say "if b is not null, use it, otherwise use some non-null value":
+	val l: Int = if (b != null) b.length else -1
+	val l = b?.length ?: -1
 	
 	
 
