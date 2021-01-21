@@ -296,12 +296,18 @@ sample APi or https://reqres.in/ - for api calls
 	
 //rename variable
 	select variable -> refractor -> rename
-	
+
+//location of files github
+
 //gradle location github
 	//project level
 		outside -> build.gradle
 	//module level
 		app -> build.gradle
+		
+//layout location github 
+	//DataStoreAndroid/app/src/main/res/layout/activity_main.xml
+
 		
 //view binding
 	Module gradle
