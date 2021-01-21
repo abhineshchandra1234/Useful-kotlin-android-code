@@ -343,5 +343,11 @@ sample APi or https://reqres.in/ - for api calls
 //Run 
 	It is equivalent to apply it will return the last line eg -  (action = "") or (this) to return intent
 	
+//With
+	It is equivalent to run
+	with(Intent()) {
+	..
+	}
+	
 	
 
