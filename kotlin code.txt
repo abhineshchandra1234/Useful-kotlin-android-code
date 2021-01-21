@@ -75,17 +75,26 @@ this is a sample text
 	Intent(this, ThirdActivity::class.java).also {
                 startActivity(it)
             }
-	it.putExtra("EXTRA_NAME",name) – to pass value through intent
-	val name = intent.getStringExtra("EXTRA_NAME") – to get value from intent
-private lateinit var – Initialize variable
-Build-Generate Signed Bundle/apk – To build apk
-google play console – to deploy apps
+	//to pass value through intent
+		it.putExtra("EXTRA_NAME",name)
+	//to get value from intent
+		val name = intent.getStringExtra("EXTRA_NAME")
+//Initialize variable and assign value later		
+	private lateinit var
+//To build apk	
+	Build-Generate Signed Bundle/apk
+//to deploy apps	
+	google play console
 //To move views upwards while using keyboard
 	android:windowSoftInputMode="stateVisible|adjustResize"  -- use inside manifest file activity
-imageView2.setImageResource(bundle!!.getInt("image")) – to set image
-implementation 'androidx.recyclerview:recyclerview:1.1.0' – recycler view
-implementation 'com.squareup.picasso:picasso:2.71828' - to display image from url
-implementation 'com.amitshekhar.android:android-networking:1.0.2' - android networking library
+//to set image	
+	imageView2.setImageResource(bundle!!.getInt("image"))
+//recycler view	
+	implementation 'androidx.recyclerview:recyclerview:1.1.0'
+//to display image from url	
+	implementation 'com.squareup.picasso:picasso:2.71828'
+//android networking library	
+	implementation 'com.amitshekhar.android:android-networking:1.0.2'
 //libraries
 	// Preferences DataStore
     		implementation "androidx.datastore:datastore-preferences:1.0.0-alpha04"
