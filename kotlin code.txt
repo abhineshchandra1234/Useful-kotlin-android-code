@@ -162,9 +162,12 @@ this is a sample text
     //Rx
 		implementation 'io.reactivex.rxjava2:rxjava:2.2.7'
 		implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+
+//to print log msg
+	Log.d("MyIntentService","Service is stopping...")
 	
-Log.d("MyIntentService","Service is stopping...") – to print log msg
-sample APi or https://reqres.in/ - for api calls
+//for api calls
+	sample APi or https://reqres.in/
 
 //for viewing json on chrome
 	json viewer chrome extensions 
@@ -251,10 +254,7 @@ sample APi or https://reqres.in/ - for api calls
 	add connect,publish,subscribe
 	add permissions in manifest
 	makes changes in application tab in manifest
-	always remember to disconnect current connection before getting data from new connection
-	it can handle only one topic
-	disconnect on messeage arrived
-	always call function after successful subscribe
+	
 	
 //drawable
 	copy asset by creating a folder and pasting in res folder
@@ -273,11 +273,7 @@ sample APi or https://reqres.in/ - for api calls
     
 //Singleton
 	to access same variable and functions across different activities
-	
-//Starting Background Services
-	//JobScheduler
-		ref - https://guides.codepath.com/android/starting-background-services#jobscheduler
-		
+			
 		
 //Fullscreen Mode
 	override fun onCreate(savedInstanceState: Bundle?) {
@@ -301,6 +297,9 @@ sample APi or https://reqres.in/ - for api calls
 		onRestart	called after your activity is stopped, prior to start.
 	//when app is closed
 		onDestroy	called before the activity is destroyed.
+		
+//Fragment lifecycle
+	TODO
 		
 //Services
 	Keeps running once started only stop manually or when app is killed
