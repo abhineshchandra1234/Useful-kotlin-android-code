@@ -6,6 +6,7 @@
 		//to bind views as well as their data
 		//slows the system a bit
 	//coroutines
+		//it does everything what multithreading does and even more
 //plugins
 	//for referencing views
 		id 'kotlin-android-extensions' 
