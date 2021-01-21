@@ -1,3 +1,6 @@
+//topics
+	//viewbinding
+	//coroutines
 //plugins
 	//for referencing views
 		id 'kotlin-android-extensions' 
