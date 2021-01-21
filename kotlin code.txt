@@ -345,6 +345,11 @@ sample APi or https://reqres.in/ - for api calls
             		...
         		}
 		}
+	//for fragment
+		class SampleFragment : Fragment(R.layout.fragment_sample)
+		private lateinit var binding: FragmentSampleBinding
+		binding = FragmentSampleBinding.bind(view)
+        	binding.tvFrag.text = "Chandra"
 //Scope Functions		
 //Elvis Operator
 	When we have a nullable reference b, we can say "if b is not null, use it, otherwise use some non-null value":
