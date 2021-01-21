@@ -310,6 +310,12 @@ sample APi or https://reqres.in/ - for api calls
 	
 //Activity location github 
 	//DataStoreAndroid/app/src/main/java/com/plcoding/datastoreandroid/MainActivity.kt
+	
+//common location
+	//DataStoreAndroid/app/src/main/
+		//java - Activity
+		//res - layout
+		//AndroidManifest.xml
 
 		
 //view binding
