@@ -18,12 +18,15 @@
 //dependencies
 	classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.3.1"
 	
-supportActionBar?.hide() – to hide actionbar
-color –  to pick color    https://material.io/design/color/the-color-system.html#tools-for-picking-colors  
-?. for safe calls
-Left alt+enter – If alt+enter is not working
-findFragmentbyId – to find fragment
-
+//to hide actionbar
+	supportActionBar?.hide()
+//color
+	//to pick color    https://material.io/design/color/the-color-system.html#tools-for-picking-colors  
+//safe calls
+	?. 
+//Left alt+enter
+	If alt+enter is not working
+	
 //Firebase console
 	https://console.firebase.google.com/u/0/
 
@@ -38,8 +41,8 @@ findFragmentbyId – to find fragment
 	          url 'https://maven.google.com'
 	        } 
 	 maven { url 'https://jitpack.io' }
-google sign in android
-https://firebase.google.com/docs/auth/android/google-signin - google sign in
+//google sign in android
+	https://firebase.google.com/docs/auth/android/google-signin
 
 //android studio keyboard shortcuts
 	Ctrl+ I – to implement methods
@@ -56,15 +59,15 @@ https://firebase.google.com/docs/auth/android/google-signin - google sign in
 	right-click -> generate -> secondary constructors
 //Toast statement
 	Toast.makeText(context,"Please enter all the information",Toast.LENGTH_SHORT).show()
-Toast(this).apply {						-		Custom Toast
-                duration = Toast.LENGTH_LONG
-				
-				
+//Custom Toast	
+Toast(this).apply {					
+                duration = Toast.LENGTH_LONG		
 this is a sample text				
                 view = layoutInflater.inflate(R.layout.custom_toast,clToast)
                 show()
             }
-Gradle-Tasks-android-signingReport – SH1 certificate
+//SH1 certificate	   
+	Gradle-Tasks-android-signingReport
 //Intent
 	val dashboardIntent = Intent(this, DashboardActivity::class.java)
 	startActivity(dashboardIntent)
