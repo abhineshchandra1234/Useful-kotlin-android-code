@@ -336,7 +336,7 @@ sample APi or https://reqres.in/ - for api calls
     		}
 		
 	MainActivity
-		private lateinit var binding: ActivityMainBinding
+		private lateinit var binding: ActivityMainBinding // every layout file will have its own binding class
 		oncreate{
 		 	binding = ActivityMainBinding.inflate(layoutInflater)
         		setContentView(binding.root)
