@@ -212,7 +212,7 @@ this is a sample text
 		//shift+end - end
 		//ctrl+l - clear screen
 		//shift + insert -  to copy commands in bash
-		//git log - to see commit details. Press enter to scroll.
+		//git log - to see commit details. Press "enter" to scroll. Press "q" to exit log view.
 	
 	ref - https://www.datacamp.com/community/tutorials/git-push-pull
 	
