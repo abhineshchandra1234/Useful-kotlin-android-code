@@ -196,7 +196,6 @@ this is a sample text
 	verbose - caused by or general error msg
 	
 //push code to github
-	shift + insert -  to copy cmds in bash
 	open git bash at desired location
 	git init - to initialize the repository
 	git add . - to add all the files to the given folder.
@@ -211,6 +210,8 @@ this is a sample text
 	shortcut
 		//shift+home - home
 		//shift+end - end
+		//ctrl+l - clear screen
+		//shift + insert -  to copy commands in bash
 	
 	ref - https://www.datacamp.com/community/tutorials/git-push-pull
 	
