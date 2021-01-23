@@ -414,7 +414,9 @@ this is a sample text
         if (webView.canGoBack()) webView.goBack() else super.onBackPressed()
     }
     
-    
+//debug code
+	timestamp = Timestamp(System.currentTimeMillis())
+        Log.d(MainActivity.Singleton.TAG, "api is called" + timestamp)
     
 	
 	
