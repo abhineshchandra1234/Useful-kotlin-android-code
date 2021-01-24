@@ -219,7 +219,13 @@ this is a sample text
 			git -> select the commit you want to checkout -> right click -> checkout revision 'abcd' (using android)
 		//yellow tag will show the current head
 		//stash
-			git stash -> to save local changes which you have not committed before you checkout to other commit.
+			git stash -> to save local changes which you have not committed before you checkout to other commit. It will create local commit.
+			git stash list -> to get list of stash in its current commit.
+			git stash apply -> to apply the changes
+			//Dont checkout to stash commit it will complicate things just get data using "stash list"
+			easier method
+			vcs -> git -> Stash Changes -> stash_name -- to stash local changes
+			vcs -> git -> UnStash Changes -> select the required stash -- to unstash local changes
 		
 	shortcut
 		//shift+home - home
