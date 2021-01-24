@@ -213,6 +213,9 @@ this is a sample text
 		//ctrl+l - clear screen
 		//shift + insert -  to copy commands in bash
 		//git log - to see commit details. Press "enter" to scroll. Press "q" to exit log view.
+		//revert commmit
+			terminal -> git revert hash_code(commit you want to remove. eg- 4 hash will remove 4th commit)
+			git -> select the commit you want to revert -> right click -> revert
 	
 	ref - https://www.datacamp.com/community/tutorials/git-push-pull
 	
