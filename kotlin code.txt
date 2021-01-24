@@ -188,6 +188,7 @@ this is a sample text
 		
 	//to generate fake api
 		https://www.mockable.io/a/#/
+	
 		
 //change actionbar name
 	setupActionBarWithNavController(findNavController(R.id.fragment))
@@ -272,6 +273,7 @@ this is a sample text
 		to get nested data value
 			iterate json array
 			ref - https://stackoverflow.com/questions/17441246/org-json-jsonarray-cannot-be-converted-to-jsonobject
+	//always use json class to kotlin to generate data class
 			
 //MQTT
 	add libraries
