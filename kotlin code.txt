@@ -440,6 +440,11 @@ this is a sample text
 //debug code
 	timestamp = Timestamp(System.currentTimeMillis())
         Log.d(MainActivity.Singleton.TAG, "api is called" + timestamp)
+	
+//change background on buttonclick
+	 twoBtn.setOnClickListener {
+            twoBtn.setBackgroundResource(R.drawable.ic_selected)
+        }
     
 	
 	
