@@ -206,7 +206,8 @@ this is a sample text
 	git remote add origin 'your_url_name'
 	git push -u origin master - used for pushing local content to GitHub.
 	//change remote url git
-		git remote set-url origin https://hostname/USERNAME/REPOSITORY.git
+		git remote set-url origin https://github.com/abhineshchandra1234/repository.git
+		https://github.com/abhineshchandra1234/repository.git
 	
 		//to see commit details.	
 			git log -  Press "enter" to scroll. Press "q" to exit log view. It will show head and below commits. (using android)
