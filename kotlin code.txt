@@ -423,20 +423,19 @@ this is a sample text
 	}
 	
 //to add webview to app
-	 @RequiresApi(Build.VERSION_CODES.O)
-    private fun webViewSetup() {
-        webView.webViewClient = WebViewClient()   //webView is the view name
+	  webView.settings.javaScriptEnabled = true
+    webView.settings.loadWithOverviewMode = true
+    webView.settings.useWideViewPort = true
+    webView.webViewClient = object : WebViewClient() {
+//        fun shouldOverrideUrlLoading(view: WebView, url: String?): Boolean {
+//            view.loadUrl(url)
+//            return true
+//        }
 
-        webView.apply {
-            loadUrl("https://www.google.com/")
-            settings.javaScriptEnabled = true
-            settings.safeBrowsingEnabled = true
+        fun onPageFinished(view: WebView?, url: String?) {
         }
     }
-
-    override fun onBackPressed() {
-        if (webView.canGoBack()) webView.goBack() else super.onBackPressed()
-    }
+    webView.loadUrl("https://abcd.com")
     
 //debug code
 	timestamp = Timestamp(System.currentTimeMillis())
