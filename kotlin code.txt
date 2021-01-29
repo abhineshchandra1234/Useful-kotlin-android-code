@@ -487,5 +487,7 @@ this is a sample text
             throw RuntimeException(e)
         }
     }
+    
+    ref - https://mobikul.com/android-retrofit-handling-sslhandshakeexception/
 	
 
