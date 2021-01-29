@@ -293,6 +293,11 @@ this is a sample text
 //Http request
 	add android:usesCleartextTraffic="true" inside application tag to read data
 	
+//Webview
+	webView.settings.javaScriptEnabled = true
+	webView.settings.domStorageEnabled = true --- to receive response from server
+	webView.loadUrl("https://google.com/")
+	
 //Delay
 	Handler(Looper.getMainLooper()).postDelayed({
       //Do something after 100ms
