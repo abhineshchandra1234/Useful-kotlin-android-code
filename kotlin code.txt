@@ -500,4 +500,7 @@ this is a sample text
 	
 //to protect eyes
 	install flux and set current location
+	
+//to adjust text within textview dimension
+	android:autoSizeTextType="uniform"
 
