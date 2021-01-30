@@ -498,4 +498,6 @@ this is a sample text
     
     ref - https://mobikul.com/android-retrofit-handling-sslhandshakeexception/
 	
+//to protect eyes
+	install flux and set current location
 
