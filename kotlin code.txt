@@ -503,4 +503,8 @@ webView.settings.javaScriptEnabled = true
 	
 //disable onclick
 	oneBtn.isEnabled = false
+	
+//set default spinner position
+	val spinnerPosition: Int = adapter.getPosition("text")
+	spinner.setSelection(spinnerPosition)
 
