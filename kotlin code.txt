@@ -209,7 +209,7 @@ this is a sample text
 		view tab -> show hidden files -> Delete the .git directory 
 		ref - https://stackoverflow.com/questions/1514054/how-do-i-delete-a-local-repository-in-git
 	//change remote url git
-		git remote set-url origin https://github.com/abhineshchandra1234/repository.git
+		git remote set-url origin "https://github.com/abhineshchandra1234/repository.git"
 		https://github.com/abhineshchandra1234/repository.git
 	
 		//to see commit details.	
