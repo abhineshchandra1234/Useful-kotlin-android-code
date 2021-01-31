@@ -296,10 +296,6 @@ this is a sample text
 //Http request
 	add android:usesCleartextTraffic="true" inside application tag to read data
 	
-//Webview
-	webView.settings.javaScriptEnabled = true
-	webView.settings.domStorageEnabled = true --- to receive response from server
-	webView.loadUrl("https://google.com/")
 	
 //Delay
 	Handler(Looper.getMainLooper()).postDelayed({
@@ -431,20 +427,21 @@ this is a sample text
 	}
 	
 //to add webview to app
-	  webView.settings.javaScriptEnabled = true
-    webView.settings.loadWithOverviewMode = true
-    webView.settings.useWideViewPort = true
-    webView.webViewClient = object : WebViewClient() {
-//        fun shouldOverrideUrlLoading(view: WebView, url: String?): Boolean {
-//            view.loadUrl(url)
-//            return true
-//        }
-
-        fun onPageFinished(view: WebView?, url: String?) {
+webView.settings.javaScriptEnabled = true
+        webView.settings.domStorageEnabled = true
+        webView.webViewClient = object : WebViewClient() { -- to open webview inside app
+        override fun shouldOverrideUrlLoading(view: WebView, url: String?): Boolean {
+            view.loadUrl("https://abcd.com")
+            return true
         }
-    }
-    webView.loadUrl("https://abcd.com")
-    
+
+//            fun onPageFinished(view: WebView?, url: String?) {
+//            }
+        }
+        webView.clearCache(true)
+        webView.clearHistory()
+        webView.loadUrl("https://abcd.com") -- to open webview outside app
+
 //debug code
 	timestamp = Timestamp(System.currentTimeMillis())
         Log.d(MainActivity.Singleton.TAG, "api is called" + timestamp)
