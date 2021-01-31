@@ -500,4 +500,7 @@ webView.settings.javaScriptEnabled = true
 	
 //to adjust text within textview dimension
 	android:autoSizeTextType="uniform"
+	
+//disable onclick
+	oneBtn.isEnabled = false
 
