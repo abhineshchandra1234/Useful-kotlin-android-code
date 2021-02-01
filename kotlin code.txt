@@ -507,4 +507,10 @@ webView.settings.javaScriptEnabled = true
 //set default spinner position
 	val spinnerPosition: Int = adapter.getPosition("text")
 	spinner.setSelection(spinnerPosition)
+	
+//Visibility
+	visible -- view will be visible and user will not be able to interact
+	invisible -- view will be invisible and user will not be able to interact
+	gone -- view will be invisible and the space will also be removed
+	constraintLayoutKeysSignIn.isVisible = false -- to set visibility
 
