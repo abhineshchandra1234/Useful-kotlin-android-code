@@ -205,6 +205,8 @@ this is a sample text
 	The HTTPS or URL is copied from the given GitHub account, which is the place of the remote repository.
 	git remote add origin 'your_url_name'
 	git push -u origin master - used for pushing local content to GitHub.
+	//to check origin
+		git remote -v
 	//git delete local repository 
 		view tab -> show hidden files -> Delete the .git directory 
 		ref - https://stackoverflow.com/questions/1514054/how-do-i-delete-a-local-repository-in-git
