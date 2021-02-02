@@ -517,4 +517,14 @@ webView.settings.javaScriptEnabled = true
 //editText
 	//disable special characters
 		android:digits="abcde.....012345789"
+		
+//pass views as parameters
+	private fun changeView(view: TextView) {
+        if (view.text in keysList) {
+            view.setBackgroundResource(R.drawable.ic_available)
+        }
+        else {           
+            view.setBackgroundResource(R.drawable.ic_selected)
+        }       
+    }
 
