@@ -519,7 +519,7 @@ webView.settings.javaScriptEnabled = true
 		android:digits="abcde.....012345789"
 		
 //pass views as parameter
-	//just name the function and pass the view. It will generate the function automatically
+	//just name the function and pass the view. It will generate the code automatically
 	private fun changeView(view: TextView) {
         if (view.text in keysList) {
             view.setBackgroundResource(R.drawable.ic_available)
