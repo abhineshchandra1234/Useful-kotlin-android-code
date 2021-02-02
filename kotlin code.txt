@@ -513,4 +513,8 @@ webView.settings.javaScriptEnabled = true
 	invisible -- view will be invisible and user will not be able to interact
 	gone -- view will be invisible and the space will also be removed
 	constraintLayoutKeysSignIn.isVisible = false -- to set visibility
+	
+//editText
+	//disable special characters
+		android:digits="abcde.....012345789"
 
