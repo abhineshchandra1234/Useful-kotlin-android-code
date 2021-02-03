@@ -444,8 +444,7 @@ webView.settings.javaScriptEnabled = true
 //            fun onPageFinished(view: WebView?, url: String?) {
 //            }
         }
-        webView.clearCache(true)
-        webView.clearHistory()
+        webView.clearView()  -- most important to add before you load new url
         webView.loadUrl("https://abcd.com") -- to open webview outside app
 
 //debug code
