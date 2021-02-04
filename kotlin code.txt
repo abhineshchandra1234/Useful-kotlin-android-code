@@ -547,3 +547,6 @@ webView.settings.javaScriptEnabled = true
 	System.out.println(obj.javaClass.name)                 // double
 	System.out.println(obj.javaClass.kotlin)               // class kotlin.Double
 	System.out.println(obj.javaClass.kotlin.qualifiedName) // kotlin.Double
+	
+//flowchart
+	https://app.creately.com/diagram/ZKvvxZLiEHb/edit
