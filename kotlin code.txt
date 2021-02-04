@@ -550,3 +550,7 @@ webView.settings.javaScriptEnabled = true
 	
 //flowchart
 	https://app.creately.com/diagram/ZKvvxZLiEHb/edit
+	
+//click effect for btn
+	android:clickable="true"
+    android:focusable="true"
