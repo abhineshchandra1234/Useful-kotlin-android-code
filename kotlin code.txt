@@ -559,3 +559,10 @@ webView.settings.javaScriptEnabled = true
 	private var gridLayoutManager: GridLayoutManager?= null
 	gridLayoutManager = GridLayoutManager(applicationContext,3, LinearLayoutManager.VERTICAL,false)
         rv_recyclerView?.layoutManager = gridLayoutManager
+	
+//cardview
+	//round
+		android:layout_width="100dp"
+        	android:layout_height="100dp"
+	//background
+		ref - https://stackoverflow.com/questions/27299291/drawable-as-background-for-cardview
