@@ -554,3 +554,8 @@ webView.settings.javaScriptEnabled = true
 //click effect for btn
 	android:clickable="true"
     android:focusable="true"
+    
+//how to change recyclerview to gridview
+	private var gridLayoutManager: GridLayoutManager?= null
+	gridLayoutManager = GridLayoutManager(applicationContext,3, LinearLayoutManager.VERTICAL,false)
+        rv_recyclerView?.layoutManager = gridLayoutManager
