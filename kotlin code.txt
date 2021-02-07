@@ -570,4 +570,9 @@ webView.settings.javaScriptEnabled = true
         	android:layout_height="100dp"
 	//background
 		ref - https://stackoverflow.com/questions/27299291/drawable-as-background-for-cardview
-		
+//appname
+	//change appname
+		//change label in application tag in manifest
+		android:label="@string/app_name"
+	//change project name
+		//change the root folder name
