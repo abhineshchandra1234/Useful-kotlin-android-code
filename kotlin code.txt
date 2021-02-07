@@ -334,10 +334,12 @@ this is a sample text
 		onRestart	called after your activity is stopped, prior to start.
 	//when app is closed
 		onDestroy	called before the activity is destroyed.
+	//Todo
+		Detail explanation
 		
 //Fragment lifecycle
-	TODO
-		
+	//Todo
+		Detail explanation
 //Services
 	Keeps running once started only stop manually or when app is killed
 	//Intent service
@@ -574,4 +576,9 @@ webView.settings.javaScriptEnabled = true
 	//change appname
 		//change label in application tag in manifest
 		android:label="@string/app_name"
+//intent for recycler view adapter
+	ref - https://stackoverflow.com/questions/59012821/android-kotlin-new-intent-on-click-event-from-recycler-view
+//Listener
+	//Todo
+		Detail explanation
 	
