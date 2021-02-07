@@ -574,5 +574,4 @@ webView.settings.javaScriptEnabled = true
 	//change appname
 		//change label in application tag in manifest
 		android:label="@string/app_name"
-	//change project name
-		//change the root folder name
+	
