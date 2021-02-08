@@ -581,4 +581,9 @@ webView.settings.javaScriptEnabled = true
 //Listener
 	//Todo
 		Detail explanation
+//RecyclerView Intent
+	val context=holder.title.context
+	val intent = Intent( context, EventDetail::class.java)
+	context.startActivity(intent)
+	ref - https://stackoverflow.com/questions/59012821/android-kotlin-new-intent-on-click-event-from-recycler-view
 	
