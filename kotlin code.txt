@@ -561,6 +561,7 @@ webView.settings.javaScriptEnabled = true
 //to create recyclerview
 	ref - https://youtu.be/ai9rSGcDhyQ -- buggy for old data -- use for ref
 	ref - https://youtu.be/HtwDXRWjMcU
+	ref - https://youtu.be/wKFJsrdiGS8 -- effective
     
 //how to change recyclerview to gridview
 	private var gridLayoutManager: GridLayoutManager?= null
