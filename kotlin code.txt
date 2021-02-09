@@ -567,6 +567,12 @@ webView.settings.javaScriptEnabled = true
         rv_recyclerView?.layoutManager = gridLayoutManager
 	//just change the layout manager of recyclerview
 	
+//recyclerview 
+	//preview
+		<androidx.recyclerview.widget.RecyclerView
+		tools:listitem="@layout/example_item"
+		/>
+	
 //cardview
 	//round
 		android:layout_width="100dp"
