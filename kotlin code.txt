@@ -60,6 +60,7 @@
 	right-click -> generate -> secondary constructors
 //Toast statement
 	Toast.makeText(context,"Please enter all the information",Toast.LENGTH_SHORT).show()
+	toast -> press enter to autocomplete
 //Custom Toast	
 Toast(this).apply {					
                 duration = Toast.LENGTH_LONG		
