@@ -595,3 +595,10 @@ webView.settings.javaScriptEnabled = true
 	context.startActivity(intent)
 	ref - https://stackoverflow.com/questions/59012821/android-kotlin-new-intent-on-click-event-from-recycler-view
 	
+//Constraint layout
+	//to remove constraint
+		select view -> right click remove constraint for that view
+		whole view -> toolbar -> clear all constraints -> it will remove constraints of all the views
+	//to spread view equally to occupy screen
+		select two view atleast -> right click -> chains -> create horizontal or vertical chains
+	
