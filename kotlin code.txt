@@ -622,3 +622,6 @@ webView.settings.javaScriptEnabled = true
 	//Change project name on Android Studio
 		If your settings.gradle contains the below line, either delete it or update it to the new name.
 		rootProject.name = 'Your project name'
+
+//project structure
+	create package with proper naming convention and place activities in respective folder
