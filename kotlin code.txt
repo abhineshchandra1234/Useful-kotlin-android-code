@@ -617,3 +617,8 @@ webView.settings.javaScriptEnabled = true
         val next = "<font color='#EE0000'>Abhinesh Chandra</font>"
         textView2Choice.setText(Html.fromHtml(first + next))
 	ref - https://stackoverflow.com/questions/7221930/change-text-color-of-one-word-in-a-textview
+	
+//project name 
+	//Change project name on Android Studio
+		If your settings.gradle contains the below line, either delete it or update it to the new name.
+		rootProject.name = 'Your project name'
