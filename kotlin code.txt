@@ -562,6 +562,8 @@ webView.settings.javaScriptEnabled = true
 	ref - https://youtu.be/UCddGYMQJCo
 	ref - https://medium.com/@aayushpuranik/recycler-view-using-kotlin-with-click-listener-46e7884eaf59 -- to implement onclick in base activity
 	//more efficient way is using higher order function of kotlin
+	adapter = RecyclerNewAdapter(this)
+        rv_recyclerView.adapter = adapter
     
 //how to change recyclerview to gridview
 	private var gridLayoutManager: GridLayoutManager?= null
