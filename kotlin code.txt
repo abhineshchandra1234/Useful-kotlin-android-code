@@ -611,3 +611,9 @@ webView.settings.javaScriptEnabled = true
 	//web
 		https://app.asana.com/
 	
+//textview
+	//Change text color of one word in a TextView
+	val first = "Welcome "
+        val next = "<font color='#EE0000'>Abhinesh Chandra</font>"
+        textView2Choice.setText(Html.fromHtml(first + next))
+	ref - https://stackoverflow.com/questions/7221930/change-text-color-of-one-word-in-a-textview
