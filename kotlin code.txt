@@ -605,3 +605,9 @@ webView.settings.javaScriptEnabled = true
 	//to spread view equally to occupy screen
 		select two view atleast -> right click -> chains -> create horizontal or vertical chains
 	
+//productive apps
+	//mobile
+		To do List
+	//web
+		https://app.asana.com/
+	
