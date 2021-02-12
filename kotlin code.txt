@@ -634,3 +634,13 @@ webView.settings.javaScriptEnabled = true
 
 //project structure
 	create package with proper naming convention and place activities in respective folder
+	
+//back button
+	//disable back button
+	override fun onBackPressed() {
+		//if (shouldAllowBack()) {
+		//super.onBackPressed()
+		//} else {
+		//doSomething()
+		//}
+    	}
