@@ -73,6 +73,7 @@ this is a sample text
 //Intent
 	val dashboardIntent = Intent(this, DashboardActivity::class.java)
 	startActivity(dashboardIntent)
+	//to disable back
 	finish()
 	Intent(this, ThirdActivity::class.java).also {
                 startActivity(it)
@@ -81,6 +82,8 @@ this is a sample text
 		it.putExtra("EXTRA_NAME",name)
 	//to get value from intent
 		val name = intent.getStringExtra("EXTRA_NAME")
+	//to check null
+		errorMsg = intent.getStringExtra("errorMsg") ?: "Invalid User"
 //Initialize variable and assign value later		
 	private lateinit var
 //To build apk	
