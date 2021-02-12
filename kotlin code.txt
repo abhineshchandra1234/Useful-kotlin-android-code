@@ -90,8 +90,14 @@ this is a sample text
 	Build-Generate Signed Bundle/apk
 //to deploy apps	
 	google play console
-//To move views upwards while using keyboard
-	android:windowSoftInputMode="stateVisible|adjustResize"  -- use inside manifest file activity
+//To move views upwards while using keyboard	
+	<activity android:name=".UiActivities.SignInCopy"
+            android:windowSoftInputMode="stateVisible|adjustResize"	-- use inside manifest file activity
+            />
+//To stop views from moving upwards while using keyboard
+	<activity android:name=".UiActivities.SignInCopy"
+            android:windowSoftInputMode="adjustPan|adjustResize"	-- use inside manifest file activity
+            />
 //to set image	
 	imageView2.setImageResource(bundle!!.getInt("image"))
 //recycler view	
