@@ -637,9 +637,10 @@ webView.settings.javaScriptEnabled = true
 	
 //back button
 	//disable back button
+	//override method and do nothing
 	override fun onBackPressed() {
 		//if (shouldAllowBack()) {
-		//super.onBackPressed()
+		//super.onBackPressed()			
 		//} else {
 		//doSomething()
 		//}
