@@ -644,3 +644,4 @@ webView.settings.javaScriptEnabled = true
 		//doSomething()
 		//}
     	}
+	ref - https://stackoverflow.com/questions/4779954/disable-back-button-in-android
