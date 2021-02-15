@@ -60,6 +60,8 @@
 	right-click -> generate -> secondary constructors
 //Toast statement
 	Toast.makeText(context,"Please enter all the information",Toast.LENGTH_SHORT).show()
+	//to change toast on condition
+	Toast.makeText(this, if(isChecked) "Geek Mode ON" else "Geek Mode OFF", Toast.LENGTH_SHORT).show()
 	toast -> press enter to autocomplete
 //Custom Toast	
 Toast(this).apply {					
