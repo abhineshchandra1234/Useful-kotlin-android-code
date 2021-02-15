@@ -662,5 +662,11 @@ webView.settings.javaScriptEnabled = true
         })
         builder.setNegativeButton("No",{ dialogInterface: DialogInterface, i: Int -> })
         builder.show()
+	 val alert = builder.create()
+        Handler(Looper.getMainLooper()).postDelayed({
+            //Do something after 100ms
+            alert.dismiss() 		--> to dismiss dialog ater few seconds
+        }, 3000)
+        alert.show()
 	you can also create custom alert dialog with checkbox, edit text and buttons
 	ref - https://www.youtube.com/watch?v=PqRp3-t9GPM
