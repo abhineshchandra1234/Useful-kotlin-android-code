@@ -671,3 +671,13 @@ webView.settings.javaScriptEnabled = true
         alert.show()
 	you can also create custom alert dialog with checkbox, edit text and buttons
 	ref - https://www.youtube.com/watch?v=PqRp3-t9GPM
+	
+//timer
+	val timer1 = object: CountDownTimer(5000, 1000) {
+        override fun onTick(millisUntilFinished: Long) {
+            Log.d(TAG, "timer is running")
+        }
+        override fun onFinish() {
+            Log.d(TAG, "timer finished")
+        }
+    	}
