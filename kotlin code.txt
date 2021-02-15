@@ -686,7 +686,8 @@ webView.settings.javaScriptEnabled = true
 //loop  
 	val mainHandler = Handler(Looper.getMainLooper())
                             mainHandler.post(object : Runnable {	//to run anything in loop after every 1 sec
-                                override fun run() {                           
+                                override fun run() {   
+					//run anything here
                                     mainHandler.postDelayed(this, 1000)
                                 }
                             })
