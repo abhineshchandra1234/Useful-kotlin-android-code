@@ -681,7 +681,8 @@ webView.settings.javaScriptEnabled = true
             Log.d(TAG, "timer finished")
         }
     	}
-
+	timer1.cancel()  //to cancel previous run
+        timer1.start()	//to start new run
 //loop  
 	val mainHandler = Handler(Looper.getMainLooper())
                             mainHandler.post(object : Runnable {	//to run anything in loop after every 1 sec
