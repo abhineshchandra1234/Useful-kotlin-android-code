@@ -661,6 +661,7 @@ webView.settings.javaScriptEnabled = true
             finish()
         })
         builder.setNegativeButton("No",{ dialogInterface: DialogInterface, i: Int -> })
+	builder.setNeutralButton("Ok",{ dialogInterface: DialogInterface, i: Int -> })
         builder.show()
 	 val alert = builder.create()
         Handler(Looper.getMainLooper()).postDelayed({
