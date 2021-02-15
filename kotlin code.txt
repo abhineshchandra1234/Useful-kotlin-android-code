@@ -681,3 +681,11 @@ webView.settings.javaScriptEnabled = true
             Log.d(TAG, "timer finished")
         }
     	}
+
+//loop  
+	val mainHandler = Handler(Looper.getMainLooper())
+                            mainHandler.post(object : Runnable {	//to run anything in loop after every 1 sec
+                                override fun run() {                           
+                                    mainHandler.postDelayed(this, 1000)
+                                }
+                            })
