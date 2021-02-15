@@ -654,5 +654,13 @@ webView.settings.javaScriptEnabled = true
 //alert dialog
 	you can create a basic alert dialog with title, message, positive (yes), negative (no) views
 	ref - https://www.youtube.com/watch?v=MMcfdEzfdB4
+	   val builder = AlertDialog.Builder(this)
+        builder.setTitle("Are you sure!")
+        builder.setMessage("Do you want to close the app?")
+        builder.setPositiveButton("Yes",{ dialogInterface: DialogInterface, i: Int ->
+            finish()
+        })
+        builder.setNegativeButton("No",{ dialogInterface: DialogInterface, i: Int -> })
+        builder.show()
 	you can also create custom alert dialog with checkbox, edit text and buttons
 	ref - https://www.youtube.com/watch?v=PqRp3-t9GPM
