@@ -650,3 +650,9 @@ webView.settings.javaScriptEnabled = true
 		//}
     	}
 	ref - https://stackoverflow.com/questions/4779954/disable-back-button-in-android
+	
+//alert dialog
+	you can create a basic alert dialog with title, message, positive (yes), negative (no) views
+	ref - https://www.youtube.com/watch?v=MMcfdEzfdB4
+	you can also create custom alert dialog with checkbox, edit text and buttons
+	ref - https://www.youtube.com/watch?v=PqRp3-t9GPM
