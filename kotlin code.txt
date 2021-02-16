@@ -196,7 +196,7 @@ this is a sample text
 		https://jsonplaceholder.typicode.com/
 		
 	//Documentation and Test Consoles for Over 1400 Public APIs
-		https://any-api.com/
+		https://public-apis.io/
 		
 	//to generate fake api
 		https://www.mockable.io/a/#/
