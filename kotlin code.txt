@@ -695,3 +695,6 @@ webView.settings.javaScriptEnabled = true
                             })
 //Notification
 	ref - https://www.tutorialspoint.com/how-to-create-a-notification-alert-using-kotlin
+	
+//Services
+	ref - https://www.tutorialspoint.com/how-to-run-an-android-service-always-in-the-background-using-kotlin
