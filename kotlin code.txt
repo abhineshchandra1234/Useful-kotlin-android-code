@@ -551,6 +551,10 @@ webView.settings.javaScriptEnabled = true
 //editText
 	//disable special characters
 		android:digits="abcde.....012345789"
+	//to get text
+		ritm = etRitmKeys.text.toString()
+	//to set text
+		etRitmKeys.setText(ritm)
 		
 //pass views as parameter
 	//just name the function and pass the view. It will generate the code automatically
