@@ -589,6 +589,8 @@ webView.settings.javaScriptEnabled = true
 	//more efficient way is using higher order function of kotlin
 	adapter = RecyclerNewAdapter(this)
         rv_recyclerView.adapter = adapter
+	//Kotlin - RecyclerView List Data From JSON API
+	ref - https://youtu.be/rBQi_7L-Uc8
 
     
 //how to change recyclerview to gridview
