@@ -353,6 +353,7 @@ this is a sample text
 	//Todo
 		Detail explanation
 //Services
+	ref - https://youtu.be/EwwB_wZhBaw
 	Keeps running once started only stop manually or when app is killed
 	//Intent service
 		runs automatically in sepearate thread not able to do multi-threading
@@ -361,6 +362,12 @@ this is a sample text
 		//sepearate thread
 			 Thread{
 			}.start()
+			
+	//Services
+	ref - https://www.tutorialspoint.com/how-to-run-an-android-service-always-in-the-background-using-kotlin
+	//foreground services
+		//if you want to run something even if the app is closed
+	ref - https://androidwave.com/foreground-service-android-example-in-kotlin/
 			
 //java to kotlin code
 	code -> convert java to kotlin code
@@ -696,5 +703,4 @@ webView.settings.javaScriptEnabled = true
 //Notification
 	ref - https://www.tutorialspoint.com/how-to-create-a-notification-alert-using-kotlin
 	
-//Services
-	ref - https://www.tutorialspoint.com/how-to-run-an-android-service-always-in-the-background-using-kotlin
+
