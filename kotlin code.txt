@@ -693,3 +693,5 @@ webView.settings.javaScriptEnabled = true
                                     mainHandler.postDelayed(this, 1000)
                                 }
                             })
+//Notification
+	ref - https://www.tutorialspoint.com/how-to-create-a-notification-alert-using-kotlin
