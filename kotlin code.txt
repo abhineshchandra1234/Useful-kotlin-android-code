@@ -709,4 +709,5 @@ webView.settings.javaScriptEnabled = true
 //Notification
 	ref - https://www.tutorialspoint.com/how-to-create-a-notification-alert-using-kotlin
 	
-
+//to check build version
+	if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) { } //it will check for oreo version(O)
