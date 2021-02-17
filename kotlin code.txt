@@ -50,7 +50,7 @@
 	Ctrl+ O – to override functions
 	Ctrl + B – To go to declaration
 	Ctrl + D – To duplicate line
-	Ctrl + Q - To know about function
+	Ctrl + Q - To know about function, type of variable
 	Ctrl + P - To see parameters
 	Alt + F7 - To find usages
 	shift + F6 - to rename files
