@@ -591,6 +591,13 @@ webView.settings.javaScriptEnabled = true
         rv_recyclerView.adapter = adapter
 	//Kotlin - RecyclerView List Data From JSON API
 	ref - https://youtu.be/rBQi_7L-Uc8
+	
+	ref - https://www.tutorialspoint.com/working-with-recyclerview-in-an-android-app-using-kotlin
+	//to add click 
+	//inside onBindViewHolder
+	holder.movieLayout.setOnClickListener {
+            Toast.makeText(holder.title.context,"title is "+movie.getTitle(),Toast.LENGTH_SHORT).show()
+        }
 
     
 //how to change recyclerview to gridview
