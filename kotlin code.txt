@@ -720,3 +720,10 @@ webView.settings.javaScriptEnabled = true
 	//declare Receiver in manifest
 	 <receiver android:name=".MainActivity$Receiver" />
     	</application>
+	
+//AlarmManager	
+	//to do some task at a paticular time
+	ref - https://youtu.be/rzxgQOo2ZF4
+	alarmManager.set(AlarmManager.RTC_WAKEUP,System.currentTimeMillis() + second,pendingIntent)
+	set method is enough to get data at exact time
+	setExact method throws error
