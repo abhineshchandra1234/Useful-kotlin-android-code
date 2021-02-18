@@ -715,3 +715,8 @@ webView.settings.javaScriptEnabled = true
 //views and layout
 	you change any view or layout to different types
 	change default text view to other type for faster development
+	
+//Receiver 
+	//declare Receiver in manifest
+	 <receiver android:name=".MainActivity$Receiver" />
+    	</application>
