@@ -760,3 +760,4 @@ webView.settings.javaScriptEnabled = true
 		//call diff methods on auth
 			eg - auth.createUserWithEmailAndPassword(email,password).await() //to create user with email && password
 				auth.signInWithEmailAndPassword(email,password).await() //to login user with email && password
+				auth.signOut() //to sign out user
