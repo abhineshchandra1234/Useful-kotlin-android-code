@@ -737,9 +737,10 @@ webView.settings.javaScriptEnabled = true
 	
 //Firebase
 	//connectivity
-	tools -> Firebase -> Authentication -> Email & password authentication -> connect your app to firebase 
-	//just follow the steps afer that & your app will be connected
+		tools -> Firebase -> Authentication -> Email & password authentication -> connect your app to firebase 
+		//just follow the steps afer that & your app will be connected
 	//add firebase authentication
-	tools -> Firebase -> Authentication -> Email & password authentication -> add firebase authentication
-	//just accept changes and authentication will be added
-	ref - https://youtu.be/xu3bHQWD6A0
+		tools -> Firebase -> Authentication -> Email & password authentication -> add firebase authentication
+		//just accept changes and authentication will be added
+		ref - https://youtu.be/xu3bHQWD6A0
+		//add coroutines dependencies from above for effectiveness
