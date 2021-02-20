@@ -737,5 +737,6 @@ webView.settings.javaScriptEnabled = true
 	
 //Firebase
 	//connectivity
-	tools -> Firebase -> Authentication -> Email & password authentication -> connect your app to firebase
+	tools -> Firebase -> Authentication -> Email & password authentication -> connect your app to firebase 
+	//just follow the steps afer that & your app will be connected
 	
