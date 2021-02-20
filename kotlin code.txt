@@ -109,6 +109,8 @@ this is a sample text
 //android networking library	
 	implementation 'com.amitshekhar.android:android-networking:1.0.2'
 //libraries
+	//google sign in 
+    		implementation 'com.google.android.gms:play-services-auth:19.0.0'
 	// Preferences DataStore
     		implementation "androidx.datastore:datastore-preferences:1.0.0-alpha04"
     
@@ -765,6 +767,10 @@ webView.settings.javaScriptEnabled = true
 			eg - auth.createUserWithEmailAndPassword(email,password).await() //to create user with email && password
 				auth.signInWithEmailAndPassword(email,password).await() //to login user with email && password
 				auth.signOut() //to sign out user
+	//google sign in
+		//add coroutines dependency from above
+		//google sign in dependency
+		
 //Coroutines
 	//call
 		CoroutineScope(Dispatchers.IO).launch {
