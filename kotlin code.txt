@@ -758,4 +758,5 @@ webView.settings.javaScriptEnabled = true
 		//create instance of firebase
 			auth = FirebaseAuth.getInstance()
 		//call diff methods on auth
-			eg - auth.createUserWithEmailAndPassword(email,password).await()
+			eg - auth.createUserWithEmailAndPassword(email,password).await() //to create user with email && password
+				auth.signInWithEmailAndPassword(email,password).await() //to login user with email && password
