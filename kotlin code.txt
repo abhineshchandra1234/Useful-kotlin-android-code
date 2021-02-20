@@ -260,6 +260,7 @@ this is a sample text
 	https://fonts.google.com/
 	search font.ttf
 	android:font="@fonts/custom.ttf"
+	
 
 //custom toolbar
 	https://youtu.be/e5_C9e_gKOM
@@ -749,3 +750,7 @@ webView.settings.javaScriptEnabled = true
 		//just accept changes and authentication will be added
 		ref - https://youtu.be/xu3bHQWD6A0
 		//add coroutines dependencies from above for effectiveness
+		//email
+			//enable email 
+			//enable email(passwordless) -> doesnt required password, link will be sent to the email
+			
