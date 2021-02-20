@@ -735,6 +735,11 @@ webView.settings.javaScriptEnabled = true
 	set method is enough to get data at exact time
 	setExact method throws error
 	
+//TODO
+	//it is useful for writing function you want to implement later
+	private fun checkLoggedInState() {
+        TODO("Not yet implemented")
+    	}
 //Firebase
 	//connectivity
 		tools -> Firebase -> Authentication -> Email & password authentication -> connect your app to firebase 
