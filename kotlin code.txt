@@ -247,7 +247,11 @@ this is a sample text
 			easier method
 			vcs -> git -> Stash Changes -> stash_name -- to stash local changes
 			vcs -> git -> UnStash Changes -> select the required stash -- to unstash local changes
-		
+
+//pull code from github
+	//merge remote changes to local
+		git pull 'remote_name' 'branch_name'
+		//it is useful for readme files error or someone else made changes to remote repo
 	shortcut
 		//shift+home - home
 		//shift+end - end
