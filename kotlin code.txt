@@ -753,4 +753,9 @@ webView.settings.javaScriptEnabled = true
 		//email
 			//enable email 
 			//enable email(passwordless) -> doesnt required password, link will be sent to the email
-			
+	//calling diff firebase function
+		//its easy:)
+		//create instance of firebase
+			auth = FirebaseAuth.getInstance()
+		//call diff methods on auth
+			eg - auth.createUserWithEmailAndPassword(email,password).await()
