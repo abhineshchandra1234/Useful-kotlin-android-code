@@ -734,3 +734,8 @@ webView.settings.javaScriptEnabled = true
 	alarmManager.set(AlarmManager.RTC_WAKEUP,System.currentTimeMillis() + second,pendingIntent)
 	set method is enough to get data at exact time
 	setExact method throws error
+	
+//Firebase
+	//connectivity
+	tools -> Firebase -> Authentication -> Email & password authentication -> connect your app to firebase
+	
