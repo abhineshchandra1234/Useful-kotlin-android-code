@@ -741,6 +741,10 @@ webView.settings.javaScriptEnabled = true
 	private fun checkLoggedInState() {
         TODO("Not yet implemented")
     	}
+	
+//null check for functions
+	auth.currentUser?.let {
+        }
 //Firebase
 	//connectivity
 		tools -> Firebase -> Authentication -> Email & password authentication -> connect your app to firebase 
