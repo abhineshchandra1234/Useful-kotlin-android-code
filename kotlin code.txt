@@ -789,3 +789,13 @@ webView.settings.javaScriptEnabled = true
                     }
                 }
             }
+//wifi status
+	https://johncodeos.com/how-to-check-for-internet-connection-in-android-using-kotlin/
+//toggle button
+		https://www.geeksforgeeks.org/togglebutton-in-kotlin/
+//bluetooth
+		//enable or disable 
+		mBluetoothAdapter.enable()
+		mBluetoothAdapter.disable()
+		//permission
+		<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
