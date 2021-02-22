@@ -58,6 +58,7 @@
 	Ctrl + D – To duplicate line
 	Ctrl + Q - To know about function, type of variable
 	Ctrl + P - To see parameters
+	Ctrl + G - to go to particular line in android studio
 	Alt + F7 - To find usages
 	shift + F6 - to rename files
 	tab - right-click -> close other tabs
