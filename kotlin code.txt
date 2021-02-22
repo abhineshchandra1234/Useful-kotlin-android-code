@@ -305,7 +305,7 @@ this is a sample text
 	//post request
 		match post rqst variable before sending post request otherwise validation error will come
 	//to check api
-		use postman and save diff urls
+		use postman and save diff urls, you can also group urls based on project.
 			
 //MQTT
 	add libraries
