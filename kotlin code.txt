@@ -646,6 +646,8 @@ webView.settings.javaScriptEnabled = true
 		whole view -> toolbar -> clear all constraints -> it will remove constraints of all the views
 	//to spread view equally to occupy screen
 		select two view atleast -> right click -> chains -> create horizontal or vertical chains
+	//to select multiple views
+		use mouse and select all views in design tab
 	
 //productive apps
 	//mobile
