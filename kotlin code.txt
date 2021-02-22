@@ -806,3 +806,10 @@ webView.settings.javaScriptEnabled = true
 		mBluetoothAdapter.disable()
 		//permission
 		<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+		
+//UI
+	//Orientation for preview (O)
+	//UI mode
+		//you can select diff modes like television,appliance, watch etc to check diff UI looks
+	//Night Mode
+		//you can select (Night) to see how UI will look in night mode
