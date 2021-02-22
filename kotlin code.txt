@@ -300,6 +300,7 @@ this is a sample text
 			ref - https://stackoverflow.com/questions/17441246/org-json-jsonarray-cannot-be-converted-to-jsonobject
 	//data change
 		change the data class for that particular object only , no need to recreate data classes for all json objects
+		eg - if new variable is added in User object, change only User data class
 	//always use json class to kotlin to generate data class
 	//post request
 		match post rqst variable before sending post request otherwise validation error will come
