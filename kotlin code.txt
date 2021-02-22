@@ -647,6 +647,9 @@ webView.settings.javaScriptEnabled = true
 	//to remove constraint
 		select view -> right click remove constraint for that view
 		whole view -> toolbar -> clear all constraints -> it will remove constraints of all the views
+		
+		ctrl + select respective constraint - It will remove that particular constraint
+		
 	//to spread view equally to occupy screen
 		select two view atleast -> right click -> chains -> create horizontal or vertical chains
 	//to select multiple views
@@ -656,6 +659,8 @@ webView.settings.javaScriptEnabled = true
 		eg - guideline1 - 35%
 		guideline2 - 65%
 		views will be between these guidelines
+
+		
 	
 //productive apps
 	//mobile
