@@ -825,3 +825,6 @@ webView.settings.javaScriptEnabled = true
 		Orientation for preview (O) -> create other -> choose different qualifiers 
 		eg - smallest screen width (smallest width for horizontal or vertical orientation)
 		smallest screen width (720) && Screen Orientation (landscape) -> it will generate customize layout for tablets in landscape mode
+		
+//README
+	//always update readme on remote and make a pull request to update local otherwise it will be alot of work
