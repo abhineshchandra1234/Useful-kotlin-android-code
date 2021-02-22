@@ -15,6 +15,9 @@
 	
 	//works with navigation safe args dependency
 		id 'androidx.navigation.safeargs.kotlin' 
+	//dagger_hilt
+		id 'kotlin-kapt'
+    		id 'dagger.hilt.android.plugin'
 
 //dependencies
 	classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.3.1"
