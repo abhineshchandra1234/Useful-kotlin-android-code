@@ -19,8 +19,11 @@
 		id 'kotlin-kapt'
     		id 'dagger.hilt.android.plugin'
 
-//dependencies
+//classpath
 	classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.3.1"
+	
+	//dagger_hilt
+		classpath "com.google.dagger:hilt-android-gradle-plugin:2.28.3-alpha"
 	
 //to hide actionbar
 	supportActionBar?.hide()
