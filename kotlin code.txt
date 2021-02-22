@@ -828,3 +828,4 @@ webView.settings.javaScriptEnabled = true
 		
 //README
 	//always update readme on remote and make a pull request to update local otherwise it will be alot of work
+	//cheatsheet - https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md
