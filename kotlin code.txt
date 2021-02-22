@@ -223,8 +223,9 @@ this is a sample text
 //change actionbar name
 	setupActionBarWithNavController(findNavController(R.id.fragment))
 	
-//for viewing error
+//Debugging
 	verbose - caused by or general error msg
+	//put breaking points using debugger and see values going step by step or go inside function if found error
 	
 //push code to github
 	open git bash at desired location
