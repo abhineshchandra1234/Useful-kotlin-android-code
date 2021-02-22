@@ -648,6 +648,11 @@ webView.settings.javaScriptEnabled = true
 		select two view atleast -> right click -> chains -> create horizontal or vertical chains
 	//to select multiple views
 		use mouse and select all views in design tab
+	//guideline
+		you can use it to align views on screen 
+		eg - guideline1 - 35%
+		guideline2 - 65%
+		views will be between these guidelines
 	
 //productive apps
 	//mobile
