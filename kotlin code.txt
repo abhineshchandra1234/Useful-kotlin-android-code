@@ -65,6 +65,8 @@
 
 //to generate constructors
 	right-click -> generate -> secondary constructors
+//Log statement
+	logd -> press enter to autocomplete
 //Toast statement
 	Toast.makeText(context,"Please enter all the information",Toast.LENGTH_SHORT).show()
 	//to change toast on condition
