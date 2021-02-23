@@ -863,3 +863,7 @@ webView.settings.javaScriptEnabled = true
 	//ViewModelFactory
 		//It is used to pass arguments to viewmodel.
 		//Both viewmodel & viewmodel factory is used in retrofit2
+		
+//Button
+	//small text
+		android:textAllCaps="false"
