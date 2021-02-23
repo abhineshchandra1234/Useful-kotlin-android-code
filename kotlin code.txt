@@ -819,6 +819,8 @@ webView.settings.javaScriptEnabled = true
 		//google sign in dependency
 		
 //Coroutines
+	//def
+	Its like multithreading but it can do so much better than multithreading
 	//call
 		add coroutines dependencies
 		GlobalScope.launch {
