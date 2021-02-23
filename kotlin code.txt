@@ -266,6 +266,10 @@ this is a sample text
 			easier method
 			vcs -> git -> Stash Changes -> stash_name -- to stash local changes
 			vcs -> git -> UnStash Changes -> select the required stash -- to unstash local changes
+			
+//android git
+	//remove buggy local code
+		//select latest commit -> Reset current branch to here -> Hard -> all local changes will be lost
 
 //pull code from github
 	//merge remote changes to local
