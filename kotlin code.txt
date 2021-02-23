@@ -866,3 +866,6 @@ webView.settings.javaScriptEnabled = true
 //Button
 	//small text
 		android:textAllCaps="false"
+
+//Repository name
+	settings.gradle -> rootProject.name = "CoroutineExample"
