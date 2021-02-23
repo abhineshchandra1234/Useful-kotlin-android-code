@@ -856,5 +856,10 @@ webView.settings.javaScriptEnabled = true
 	
 //Android Architecture Component
 	//ViewModel 
+	//ViewModelFactory
+	//ViewModel 
 		//It is used to retain data on orientation change
 		//Do not use it to store reference to view, activity etc
+	//ViewModelFactory
+		//It is used to pass arguments to viewmodel.
+		//Both viewmodel & viewmodel factory is used in retrofit2
