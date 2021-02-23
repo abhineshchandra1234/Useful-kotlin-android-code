@@ -857,13 +857,15 @@ webView.settings.javaScriptEnabled = true
 //Android Architecture Component
 	//ViewModel 
 	//ViewModelFactory
+	//LiveData
 	//ViewModel 
 		//It is used to retain data on orientation change
 		//Do not use it to store reference to view, activity etc
 	//ViewModelFactory
 		//It is used to pass arguments to viewmodel.
 		//Both viewmodel & viewmodel factory is used in retrofit2
-		
+	//LiveData 
+		//LiveData is a data holder. It is capable of being observed, it can hold any kind of data, and on top of that, it is also lifecycle-aware.
 //Button
 	//small text
 		android:textAllCaps="false"
