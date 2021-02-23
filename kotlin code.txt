@@ -383,6 +383,11 @@ this is a sample text
 		Detail explanation
 //Services
 	ref - https://youtu.be/EwwB_wZhBaw
+	//intent
+	val intent1 = Intent(this@MyService, ApiActivity::class.java)
+                        intent1.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                        this@MyService.startActivity(intent1)
+			
 	Keeps running once started only stop manually or when app is killed
 	//Intent service
 		runs automatically in sepearate thread not able to do multi-threading
