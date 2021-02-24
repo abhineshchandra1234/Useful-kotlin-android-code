@@ -829,6 +829,16 @@ webView.settings.javaScriptEnabled = true
             	delay(3000L)	//it is used to delay the coroutines call
             	Log.d(TAG, "Coroutine says hello from thread ${Thread.currentThread().name}")
         	}
+	//context
+	It is used to run coroutines in diff threads by switching between them
+	/* GlobalScope.launch(Dispatchers.IO) {	//to run in worker thread
+            Log.d(TAG, "Starting coroutine in thread ${Thread.currentThread().name}")	//Starting coroutine in thread DefaultDispatcher-worker-2
+            val answer = doNetworkCall()
+            withContext(Dispatchers.Main)  {    //to switch back to main thread
+                Log.d(TAG, "Setting text in thread ${Thread.currentThread().name}")	//Setting text in thread main
+                tvDummy.text = answer
+            }
+        } */
 //wifi status
 	https://johncodeos.com/how-to-check-for-internet-connection-in-android-using-kotlin/
 //toggle button
