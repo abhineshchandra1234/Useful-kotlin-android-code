@@ -839,6 +839,25 @@ webView.settings.javaScriptEnabled = true
                 tvDummy.text = answer
             }
         } */
+	//runBlocking //it will run on main thread and will block main thread
+	/* Log.d(TAG, "Before runblocking")
+        runBlocking {
+            Log.d(TAG, "Start of runblocking")
+            launch {	//it can be used to launch one or more coroutines inside coroutine
+                delay(3000L)
+                Log.d(TAG, "finished coroutine 1")
+            }
+            launch {
+                delay(3000L)
+                Log.d(TAG, "finished coroutine 2")
+            }
+            delay(5000L)
+            Log.d(TAG, "End of runblocking")
+        }
+        Log.d(TAG, "After runblocking") */
+	//types
+		//Dispatchers.Main, Default, IO, unconfined // it refers to diff types of threads
+	
 //wifi status
 	https://johncodeos.com/how-to-check-for-internet-connection-in-android-using-kotlin/
 //toggle button
