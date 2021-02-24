@@ -821,6 +821,8 @@ webView.settings.javaScriptEnabled = true
 //Coroutines
 	//def
 	Its like multithreading but it can do so much better than multithreading
+	You can start task in diff thread other than main thread
+	Once the app is closed the coroutines threads will also close
 	//call
 		add coroutines dependencies
 		GlobalScope.launch {
