@@ -866,6 +866,7 @@ webView.settings.javaScriptEnabled = true
         }
 	runBlocking {
             job.join()	//it will block the main thread until the job is finished then continue
+	    job.cancel() //it is used to cancel job
             Log.d(TAG, "Main Thread is continuing...")
         }
 	//output
