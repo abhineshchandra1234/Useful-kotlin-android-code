@@ -857,7 +857,24 @@ webView.settings.javaScriptEnabled = true
         Log.d(TAG, "After runblocking") */
 	//types
 		//Dispatchers.Main, Default, IO, unconfined // it refers to diff types of threads
-	
+	//Coroutines jobs
+	val job = GlobalScope.launch(Dispatchers.Default) {		//it will return job
+                repeat(5) {
+                    Log.d(TAG, "Coroutine is still working...")
+                    delay(1000L)
+                }
+        }
+	runBlocking {
+            job.join()	//it will block the main thread until the job is finished then continue
+            Log.d(TAG, "Main Thread is continuing...")
+        }
+	//output
+	Coroutine is still working...
+	2021-02-25 11:34:06.454 10665-10732/com.eegrab.coroutineexample D/MainActivity: Coroutine is still working...
+	2021-02-25 11:34:07.457 10665-10732/com.eegrab.coroutineexample D/MainActivity: Coroutine is still working...
+	2021-02-25 11:34:08.459 10665-10732/com.eegrab.coroutineexample D/MainActivity: Coroutine is still working...
+	2021-02-25 11:34:09.462 10665-10732/com.eegrab.coroutineexample D/MainActivity: Coroutine is still working...
+	2021-02-25 11:34:10.466 10665-10665/com.eegrab.coroutineexample D/MainActivity: Main Thread is continuing...
 //wifi status
 	https://johncodeos.com/how-to-check-for-internet-connection-in-android-using-kotlin/
 //toggle button
