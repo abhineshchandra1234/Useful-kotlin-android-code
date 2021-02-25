@@ -859,7 +859,7 @@ webView.settings.javaScriptEnabled = true
 		//Dispatchers.Main, Default, IO, unconfined // it refers to diff types of threads
 	//Coroutines jobs
 	val job = GlobalScope.launch(Dispatchers.Default) {		//it will return job
-                repeat(5) {
+                repeat(5) {	//it will repeat for five times
                     Log.d(TAG, "Coroutine is still working...")
                     delay(1000L)
                 }
@@ -876,6 +876,28 @@ webView.settings.javaScriptEnabled = true
 	2021-02-25 11:34:08.459 10665-10732/com.eegrab.coroutineexample D/MainActivity: Coroutine is still working...
 	2021-02-25 11:34:09.462 10665-10732/com.eegrab.coroutineexample D/MainActivity: Coroutine is still working...
 	2021-02-25 11:34:10.466 10665-10665/com.eegrab.coroutineexample D/MainActivity: Main Thread is continuing...
+	//cancel
+		 if (isActive) {  //if some job is not getting cancelled with job.cancel() add instructions inside isActive then call job.cancel()
+                        //some action
+                    }
+		/* val job = GlobalScope.launch(Dispatchers.Default) {
+            		Log.d(TAG, "Starting long running process")
+            		withTimeout(3000L) {	//it will automatically cancel the job after 3 secs
+                	for (i in 30..40) {
+                    	if (isActive) {
+                        Log.d(TAG, "i is $i")
+                        delay(1000L)
+                    	}
+                	}
+            	}
+            	Log.d(TAG, "Ending long running process")
+        	} */
+		//output /*
+		Starting long running process
+		i is 30
+		2021-02-25 12:12:45.067 11840-11910/com.eegrab.coroutineexample D/MainActivity: i is 31
+		2021-02-25 12:12:46.069 11840-11910/com.eegrab.coroutineexample D/MainActivity: i is 32
+		*/
 //wifi status
 	https://johncodeos.com/how-to-check-for-internet-connection-in-android-using-kotlin/
 //toggle button
