@@ -928,6 +928,21 @@ webView.settings.javaScriptEnabled = true
 		Answer2 is Answer 2
 		Requests took 3 secs
 		*/
+		//best way
+			/* GlobalScope.launch(Dispatchers.IO) {
+            		val time = measureTimeMillis {
+                	val answer1 = async { networkCall1() } //it will not return job but deffered string 
+                	val answer2 = async { networkCall2() }
+                	Log.d(TAG, "Answer1 is ${answer1.await()}")	//it will wait for value then print it
+                	Log.d(TAG, "Answer2 is ${answer2.await()}")
+            		}
+            		Log.d(TAG, "Requests took ${time/1000} secs")
+        		}  */
+			//output /*
+			Answer1 is Answer 1
+			Answer2 is Answer 2
+			Requests took 3 secs
+			*/
 //wifi status
 	https://johncodeos.com/how-to-check-for-internet-connection-in-android-using-kotlin/
 //toggle button
