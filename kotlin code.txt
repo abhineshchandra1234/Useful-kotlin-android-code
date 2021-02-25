@@ -898,6 +898,8 @@ webView.settings.javaScriptEnabled = true
 		2021-02-25 12:12:45.067 11840-11910/com.eegrab.coroutineexample D/MainActivity: i is 31
 		2021-02-25 12:12:46.069 11840-11910/com.eegrab.coroutineexample D/MainActivity: i is 32
 		*/
+	//Async and Await
+		
 //wifi status
 	https://johncodeos.com/how-to-check-for-internet-connection-in-android-using-kotlin/
 //toggle button
@@ -942,3 +944,13 @@ webView.settings.javaScriptEnabled = true
 
 //Repository name
 	settings.gradle -> rootProject.name = "CoroutineExample"
+	
+//time
+	/* val time2 = measureTimeMillis {  	// it is used to measure execution time of code
+            Log.d(TAG, "hello world")
+        }
+        Log.d(TAG, "request took ${time2/1000} secs") */
+	//output 
+	/* 2021-02-25 12:32:29.885 12459-12459/com.eegrab.coroutineexample D/MainActivity: hello world
+	2021-02-25 12:32:29.885 12459-12459/com.eegrab.coroutineexample D/MainActivity: request took 0 secs
+	*/
