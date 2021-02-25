@@ -932,7 +932,7 @@ webView.settings.javaScriptEnabled = true
 			/* GlobalScope.launch(Dispatchers.IO) {
             		val time = measureTimeMillis {
                 	val answer1 = async { networkCall1() } //it will not return job but deffered string 
-                	val answer2 = async { networkCall2() }
+                	val answer2 = async { networkCall2() }	//async is used when coroutine return something, it is more efficient than launch
                 	Log.d(TAG, "Answer1 is ${answer1.await()}")	//it will wait for value then print it
                 	Log.d(TAG, "Answer2 is ${answer2.await()}")
             		}
