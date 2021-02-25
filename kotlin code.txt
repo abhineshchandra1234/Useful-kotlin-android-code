@@ -899,7 +899,35 @@ webView.settings.javaScriptEnabled = true
 		2021-02-25 12:12:46.069 11840-11910/com.eegrab.coroutineexample D/MainActivity: i is 32
 		*/
 	//Async and Await
-		
+		/* GlobalScope.launch(Dispatchers.IO) {
+            	val time = measureTimeMillis {
+                var answer1: String? = null	//it will declare nullable variable
+                var answer2: String? = null
+                val job1 = launch { answer1 = networkCall1()  } //it will launch new coroutine inside coroutine at same time
+                val job2 = launch { answer2 = networkCall2()  }//it will launch new second coroutine inside coroutine at same time
+                job1.join()	//it will wait for first coroutine to finish
+                job2.join()	//it will wait for second coroutine to finish
+                Log.d(TAG, "Answer1 is $answer1")
+                Log.d(TAG, "Answer2 is $answer2")
+            	}
+            	Log.d(TAG, "Requests took ${time/1000} secs")
+        	}
+    		}
+
+    		suspend fun networkCall1(): String  {
+        	delay(3000L)
+        	return "Answer 1"
+    		}
+
+    		suspend fun networkCall2(): String  {
+        	delay(3000L)
+        	return "Answer 2"
+    		} */
+		//output /* 
+		Answer1 is Answer 1
+		Answer2 is Answer 2
+		Requests took 3 secs
+		*/
 //wifi status
 	https://johncodeos.com/how-to-check-for-internet-connection-in-android-using-kotlin/
 //toggle button
