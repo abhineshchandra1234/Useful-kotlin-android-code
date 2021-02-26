@@ -946,6 +946,23 @@ webView.settings.javaScriptEnabled = true
 			Answer2 is Answer 2
 			Requests took 3 secs
 			*/
+	//lifecycleScope and viewModelScope
+		/* tvDummy.setOnClickListener {
+            	lifecycleScope.launch {	//it will destroy the coroutine once the activity is destroyed
+                while (true) {
+                    delay(1000L)
+                    Log.d(TAG, "Still running...")
+                }
+            	}
+            	GlobalScope.launch { //it will keep on running coroutine even if the activity is destroyed
+                delay(5000L)
+                Intent(this@MainActivity, SecondActivity::class.java).also {
+                    startActivity(it)
+                    finish()	//it will destroy the resources of base activity
+                }
+            	}
+        	} */
+		//output // D/MainActivity: Still running...
 //wifi status
 	https://johncodeos.com/how-to-check-for-internet-connection-in-android-using-kotlin/
 //toggle button
