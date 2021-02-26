@@ -953,7 +953,7 @@ webView.settings.javaScriptEnabled = true
 			*/
 	//lifecycleScope and viewModelScope
 		/* tvDummy.setOnClickListener {
-            	lifecycleScope.launch {	//it will destroy the coroutine once the activity is destroyed
+            	lifecycleScope.launch {	//it will destroy the coroutine once the activity is destroyed 	//viewModelScope.launch	//it is used for viewModel lifecycle
                 while (true) {
                     delay(1000L)
                     Log.d(TAG, "Still running...")
