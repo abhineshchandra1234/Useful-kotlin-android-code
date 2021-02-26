@@ -118,6 +118,11 @@ this is a sample text
 //android networking library	
 	implementation 'com.amitshekhar.android:android-networking:1.0.2'
 //libraries
+	//libraries Notes
+		//implementation 'com.google.firebase:firebase-firestore-ktx:22.1.0'
+		//-ktx -> refers to kotlin version of firestore and it is optimized for kotlin
+		//implementation 'androidx.appcompat:appcompat:1.2.0'
+		//androidx -> refers to the latest version, android is deprecated
 	//Dagger - Hilt
 		implementation "com.google.dagger:hilt-android:2.28-alpha"
     		kapt "com.google.dagger:hilt-android-compiler:2.28-alpha"
