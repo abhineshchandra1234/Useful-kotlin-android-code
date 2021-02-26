@@ -971,6 +971,26 @@ webView.settings.javaScriptEnabled = true
             	}
         	} */
 		//output // D/MainActivity: Still running...
+	//Coroutines firebase
+		//we can integrate firebase with coroutines
+		/* data class Person(
+ 		   val name: String = "",
+    		val age: Int = -1
+		) 
+		
+		val tutorialDocument = Firebase.firestore.collection("coroutine")	//it will create object of firestore database
+            	.document("tutorial")
+       	 	val peter = Person("Peter",25)
+        	GlobalScope.launch(Dispatchers.IO) {
+            	delay(3000L)
+            	tutorialDocument.set(peter).await()	//it will set the database with given data and wait for the process to complete
+            	val person = tutorialDocument.get().await().toObject(Person::class.java)	//it will get the data from the database and wait for the process to complete
+           	 withContext(Dispatchers.Main) {
+                tvDummy.text = person.toString()
+            	}
+        	}
+		
+		*/
 	
 //wifi status
 	https://johncodeos.com/how-to-check-for-internet-connection-in-android-using-kotlin/
