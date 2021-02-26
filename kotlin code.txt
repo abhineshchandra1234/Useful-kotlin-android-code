@@ -838,6 +838,9 @@ webView.settings.javaScriptEnabled = true
             	Log.d(TAG, "Coroutine says hello from thread ${Thread.currentThread().name}")
         	}
 	//context
+		//context Notes - we are only allowed to change UI in Main Dispatchers
+		//Dispatchers type
+			//Dispatchers.Main, IO, Default, Unconfined
 	It is used to run coroutines in diff threads by switching between them
 	/* GlobalScope.launch(Dispatchers.IO) {	//to run in worker thread
             Log.d(TAG, "Starting coroutine in thread ${Thread.currentThread().name}")	//Starting coroutine in thread DefaultDispatcher-worker-2
@@ -968,6 +971,7 @@ webView.settings.javaScriptEnabled = true
             	}
         	} */
 		//output // D/MainActivity: Still running...
+	
 //wifi status
 	https://johncodeos.com/how-to-check-for-internet-connection-in-android-using-kotlin/
 //toggle button
