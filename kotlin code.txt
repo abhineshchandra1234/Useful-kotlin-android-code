@@ -1049,3 +1049,5 @@ webView.settings.javaScriptEnabled = true
 //NAVIGATION DRAWER
 	//layout
 		//DrawerLayout is important as root layout to create NAVIGATION DRAWER
+//Menu
+	//res -> New -> Android Resource file -> Resource type -> Menu
