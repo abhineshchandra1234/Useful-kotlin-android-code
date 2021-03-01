@@ -1046,3 +1046,6 @@ webView.settings.javaScriptEnabled = true
 	/* 2021-02-25 12:32:29.885 12459-12459/com.eegrab.coroutineexample D/MainActivity: hello world
 	2021-02-25 12:32:29.885 12459-12459/com.eegrab.coroutineexample D/MainActivity: request took 0 secs
 	*/
+//NAVIGATION DRAWER
+	//layout
+		//DrawerLayout is important as root layout to create NAVIGATION DRAWER
