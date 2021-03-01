@@ -587,11 +587,13 @@ webView.settings.javaScriptEnabled = true
 	
 //disable onclick
 	oneBtn.isEnabled = false
-	
-//set default spinner position
-	val spinnerPosition: Int = adapter.getPosition("text")
-	spinner.setSelection(spinnerPosition)
-	
+
+//Spinner
+	//set default spinner position
+		val spinnerPosition: Int = adapter.getPosition("text")
+		spinner.setSelection(spinnerPosition)
+	//to set entries
+		android:entries="@array/currency_codes"
 //Visibility
 	visible -- view will be visible and user will not be able to interact
 	invisible -- view will be invisible and user will not be able to interact
