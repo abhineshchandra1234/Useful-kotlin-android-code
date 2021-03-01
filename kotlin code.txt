@@ -1055,3 +1055,15 @@ webView.settings.javaScriptEnabled = true
 		//DrawerLayout is important as root layout to create NAVIGATION DRAWER
 //Menu
 	//res -> New -> Android Resource file -> Resource type -> Menu
+//Values
+	//Strings
+		//Single item
+		//<string name="app_name">CurrencyConverter</string>
+		//Multiple items
+		/* <string-array name="currency_codes">
+        	<item>CAD</item>
+        	<item>EUR</item>
+        	<item>HKD</item>
+        	<item>ISK</item>
+        	<item>PHP</item>
+		</string-array> */
