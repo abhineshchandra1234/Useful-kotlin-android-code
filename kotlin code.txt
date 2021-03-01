@@ -228,6 +228,10 @@ this is a sample text
 		
 	//to generate fake api
 		https://www.mockable.io/a/#/
+		
+	//Foreign exchange rates API
+	with currency conversion
+		ref - https://exchangeratesapi.io/
 	
 		
 //change actionbar name
