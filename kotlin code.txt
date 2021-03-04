@@ -1094,3 +1094,6 @@ webView.settings.javaScriptEnabled = true
 //Environment  variable
 	//just type environment to set environment variables
 	//eg - jdk path
+
+//Jetpack Compose
+	//https://youtu.be/OOCivMK1v3s?t=304
