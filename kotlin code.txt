@@ -1069,3 +1069,9 @@ webView.settings.javaScriptEnabled = true
         	<item>ISK</item>
         	<item>PHP</item>
 		</string-array> */
+
+//Condition
+	//to check multiple coditions
+		//use multiple if blocks just make sure to sepearate them
+		
+		
