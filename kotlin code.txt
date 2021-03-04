@@ -1077,3 +1077,12 @@ webView.settings.javaScriptEnabled = true
 //Partion drive
 	//How to partition a hard drive in Windows 10, and keep your most important files separate from the rest
 		//https://www.businessinsider.com/how-to-partition-a-hard-drive-in-windows-10?IR=T
+
+//AndroidX
+	//AndroidX dependencies issue
+		//Android Studio 3.6.1 | Error: “This project uses AndroidX dependencies” [duplicate]
+		//ref - https://stackoverflow.com/questions/60506895/android-studio-3-6-1-error-this-project-uses-androidx-dependencies
+		//To enable jetifier, add those two lines to your gradle.properties file:
+		/* android.useAndroidX=true
+		android.enableJetifier=true */
+		//you need to replace old libraries with new ones by taking reference from new project
