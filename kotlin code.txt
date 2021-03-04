@@ -1074,4 +1074,6 @@ webView.settings.javaScriptEnabled = true
 	//to check multiple coditions
 		//use multiple if blocks just make sure to sepearate them
 		
-		
+//Partion drive
+	//How to partition a hard drive in Windows 10, and keep your most important files separate from the rest
+		//https://www.businessinsider.com/how-to-partition-a-hard-drive-in-windows-10?IR=T
