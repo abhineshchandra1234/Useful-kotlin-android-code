@@ -1090,3 +1090,7 @@ webView.settings.javaScriptEnabled = true
 //google-services.json
 	//File google-services.json is missing.
 	//just add firebase to your project
+
+//Environment  variable
+	//just type environment to set environment variables
+	//eg - jdk path
