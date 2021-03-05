@@ -240,7 +240,9 @@ this is a sample text
 //Debugging
 	verbose - caused by or general error msg
 	//put breaking points using debugger and see values going step by step or go inside function if found error
-	
+
+//Git
+	you can control android using local gitbash
 //push code to github
 	open git bash at desired location
 	git init - to initialize the repository
@@ -278,6 +280,12 @@ this is a sample text
 			easier method
 			vcs -> git -> Stash Changes -> stash_name -- to stash local changes
 			vcs -> git -> UnStash Changes -> select the required stash -- to unstash local changes
+			
+//branching git
+	//you can use this to create diff versions of your project and it will have its own seperate commits
+	//git branch -> it will show a list of branches
+	//git checkout feature -> you can use this to switch between branches where feature is the branch name
+	
 			
 //android git
 	//remove buggy local code
