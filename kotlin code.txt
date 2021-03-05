@@ -288,7 +288,7 @@ this is a sample text
 	//git checkout -b non-existing-branch -> switched to a new branch non-existing
 	//git branch -d localBranchName -> delete branch locally
 	//git push origin --delete remoteBranchName -> delete branch remotely
-	
+	//git fetch -p -> The -p flag means "prune". After fetching, branches which no longer exist on the remote will be deleted.
 			
 //android git
 	//remove buggy local code
