@@ -251,7 +251,7 @@ this is a sample text
 	git commit -m 'first commit' - which adds the change to the local repository.
 	The HTTPS or URL is copied from the given GitHub account, which is the place of the remote repository.
 	git remote add origin 'your_url_name'
-	git push -u origin master - used for pushing local content to GitHub.
+	git push -u origin master - used for pushing local content to GitHub. master is the local branch name from which data is being pushed. you can give other branch name 		also eg - second,third
 	//to check origin
 		git remote -v
 	//git delete local repository 
