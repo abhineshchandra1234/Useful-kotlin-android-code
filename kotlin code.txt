@@ -358,7 +358,7 @@ this is a sample text
 		//use function to perform operations if the response is successful for cleaner code
 		
 	//Note Api
-		//we cannot call api(viewmodel) from service class. viewmodel is closely associated with lifecycle of activity and be called from activity only.
+		//we cannot call api(viewmodel) from service class. viewmodel is closely associated with lifecycle of activity and can be called from activity only.
 			
 //MQTT
 	add libraries
