@@ -285,6 +285,9 @@ this is a sample text
 	//you can use this to create diff versions of your project and it will have its own seperate commits
 	//git branch -> it will show a list of branches
 	//git checkout feature -> you can use this to switch between branches where feature is the branch name
+	//git checkout -b non-existing-branch -> switched to a new branch non-existing
+	//git branch -d localBranchName -> delete branch locally
+	//git push origin --delete remoteBranchName -> delete branch remotely
 	
 			
 //android git
