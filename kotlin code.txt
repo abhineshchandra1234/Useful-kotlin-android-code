@@ -1097,3 +1097,12 @@ webView.settings.javaScriptEnabled = true
 
 //Jetpack Compose
 	//https://youtu.be/OOCivMK1v3s?t=304
+
+
+//Project Structure
+	//Adapter -> It will contain all adapter files
+	//api -> it will contain api call functions && data classes for diff api calls in their respective packages
+	//repository -> it will contain the repository file
+	//UiActivities -> it will contain all activities related to UI
+	//util -> Constants -> this file will contain the base_url for api calls
+	//ViewModel -> it will contain viewmodel files for api calls 
