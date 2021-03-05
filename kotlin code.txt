@@ -352,6 +352,10 @@ this is a sample text
 		match post rqst variable before sending post request otherwise validation error will come
 	//to check api
 		use postman and save diff urls, you can also group urls based on project.
+	
+	//response
+		//response successfull
+		//use function to perform operations if the response is successful for cleaner code
 			
 //MQTT
 	add libraries
