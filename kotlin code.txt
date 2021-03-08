@@ -715,11 +715,6 @@ webView.settings.javaScriptEnabled = true
 		select two view atleast -> right click -> chains -> create horizontal or vertical chains
 	//to select multiple views
 		use mouse and select all views in design tab
-	//guideline
-		you can use it to align views on screen 
-		eg - guideline1 - 35%
-		guideline2 - 65%
-		views will be between these guidelines
 	//alignment
 		//it will align views according to constraints given
 		//eg -  app:layout_constraintStart_toStartOf="@+id/spFromCurrency" //here base view start will aligned to start of destination view
@@ -727,6 +722,14 @@ webView.settings.javaScriptEnabled = true
 		//if you add app:layout_constraintTop_toTopOf="@+id/btnConvert" then base view top will only be aligned to top of destination view and base view will be
 		//in center of destination view
 		
+//Guideline
+	//you can use it to align views on screen 
+	//eg - guideline1 - 35%
+	//guideline2 - 65%
+	//views will be between these guidelines		
+	//It is very powerful concept
+	//just constraint view to guideline eg - using constraint layout and you
+	//can shift guideline up or down (horizontally) or left or right (vertically) and all the views constrained to guideline will also be shifted
 
 		
 	
