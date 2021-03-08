@@ -728,7 +728,7 @@ webView.settings.javaScriptEnabled = true
 	//guideline2 - 65%
 	//views will be between these guidelines		
 	//It is very powerful concept
-	//just constraint view to guideline eg - using constraint layout and you
+	//just constraint views to guideline eg - using constraint layout and you
 	//can shift guideline up or down (horizontally) or left or right (vertically) and all the views constrained to guideline will also be shifted
 
 		
