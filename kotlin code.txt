@@ -720,6 +720,13 @@ webView.settings.javaScriptEnabled = true
 		eg - guideline1 - 35%
 		guideline2 - 65%
 		views will be between these guidelines
+	//alignment
+		//it will align views according to constraints given
+		//eg -  app:layout_constraintStart_toStartOf="@+id/spFromCurrency" //here base view start will aligned to start of destination view
+		// app:layout_constraintBottom_toBottomOf="@+id/btnConvert"   //here base view bottom will only be aligned to bottom of destination view
+		//if you add app:layout_constraintTop_toTopOf="@+id/btnConvert" then base view top will only be aligned to top of destination view and base view will be
+		//in center of destination view
+		
 
 		
 	
