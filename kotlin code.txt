@@ -778,7 +778,7 @@ webView.settings.javaScriptEnabled = true
 	ref - https://www.youtube.com/watch?v=PqRp3-t9GPM
 	
 //timer
-	val timer1 = object: CountDownTimer(5000, 1000) {
+	val timer1 = object: CountDownTimer(5000, 1000) {	//declare it as global variable
         override fun onTick(millisUntilFinished: Long) {
             Log.d(TAG, "timer is running")
         }
@@ -786,7 +786,7 @@ webView.settings.javaScriptEnabled = true
             Log.d(TAG, "timer finished")
         }
     	}
-	timer1.cancel()  //to cancel previous run
+	timer1.cancel()  //to cancel previous run		//call this inside function
         timer1.start()	//to start new run
 //loop  
 	val mainHandler = Handler(Looper.getMainLooper())
