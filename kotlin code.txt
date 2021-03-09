@@ -1164,3 +1164,12 @@ webView.settings.javaScriptEnabled = true
 	//UiActivities -> it will contain all activities related to UI
 	//util -> Constants -> this file will contain the base_url for api calls
 	//ViewModel -> it will contain viewmodel files for api calls 
+
+//app icon
+	//choose image
+	//remove background , ref - https://www.remove.bg/upload
+	//generate icon , ref - https://romannurik.github.io/AndroidAssetStudio/icons-	launcher.html#foreground.type=image&foreground.space.trim=1&foreground.space.pad=0.25&foreColor=rgba(255%2C%20255%2C%20255%2C%200)&backColor=rgb(255%2C%20255%2C%20255)&crop=0&backgroundShape=circle&effects=none&name=ic_launcher
+	//copy files in res folder
+	//change manifest file
+	/* android:icon="@mipmap/ic_accenture"
+	android:roundIcon="@mipmap/ic_accenture" */
