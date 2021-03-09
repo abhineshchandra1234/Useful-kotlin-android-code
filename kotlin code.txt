@@ -666,9 +666,10 @@ webView.settings.javaScriptEnabled = true
 	android:clickable="true"
     android:focusable="true"
     
-//to create recyclerview
-	ref - https://youtu.be/UCddGYMQJCo
-	ref - https://medium.com/@aayushpuranik/recycler-view-using-kotlin-with-click-listener-46e7884eaf59 -- to implement onclick in base activity
+//recyclerview  
+	//to create recyclerview
+		ref - https://youtu.be/UCddGYMQJCo
+		ref - https://medium.com/@aayushpuranik/recycler-view-using-kotlin-with-click-listener-46e7884eaf59 -- to implement onclick in base activity
 	//efficient onclick
 		you can simplify it further by calling function inside ViewHolder class and passing view and position to it
 		keyCollectionRequest(itemView,position)
@@ -691,12 +692,11 @@ webView.settings.javaScriptEnabled = true
 		gridLayoutManager = GridLayoutManager(applicationContext,3, LinearLayoutManager.VERTICAL,false)
         	rv_recyclerView?.layoutManager = gridLayoutManager
 		//just change the layout manager of recyclerview
-	
-	//recyclerview 
-		//preview
-			<androidx.recyclerview.widget.RecyclerView
-			tools:listitem="@layout/example_item"
-			/>
+	 
+	//preview
+		<androidx.recyclerview.widget.RecyclerView
+		tools:listitem="@layout/example_item"
+		/>
 		
 	//RecyclerView Intent
 		val context=holder.title.context
@@ -709,7 +709,8 @@ webView.settings.javaScriptEnabled = true
 		
 	//update data
 		//Use DiffUtil to Improve RecyclerView's Performance 
-		//It will only update data which has changed it will not update the entire list
+		//It will only update data which has changed, it will not update the entire list
+		//It will also check duplicate data and will not allow entry of duplicate data
 
 //cardview
 	//round
