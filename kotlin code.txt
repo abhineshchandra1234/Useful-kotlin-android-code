@@ -600,10 +600,7 @@ webView.settings.javaScriptEnabled = true
 	
 //to protect eyes
 	install flux and set current location
-	
-//to adjust text within textview dimension
-	android:autoSizeTextType="uniform"
-	
+		
 //disable onclick
 	oneBtn.isEnabled = false
 
@@ -773,10 +770,15 @@ webView.settings.javaScriptEnabled = true
 	
 //textview
 	//Change text color of one word in a TextView
-	val first = "Welcome "
-        val next = "<font color='#EE0000'>Abhinesh Chandra</font>"
-        textView2Choice.setText(Html.fromHtml(first + next))
-	ref - https://stackoverflow.com/questions/7221930/change-text-color-of-one-word-in-a-textview
+		val first = "Welcome "
+		val next = "<font color='#EE0000'>Abhinesh Chandra</font>"
+		textView2Choice.setText(Html.fromHtml(first + next))
+		ref - https://stackoverflow.com/questions/7221930/change-text-color-of-one-word-in-a-textview
+	//to adjust text within textview dimension
+		android:autoSizeTextType="uniform"
+	//code
+		android:textStyle="bold"  // to change text style
+		android:textColor="@color/black" //to change text color
 	
 //project name 
 	//Change project name on Android Studio
