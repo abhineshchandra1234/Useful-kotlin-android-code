@@ -471,7 +471,7 @@ this is a sample text
 	MainActivity
 		private lateinit var binding: ActivityMainBinding // every layout file will have its own binding class
 		oncreate{
-		 	binding = ActivityMainBinding.inflate(layoutInflater)
+		 	binding = ActivityMainBinding.inflate(layoutInflater)	//replace setContentView(R.layout.activity_main) with these two lines
         		setContentView(binding.root)
 	
 			binding.btnShowSnackbar.setOnClickListener {
