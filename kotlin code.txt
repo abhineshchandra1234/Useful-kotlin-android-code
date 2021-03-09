@@ -1195,3 +1195,6 @@ webView.settings.javaScriptEnabled = true
 	//F2 - It will rename file
 	//ctrl + shift + N - It will create new folder
 	//ctrl + g - To go to particular line
+
+//android dev challenge
+	//ref - https://developer.android.com/dev-challenge?authuser=1#the-latest-challenge
