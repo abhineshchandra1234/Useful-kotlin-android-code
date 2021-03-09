@@ -695,18 +695,31 @@ webView.settings.javaScriptEnabled = true
         }
 
     
-//how to change recyclerview to gridview
-	private var gridLayoutManager: GridLayoutManager?= null
-	gridLayoutManager = GridLayoutManager(applicationContext,3, LinearLayoutManager.VERTICAL,false)
-        rv_recyclerView?.layoutManager = gridLayoutManager
-	//just change the layout manager of recyclerview
+	//how to change recyclerview to gridview
+		private var gridLayoutManager: GridLayoutManager?= null
+		gridLayoutManager = GridLayoutManager(applicationContext,3, LinearLayoutManager.VERTICAL,false)
+        	rv_recyclerView?.layoutManager = gridLayoutManager
+		//just change the layout manager of recyclerview
 	
-//recyclerview 
-	//preview
-		<androidx.recyclerview.widget.RecyclerView
-		tools:listitem="@layout/example_item"
-		/>
-	
+	//recyclerview 
+		//preview
+			<androidx.recyclerview.widget.RecyclerView
+			tools:listitem="@layout/example_item"
+			/>
+		
+	//RecyclerView Intent
+		val context=holder.title.context
+		val intent = Intent( context, EventDetail::class.java)
+		context.startActivity(intent)
+		ref - https://stackoverflow.com/questions/59012821/android-kotlin-new-intent-on-click-event-from-recycler-view		
+		
+	//intent for recycler view adapter
+		ref - https://stackoverflow.com/questions/59012821/android-kotlin-new-intent-on-click-event-from-recycler-view		
+		
+	//update data
+		//Use DiffUtil to Improve RecyclerView's Performance 
+		//It will only update data which has changed it will not update the entire list
+
 //cardview
 	//round
 		android:layout_width="100dp"
@@ -717,16 +730,11 @@ webView.settings.javaScriptEnabled = true
 	//change appname
 		//change label in application tag in manifest
 		android:label="@string/app_name"
-//intent for recycler view adapter
-	ref - https://stackoverflow.com/questions/59012821/android-kotlin-new-intent-on-click-event-from-recycler-view
+
 //Listener
 	//Todo
 		Detail explanation
-//RecyclerView Intent
-	val context=holder.title.context
-	val intent = Intent( context, EventDetail::class.java)
-	context.startActivity(intent)
-	ref - https://stackoverflow.com/questions/59012821/android-kotlin-new-intent-on-click-event-from-recycler-view
+
 	
 //Constraint layout
 	//to remove constraint
