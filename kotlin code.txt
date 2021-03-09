@@ -48,7 +48,7 @@
 //android studio keyboard shortcuts
 	Ctrl+ I – to implement methods
 	Ctrl+ O – to override functions
-	Ctrl + B – To go to declaration  //u can see function call also,like where the func is called, it will return a list of func call in case of multiple calls
+	Ctrl + B – To go to declaration  //u can see function call also,like where the func is called, it will return a list of func calls in case of multiple calls
 	Ctrl + D – To duplicate line
 	Ctrl + Q - To know about function, type of variable, you can read function description also
 	Ctrl + P - To see parameters
