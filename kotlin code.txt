@@ -711,6 +711,9 @@ webView.settings.javaScriptEnabled = true
 		//Use DiffUtil to Improve RecyclerView's Performance 
 		//It will only update data which has changed, it will not update the entire list
 		//It will also check duplicate data and will not allow entry of duplicate data
+		
+	//populate recyclerview with retrofit response
+		//response.body()?.let {  myAdapter.setData(it)	}
 
 //cardview
 	//round
