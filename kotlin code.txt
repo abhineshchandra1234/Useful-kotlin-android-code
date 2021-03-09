@@ -1185,3 +1185,10 @@ webView.settings.javaScriptEnabled = true
        	...
     	} */
 	//you can declare this function and call this function from anywhere in the project	
+
+//Keyboard shortcut
+	//tab - make selection and press tab, It will move the entire section by tab space backwards
+	//shift + tab - It will move the entire section by tab space forward
+	//F2 - It will rename file
+	//ctrl + shift + N - It will create new folder
+	//ctrl + g - To go to particular line
