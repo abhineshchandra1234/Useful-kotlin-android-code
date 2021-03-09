@@ -1,7 +1,4 @@
 //topics
-	//viewbinding
-		//to bind views
-		//efficient 
 	//databinding
 		//to bind views as well as their data
 		//slows the system a bit
