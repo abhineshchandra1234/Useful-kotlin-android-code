@@ -1177,3 +1177,10 @@ webView.settings.javaScriptEnabled = true
 	//change manifest file
 	/* android:icon="@mipmap/ic_accenture"
 	android:roundIcon="@mipmap/ic_accenture" */
+
+//Function
+	//global function
+	/* fun setData() {
+       	...
+    	} */
+	//you can declare this function and call this function from anywhere in the project	
