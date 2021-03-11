@@ -1221,3 +1221,5 @@ webView.settings.javaScriptEnabled = true
 	the EditText is null and there is no try catch statement to catch the exception then your app will crash and will be force closed. The user will not see what caused the 
 	crash, they will be shown a dialogue telling that the app has force closed unexpectedly and will give them the option to send a bug report. In this example if you were 
 	to look in the bug report you would see the error caused by java.lang.NullPointerException.
+	
+	ref - https://stackoverflow.com/questions/20213482/what-is-the-difference-between-anr-and-crash-in-android/20213896
