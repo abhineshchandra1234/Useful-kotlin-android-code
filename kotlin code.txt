@@ -483,6 +483,16 @@ this is a sample text
 		private lateinit var binding: FragmentSampleBinding
 		binding = FragmentSampleBinding.bind(view)
         	binding.tvFrag.text = "Chandra"
+		
+//data binding
+	Module gradle
+	 defaultConfig {
+	 	...
+	 }
+	 buildFeatures {
+        	dataBinding true
+    		}
+
 //Scope Functions		
 //Elvis Operator
 	When we have a nullable reference b, we can say "if b is not null, use it, otherwise use some non-null value":
