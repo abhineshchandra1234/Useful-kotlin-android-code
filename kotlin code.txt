@@ -1203,5 +1203,21 @@ webView.settings.javaScriptEnabled = true
 	//sanchaita@eegrab.com; kc@eegrab.com; pritam.s@eegrab.com; rohan.s@eegrab.com
 
 //Difference between activity && fragment
+
 	//activity - An Activity is an application component that provides a screen, with which users can interact in order to do something. 
+	
 	//fragment - Whereas a Fragment represents a behavior or a portion of user interface in an Activity.
+	
+	ref - https://stackoverflow.com/questions/25822656/what-are-the-differences-between-activity-and-fragment
+	
+//Difference between ANR and crash in Android
+
+	//ANR (Application Not Responding.) - An ANR will occur if you are running a process on the UI thread which takes a long time, usually around 5 seconds. During this 
+	time the GUI (Graphical User Interface) will lock up which will result in anything the user presses will not be actioned. After the 5 seconds approx has occurred, if 
+	the thread still hasn't recovered then an ANR dialogue box is shown informing the user that the application is not responding and will give the user the choice to 
+	either wait, in the hope that the app will eventually recover, or to force close the app.
+	
+	//Crash - A crash is when an exception within the app has been thrown which has not been handled. For example, if you try to set the text of an EditText component, but 
+	the EditText is null and there is no try catch statement to catch the exception then your app will crash and will be force closed. The user will not see what caused the 
+	crash, they will be shown a dialogue telling that the app has force closed unexpectedly and will give them the option to send a bug report. In this example if you were 
+	to look in the bug report you would see the error caused by java.lang.NullPointerException.
