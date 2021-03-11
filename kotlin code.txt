@@ -1251,3 +1251,4 @@ webView.settings.javaScriptEnabled = true
 	//course - https://www.udemy.com/course/image-recognition-in-android-one-hour-bootcamp-kotlin/learn/lecture/25078820#overview
 	//software - https://teachablemachine.withgoogle.com/train
 	//repo - https://github.com/hamza372/ImageclassificationKotlinStarter
+	//dependency - implementation 'org.tensorflow:tensorflow-lite:2.4.0'
