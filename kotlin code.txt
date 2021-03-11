@@ -1201,3 +1201,7 @@ webView.settings.javaScriptEnabled = true
 
 //Eeegrab email ids
 	//sanchaita@eegrab.com; kc@eegrab.com; pritam.s@eegrab.com; rohan.s@eegrab.com
+
+//Difference between activity && fragment
+	//activity - An Activity is an application component that provides a screen, with which users can interact in order to do something. 
+	//fragment - Whereas a Fragment represents a behavior or a portion of user interface in an Activity.
