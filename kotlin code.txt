@@ -660,8 +660,8 @@ webView.settings.javaScriptEnabled = true
 	System.out.println(obj.javaClass.kotlin.qualifiedName) // kotlin.Double
 	
 //flowchart
-	https://app.creately.com/diagram/ZKvvxZLiEHb/edit
-	https://cloud.smartdraw.com/editor.aspx?templateId=490dad73-de30-42bf-9a58-1789d56c1afd&flags=128#depoId=25165452&credID=-33813377
+	https://app.creately.com/diagram/ZKvvxZLiEHb/edit	//paid better UI
+	https://cloud.smartdraw.com/editor.aspx?templateId=490dad73-de30-42bf-9a58-1789d56c1afd&flags=128#depoId=25165452&credID=-33813377	//free
 	
 //click effect for btn
 	android:clickable="true"
