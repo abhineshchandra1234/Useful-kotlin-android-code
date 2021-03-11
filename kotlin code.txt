@@ -1209,6 +1209,12 @@ webView.settings.javaScriptEnabled = true
 	
 	//fragment - Whereas a Fragment represents a behavior or a portion of user interface in an Activity.
 	
+	//Advantages of fragment
+		//The main reason to use Fragments are for the backstack and lifecycle features.
+		//Where I ran into trouble was with the back button and life cycle. Since I was simply updating views manually...there was nothing keeping track of the history 
+		of views and their states. Therefore, the back button did not work as expected and it was difficult to recreate even the latest state during life cycle events, 
+		such as when rotating the app. To fix that, I had to wrap my custom views in fragments and use the FragmentManager so that the previous states would be saved and recreated.
+	
 	ref - https://stackoverflow.com/questions/25822656/what-are-the-differences-between-activity-and-fragment
 	
 //Difference between ANR and crash in Android
