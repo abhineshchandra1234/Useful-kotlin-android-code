@@ -1252,3 +1252,10 @@ webView.settings.javaScriptEnabled = true
 	//software - https://teachablemachine.withgoogle.com/train
 	//repo - https://github.com/hamza372/ImageclassificationKotlinStarter
 	//dependency - implementation 'org.tensorflow:tensorflow-lite:2.4.0'
+	//app level gradle file
+		// kotlinOptions {
+        	jvmTarget = '1.8'
+    		}
+    		aaptOptions{		//it will not compress the tflite file while loading in android
+        	noCompress "tflite"
+    		}
