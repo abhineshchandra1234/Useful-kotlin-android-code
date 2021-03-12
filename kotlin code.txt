@@ -1250,7 +1250,11 @@ webView.settings.javaScriptEnabled = true
 //Facial Recognition
 	//course - https://www.udemy.com/course/image-recognition-in-android-one-hour-bootcamp-kotlin/learn/lecture/25078820#overview
 	//software - https://teachablemachine.withgoogle.com/train
-	//repo - https://github.com/hamza372/ImageclassificationKotlinStarter
+	//repo
+		//for image classification from gallery
+		https://github.com/hamza372/ImageclassificationKotlinStarter 
+		//for image classification from live feed
+		https://github.com/hamza372/LiveFeedImageClassificationKotlin
 	//dependency - implementation 'org.tensorflow:tensorflow-lite:2.4.0'
 	//app level gradle file
 		// kotlinOptions {
