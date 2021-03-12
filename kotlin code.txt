@@ -1263,3 +1263,5 @@ webView.settings.javaScriptEnabled = true
     		aaptOptions{		//it will not compress the tflite file while loading in android
         	noCompress "tflite"
     		}
+//MVVM
+	//ref - https://youtu.be/v2yocpEcE_g
