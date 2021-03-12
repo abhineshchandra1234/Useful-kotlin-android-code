@@ -1265,4 +1265,4 @@ webView.settings.javaScriptEnabled = true
         	noCompress "tflite"
     		}
 //MVVM
-	//ref - https://youtu.be/v2yocpEcE_g
+	//ref - https://youtu.be/v2yocpEcE_g?t=1180
