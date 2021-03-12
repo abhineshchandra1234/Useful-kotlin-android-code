@@ -5,7 +5,8 @@
 //plugins
 	//for referencing views
 		id 'kotlin-android-extensions' 
-	id 'kotlin-kapt'
+	//data binding		
+		id 'kotlin-kapt'
 	
 	//works with navigation safe args dependency
 		id 'androidx.navigation.safeargs.kotlin' 
