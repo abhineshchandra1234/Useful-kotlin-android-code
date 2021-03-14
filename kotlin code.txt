@@ -495,7 +495,16 @@ this is a sample text
 	 buildFeatures {
         	dataBinding true
     		}
-
+	//use
+		/*
+		<layout
+    		xmlns:android="http://schemas.android.com/apk/res/android"
+    		xmlns:app="http://schemas.android.com/apk/res-auto"
+    		xmlns:tools="http://schemas.android.com/tools"
+    		> 
+		//xml code
+		</layout>
+		*/
 //Scope Functions		
 //Elvis Operator
 	When we have a nullable reference b, we can say "if b is not null, use it, otherwise use some non-null value":
