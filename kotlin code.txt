@@ -510,6 +510,16 @@ this is a sample text
 		//xml code
 		</layout>
 		*/
+		
+//ViewModel
+	/* 
+	class SubscriberViewModel(private val repository: SubscriberRepository): ViewModel() {
+		@Bindable
+		val inputName = MutableLiveData<String>()
+		@Bindable
+		val inputEmail = MutableLiveData<String>()
+	}
+	*/
 //Scope Functions		
 //Elvis Operator
 	When we have a nullable reference b, we can say "if b is not null, use it, otherwise use some non-null value":
