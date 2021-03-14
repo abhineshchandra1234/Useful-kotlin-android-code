@@ -513,10 +513,11 @@ this is a sample text
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"
 		    android:text="@={myViewModel.saveOrUpdateButtonText}"
+		    android:onClick="@{()->myViewModel.saveOrUpdate()}"  
 		    android:textSize="18sp"
 		    android:textStyle="bold"
 		    android:layout_weight="1"
-		    />
+           	 />
 		</layout>
 		*/
 		
@@ -532,6 +533,10 @@ this is a sample text
 		saveOrUpdateButtonText.value = "Save"
 		clearAllOrDeleteButtonText.value = "Clear All"
     			}
+		
+		fun saveOrUpdate(){
+
+    		}
 	}
 	*/
 //Scope Functions		
