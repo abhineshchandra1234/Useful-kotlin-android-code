@@ -508,6 +508,15 @@ this is a sample text
             		type="com.eegrab.roomdemo.SubscriberViewModel" />
     		</data>
 		//xml code
+		<Button
+		    android:id="@+id/btnSaveUpdate"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@={myViewModel.saveOrUpdateButtonText}"
+		    android:textSize="18sp"
+		    android:textStyle="bold"
+		    android:layout_weight="1"
+		    />
 		</layout>
 		*/
 		
@@ -518,6 +527,11 @@ this is a sample text
 		val inputName = MutableLiveData<String>()
 		@Bindable
 		val inputEmail = MutableLiveData<String>()
+		
+		init {
+		saveOrUpdateButtonText.value = "Save"
+		clearAllOrDeleteButtonText.value = "Clear All"
+    			}
 	}
 	*/
 //Scope Functions		
