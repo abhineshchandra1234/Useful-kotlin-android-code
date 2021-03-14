@@ -502,6 +502,11 @@ this is a sample text
     		xmlns:app="http://schemas.android.com/apk/res-auto"
     		xmlns:tools="http://schemas.android.com/tools"
     		> 
+		<data>
+        		<variable
+            		name="myViewModel"
+            		type="com.eegrab.roomdemo.SubscriberViewModel" />
+    		</data>
 		//xml code
 		</layout>
 		*/
