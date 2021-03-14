@@ -1269,4 +1269,6 @@ webView.settings.javaScriptEnabled = true
 	//architecture
 	/*
 		Activity or Fragment
-		
+		ViewModel  (LiveData3)
+		Repository
+		Model -> Room -> SQLite		Remote Data Source -> Retrofit -> Webservice 
