@@ -405,9 +405,27 @@ this is a sample text
 		onRestart	called after your activity is stopped, prior to start.
 	//when app is closed
 		onDestroy	called before the activity is destroyed.
-	//Todo
-		Detail explanation
-		
+	
+	//Order of calling funcs
+	
+	//when you open the app
+		//onCreate is called
+		//onStart: is called
+		//onResume: is called
+	//when you minimize the app
+		//onPause: is called
+		//onStop: is called
+	//when you reopen the app
+		//onRestart: is called
+		//onStart: is called
+		//onResume: is called
+	//when you change the orientation of the app
+		//onPause: is called
+		//onStop: is called
+		//onDestroy: is called
+		//onCreate is called
+		//onStart: is called
+		//onResume: is called
 //Fragment lifecycle
 	//Todo
 		Detail explanation
