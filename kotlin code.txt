@@ -426,6 +426,10 @@ this is a sample text
 		//onCreate is called
 		//onStart: is called
 		//onResume: is called
+	//when you kill the activity while moving to other activity eg - finish()
+		//onPause: is called
+		//onStop: is called
+		//onDestroy: is called
 //Fragment lifecycle
 	//Todo
 		Detail explanation
