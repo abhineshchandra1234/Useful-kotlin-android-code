@@ -835,7 +835,7 @@ webView.settings.javaScriptEnabled = true
 	//web
 		https://app.asana.com/
 	
-//textview
+//TextView
 	//Change text color of one word in a TextView
 		val first = "Welcome "
 		val next = "<font color='#EE0000'>Abhinesh Chandra</font>"
@@ -846,6 +846,8 @@ webView.settings.javaScriptEnabled = true
 	//code
 		android:textStyle="bold"  // to change text style
 		android:textColor="@color/black" //to change text color
+	//attribute
+		android:textSize="30sp"
 	
 //project name 
 	//Change project name on Android Studio
