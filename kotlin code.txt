@@ -1356,3 +1356,4 @@ webView.settings.javaScriptEnabled = true
 	//how to retain data on orientation changes
 	//onSaveInstanceState 
 	//sharedpreferences 
+	//Preferences DataStore (SharedPreferences deprecated)
