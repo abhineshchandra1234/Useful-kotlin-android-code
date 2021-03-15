@@ -520,7 +520,12 @@ this is a sample text
            	 />
 		</layout>
 		*/
-		
+	//MainActivity
+		private lateinit var binding: ActivityMainBinding
+		onCreate{
+			setContentView(R.layout.activity_main)
+        		binding = DataBindingUtil.setContentView(this,R.layout.activity_main)
+		}
 //ViewModel
 	/* 
 	class SubscriberViewModel(private val repository: SubscriberRepository): ViewModel() {
