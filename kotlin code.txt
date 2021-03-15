@@ -1355,10 +1355,12 @@ webView.settings.javaScriptEnabled = true
 		ViewModel  (LiveData3)
 		Repository
 		Model -> Room -> SQLite		Remote Data Source -> Retrofit -> Webservice 
+		
+//sharedpreferences 
+	//Todo
+	//Preferences DataStore (SharedPreferences deprecated)		
 
 //Orientation Changes
 	//how to retain data on orientation changes
 	//onSaveInstanceState 
-	//sharedpreferences 
-	//Preferences DataStore (SharedPreferences deprecated)
 	//viewmodel and livedata
