@@ -1361,3 +1361,4 @@ webView.settings.javaScriptEnabled = true
 	//onSaveInstanceState 
 	//sharedpreferences 
 	//Preferences DataStore (SharedPreferences deprecated)
+	//viewmodel and livedata
