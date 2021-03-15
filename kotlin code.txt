@@ -789,6 +789,7 @@ webView.settings.javaScriptEnabled = true
 	//attribute
 		app:cardBackgroundColor="@color/design_default_color_primary"
         	app:cardCornerRadius="10dp"
+		app:cardElevation="10dp"
 //appname
 	//change appname
 		//change label in application tag in manifest
