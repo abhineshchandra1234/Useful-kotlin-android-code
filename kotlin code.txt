@@ -1187,6 +1187,7 @@ webView.settings.javaScriptEnabled = true
 	//ViewModel 
 	//ViewModelFactory
 	//LiveData
+	//StateFlow
 	//ViewModel 
 		//It is used to retain data on orientation change
 		//Do not use it to store reference to view, activity etc
@@ -1195,6 +1196,9 @@ webView.settings.javaScriptEnabled = true
 		//Both viewmodel & viewmodel factory is used in retrofit2
 	//LiveData 
 		//LiveData is a data holder. It is capable of being observed, it can hold any kind of data, and on top of that, it is also lifecycle-aware.
+	//StateFlow
+		//LiveData deprecated
+		//todo ref - https://youtu.be/Qk2mIpE_riY
 //Button
 	//small text
 		android:textAllCaps="false"
