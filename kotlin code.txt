@@ -1407,3 +1407,8 @@ webView.settings.javaScriptEnabled = true
 		-keep class com.example.r8practice.network.* { *; } // It will ignore all classes(network.*) of network package
 		//{ *; } //It will ignore all funcs of all classes , you can specify a particular func also
 		*/
+
+//build variant
+	//how to get release variant of the app
+	//build -> select build variant -> debug or release
+	//you can generate apk and you will get release variant
