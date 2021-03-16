@@ -1375,6 +1375,12 @@ webView.settings.javaScriptEnabled = true
 	//optimize the code itself eg - remove usused if statement or empty if statement
 	//obfuscates your code eg - it will take all our classes, functions & variables and rename them to short unreadable names
 	
+	//mapping file
+		//it will contain code for classes, variables, functions everything
+		//you can use this to debug code when some user reports of crash in your release build
+		//you can upload this file to play store alongwith your build and google will tell exactly which part of your 
+		//code or classes has failed
+	
 	//how to use
 		//app gradle
 		/*
