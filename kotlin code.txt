@@ -1373,3 +1373,15 @@ webView.settings.javaScriptEnabled = true
 	//remove unused resources eg - images
 	//optimize the code itself eg - remove usused if statement or empty if statement
 	//obfuscates your code eg - it will take all our classes, functions & variables and rename them to short unreadable names
+	
+	//how to use
+		//app gradle
+		/*
+		 buildTypes {
+			release {
+			    minifyEnabled true
+			    shrinkResources true
+			    proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+			}
+    		}
+		*/
