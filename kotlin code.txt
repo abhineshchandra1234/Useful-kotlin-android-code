@@ -1431,3 +1431,8 @@ webView.settings.javaScriptEnabled = true
 //Physical location
 	//get physical location of any file or package
 	//select physical file or package -> rght clck -> show in explorer -> It will take you to location where your file is located
+
+//Color Picker
+	//you can pick color of images using this site
+	//this site will show diff shades of image
+	//ref - https://imagecolorpicker.com/en
