@@ -1386,8 +1386,17 @@ webView.settings.javaScriptEnabled = true
 			}
     		}
 		*/
+		
 	
 	//proguard-rules.pro
 		//we can use this to declare rules for proguard
 		//eg - declare classes we dont want to obfuscates, optimize etc
 		//eg - dont obfuscates data classes for json otherwise android will not be able to parse json bcs of variable mismatch
+		
+		//To ignore specific class
+		//Code
+		/*
+		@Keep data class NewsResponse(
+    		val title: String
+		)
+		*/
