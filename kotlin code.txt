@@ -1380,6 +1380,7 @@ webView.settings.javaScriptEnabled = true
 		//you can use this to debug code when some user reports of crash in your release build
 		//you can upload this file to play store alongwith your build and google will tell exactly which part of your 
 		//code or classes has failed
+		//location -> project -> C:\Users\Abhinesh Chandra\AndroidStudioProjects\R8Practice\app\build\outputs\mapping\release\mapping.txt
 	
 	//how to use
 		//app gradle
