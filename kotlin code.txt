@@ -1364,3 +1364,10 @@ webView.settings.javaScriptEnabled = true
 	//how to retain data on orientation changes
 	//onSaveInstanceState 
 	//viewmodel and livedata
+
+//R8
+	//tool to optimize your app for release
+	//remove unused classes, functions and fields
+	//remove unused resources eg - images
+	//optimize the code itself eg - remove usused if statement or empty if statement
+	//obfuscates your code eg - it will take all our classes, functions & variables and rename them to short unreadable names
