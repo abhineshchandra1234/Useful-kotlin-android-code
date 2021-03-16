@@ -1396,7 +1396,13 @@ webView.settings.javaScriptEnabled = true
 		//To ignore specific class
 		//Code
 		/*
-		@Keep data class NewsResponse(
+		@Keep data class NewsResponse(  //It will ignore this particular class
     		val title: String
 		)
+		*/
+		//To ignore multiple classes
+		//proguard-rules.pro
+		//Code
+		/*
+		-keep class com.example.r8practice.network.* // It will ignore all classes(network.*) of network package
 		*/
