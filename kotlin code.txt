@@ -1412,3 +1412,7 @@ webView.settings.javaScriptEnabled = true
 	//how to get release variant of the app
 	//build -> select build variant -> debug or release
 	//you can generate apk and you will get release variant
+
+//Bundle apk
+	//it will optimize the apk for diff devices
+	//you app will be smaller for certain users
