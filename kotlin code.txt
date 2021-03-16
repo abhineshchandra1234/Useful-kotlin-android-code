@@ -1423,3 +1423,11 @@ webView.settings.javaScriptEnabled = true
 //Bundle apk
 	//it will optimize the apk for diff devices
 	//you app will be smaller for certain users
+
+//Path
+	//get path of any file in android
+	//select file -> right click -> copy -> copy path -> absolute path or path from content root
+	
+//Physical location
+	//get physical location of any file or package
+	//select physical file or package -> rght clck -> show in explorer -> It will take you to location where your file is located
