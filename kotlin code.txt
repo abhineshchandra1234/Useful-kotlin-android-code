@@ -1365,7 +1365,9 @@ webView.settings.javaScriptEnabled = true
 	//onSaveInstanceState 
 	//viewmodel and livedata
 
-//R8
+//R8	
+	//R8 is more efficient than ProGuard 
+	//Google released R8 as a replacement of Proguard to help developers shrink the code with the better-generated output (APK).
 	//tool to optimize your app for release
 	//remove unused classes, functions and fields
 	//remove unused resources eg - images
