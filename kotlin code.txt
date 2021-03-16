@@ -1368,6 +1368,7 @@ webView.settings.javaScriptEnabled = true
 //R8	
 	//R8 is more efficient than ProGuard 
 	//Google released R8 as a replacement of Proguard to help developers shrink the code with the better-generated output (APK).
+	//R8 uses Proguard rules to modify its default behavior.
 	//tool to optimize your app for release
 	//remove unused classes, functions and fields
 	//remove unused resources eg - images
@@ -1385,3 +1386,7 @@ webView.settings.javaScriptEnabled = true
 			}
     		}
 		*/
+	
+	//proguard-rules.pro
+		//we can use this to declare rules for proguard
+		//eg - declare classes we dont want to obfuscates, optimize etc
