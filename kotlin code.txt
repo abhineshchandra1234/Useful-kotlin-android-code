@@ -1404,5 +1404,6 @@ webView.settings.javaScriptEnabled = true
 		//proguard-rules.pro
 		//Code
 		/*
-		-keep class com.example.r8practice.network.* // It will ignore all classes(network.*) of network package
+		-keep class com.example.r8practice.network.* { *; } // It will ignore all classes(network.*) of network package
+		//{ *; } //It will ignore all funcs of all classes , you can specify a particular func also
 		*/
