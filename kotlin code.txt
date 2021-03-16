@@ -1436,3 +1436,7 @@ webView.settings.javaScriptEnabled = true
 	//you can pick color of images using this site
 	//this site will show diff shades of image
 	//ref - https://imagecolorpicker.com/en
+
+//plugins
+	//useful plugin for visual studio code
+	//install && enjoy
