@@ -1454,3 +1454,11 @@ webView.settings.javaScriptEnabled = true
     	<corners android:radius="50dp" />
 	</shape>
 	*/
+	//Efficient way
+		/* GradientDrawable shape =  new GradientDrawable();
+                                        shape.setCornerRadius( 8 );
+                                        shape.setColor(Color.GREEN);
+                                        test_mqtt.setBackground(shape);
+		*/
+		//In this you dont need to create xml file for custom background
+		//Also you can change the background dynamically
