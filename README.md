@@ -4,6 +4,6 @@
 - it contains all features of coroutine
 
 ## Concepts Used
-- sample concept 1
+- Jetpack Compose, CardView
 
-[Reference](https://youtu.be/71NrkkRNXG4 "Named link title")
+[Jetpack Compose](https://youtu.be/b_F2wzV45ZQ "Named link title")
