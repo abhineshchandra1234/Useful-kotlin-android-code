@@ -1494,3 +1494,5 @@ webView.settings.javaScriptEnabled = true
 			//It represents the start destination
 		//Start Destination
 			//Fragment -> Rght clck -> set as start destination
+		//activity_main.xml
+			//add nav host fragment and fill complete screen
