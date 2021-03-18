@@ -1480,3 +1480,6 @@ webView.settings.javaScriptEnabled = true
 			val fragmentA = FragmentA()
         		supportFragmentManager.beginTransaction().replace(R.id.fragment_container,fragmentA).commit()
 		}
+	//pass data
+		ref - https://github.com/abhineshchandra1234/Fragment-to-Fragment-Communication
+			
