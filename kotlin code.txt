@@ -1503,3 +1503,6 @@ webView.settings.javaScriptEnabled = true
 															screens
 				}
 			*/
+		//Animations
+			//Select action -> Animations -> enterAnim & exitAnim -> select your choice
+			
