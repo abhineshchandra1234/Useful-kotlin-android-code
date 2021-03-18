@@ -1506,3 +1506,5 @@ webView.settings.javaScriptEnabled = true
 		//Animations
 			//Select action -> Animations -> enterAnim & exitAnim -> select your choice
 			
+	//Todo
+		passing data using safe args in navigation component
