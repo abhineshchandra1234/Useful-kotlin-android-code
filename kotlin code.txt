@@ -1488,3 +1488,7 @@ webView.settings.javaScriptEnabled = true
 //Navigation
 	//Nav Graph
 		//Resource Manager -> Navigation -> + (new file) -> allow android to add libs -> my_nav
+		//Add new Fragment
+			//Create new destination -> Add Fragment
+		//Home Icon
+			//It represents the start destination
