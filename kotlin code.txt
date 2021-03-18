@@ -1496,3 +1496,10 @@ webView.settings.javaScriptEnabled = true
 			//Fragment -> Rght clck -> set as start destination
 		//activity_main.xml
 			//add nav host fragment and fill complete screen
+		//navigate to other screen
+			/* 
+				binding.tv1.setOnClickListener {
+				Navigation.findNavController(view).navigate(R.id.navigateToSecondFragment) //R.id.navigateToSecondFragment is connecting link between two 
+															screens
+				}
+			*/
