@@ -1462,3 +1462,21 @@ webView.settings.javaScriptEnabled = true
 		*/
 		//In this you dont need to create xml file for custom background
 		//Also you can change the background dynamically
+
+//Fragment
+	//setup
+	//activity_main
+		<FrameLayout
+		android:id="@+id/fragment_container"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		/>
+	//MainActivity
+		onCreate {
+			val fragmentA = FragmentA()
+        		supportFragmentManager.beginTransaction().replace(R.id.fragment_container,fragmentA).commit()
+		}
