@@ -1492,3 +1492,5 @@ webView.settings.javaScriptEnabled = true
 			//Create new destination -> Add Fragment
 		//Home Icon
 			//It represents the start destination
+		//Start Destination
+			//Fragment -> Rght clck -> set as start destination
