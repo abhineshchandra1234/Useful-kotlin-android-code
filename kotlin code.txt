@@ -1484,3 +1484,7 @@ webView.settings.javaScriptEnabled = true
 		ref - https://github.com/abhineshchandra1234/Fragment-to-Fragment-Communication
 		//data is passed using MainActivity
 		//An Interface is used to pass data whose function is called in MainActivity
+
+//Navigation
+	//Nav Graph
+		//Resource Manager -> Navigation -> + (new file) -> allow android to add libs -> my_nav
