@@ -93,7 +93,9 @@ this is a sample text
 //Initialize variable and assign value later		
 	private lateinit var
 //To build apk	
-	Build-Generate Signed Bundle/apk
+	Build -> Generate Signed Bundle/apk
+	//location
+		//D:\Users\prita\AndroidStudioProjects\ViewModelLiveData\app\build\outputs\apk\debug
 //to deploy apps	
 	google play console
 //To move views upwards while using keyboard	
