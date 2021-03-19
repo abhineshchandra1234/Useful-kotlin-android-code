@@ -1525,3 +1525,5 @@ webView.settings.javaScriptEnabled = true
 	https://github.com/github/gitignore/blob/master/Android.gitignore
 	ref - https://stackoverflow.com/questions/39228464/android-studio-modifies-idea-vcs-xml-at-startup#:~:text=xml%20at%20startup,-
 	android%20git%20android&text=since%20it's%20not%20recommended%20to%20ignore%20the%20entire%20.&text=xml%20constantly%20changes%20between%20JDK_1_7%20and%20JDK_1_8%20.
+	//template
+		ref - https://github.com/github/gitignore/blob/master/Android.gitignore
