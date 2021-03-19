@@ -1561,3 +1561,14 @@ webView.settings.javaScriptEnabled = true
 	android%20git%20android&text=since%20it's%20not%20recommended%20to%20ignore%20the%20entire%20.&text=xml%20constantly%20changes%20between%20JDK_1_7%20and%20JDK_1_8%20.
 	//template
 		ref - https://github.com/github/gitignore/blob/master/Android.gitignore
+
+//setOnClickListener
+	//efficient method to use
+		/* 
+		private fun incrementText(){
+		binding.btnCount.setOnClickListener {
+		    viewModel.currentNumber.value = ++viewModel.number
+		    viewModel.currentBoolean.value = viewModel.number % 2 == 0
+			}
+	    	}	
+    		*/
