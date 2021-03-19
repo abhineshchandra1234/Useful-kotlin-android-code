@@ -1355,6 +1355,13 @@ webView.settings.javaScriptEnabled = true
 		ViewModel  (LiveData3)
 		Repository
 		Model -> Room -> SQLite		Remote Data Source -> Retrofit -> Webservice 
+	//Notes
+		In MVVM view doesnt interact with database directly. Instead it uses viewmodel for this. ViewModel contains all the business logic.
+		Activity or Fragment only contains the UI and data part is handled by ViewModel like logical operations on data, updation or deletion of data.
+		LiveData is used to notify about data change. View can observe LiveData for data change. LiveData is dependent of lifecycle and doesnt send notification about 
+		data change if the activity or fragment is destroyed.
+		
+		Repository is used to access database whether locally or by server by viewmodel. ViewModel cannot access database directly without Repository.
 		
 //sharedpreferences 
 	//Todo
