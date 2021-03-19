@@ -1365,7 +1365,39 @@ webView.settings.javaScriptEnabled = true
 		data change if the activity or fragment is destroyed.
 		
 		Repository is used to access database whether locally or by server by viewmodel. ViewModel cannot access database directly without Repository.
-		
+	//ViewModel & LiveData Setup
+		//TestViewModel
+		/*
+			class TestViewModel: ViewModel(){	//create ViewModel class and extend it with ViewModel 
+
+			    var number = 0
+
+			    val currentNumber: MutableLiveData<Int> by lazy {	//declare LiveData variables
+				MutableLiveData<Int>()
+			    }
+
+			    val currentBoolean: MutableLiveData<Boolean> by lazy {
+				MutableLiveData<Boolean>()
+			    }
+			}
+		*/
+		//MainActivity
+		/*
+			lateinit var viewModel: TestViewModel	//create ViewModel object
+			onCreate {
+				 viewModel = ViewModelProvider(this).get(TestViewModel::class.java)	//bind ViewModel object with ViewModel class
+				 viewModel.currentNumber.observe(this, Observer {		//observe LiveData variable data change
+				    binding.tvCount.text = it.toString()
+				})
+				incrementText()
+			}
+			private fun incrementText(){
+			binding.btnCount.setOnClickListener {				
+			    viewModel.currentNumber.value = ++viewModel.number			//update LiveData variable
+			    viewModel.currentBoolean.value = viewModel.number % 2 == 0
+				}
+    			}
+		*/			
 //sharedpreferences 
 	//Todo
 	//Preferences DataStore (SharedPreferences deprecated)		
