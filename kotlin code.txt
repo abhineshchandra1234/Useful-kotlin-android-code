@@ -159,7 +159,8 @@ this is a sample text
     		androidTestImplementation "androidx.room:room-testing:2.2.6"
 
     	//Lifecycle components
-		implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+		//ViewModel && LiveData
+			implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
 		implementation "androidx.lifecycle:lifecycle-common-java8:2.2.0"
 		implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
 		
