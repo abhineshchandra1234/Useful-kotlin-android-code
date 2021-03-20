@@ -1576,7 +1576,7 @@ webView.settings.javaScriptEnabled = true
 //Fragment
 	//Fragment class
 		/* 		
-		class FirstFragment : Fragment(R.layout.fragment_first) {
+		class FirstFragment : Fragment(R.layout.fragment_first) {	//you dont need any methods inside of it 
 		}
 		*/
 	//MainActivity
