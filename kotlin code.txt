@@ -1630,3 +1630,16 @@ webView.settings.javaScriptEnabled = true
 		android:state_selected="true"/>
 	</selector>
 	*/
+
+//Fading effect
+	//Code
+	/*
+	<ImageView
+
+                android:id="@+id/iv_habit_icon"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="10dp"
+                android:alpha=".1" //it will fade to 10 percent of its original value
+                android:src="@drawable/ic_tea" />
+	*/		
