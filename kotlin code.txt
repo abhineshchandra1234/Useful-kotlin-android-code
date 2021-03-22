@@ -1529,6 +1529,8 @@ webView.settings.javaScriptEnabled = true
 
 //Navigation
 	//Nav Graph
+		//Create
+			//res -> new Android resource file -> file_name = my_nav and file_type = navigation
 		//Resource Manager -> Navigation -> + (new file) -> allow android to add libs -> my_nav
 		//Add new Fragment
 			//Create new destination -> Add Fragment
