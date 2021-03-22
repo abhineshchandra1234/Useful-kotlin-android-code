@@ -1223,6 +1223,18 @@ webView.settings.javaScriptEnabled = true
 		//DrawerLayout is important as root layout to create NAVIGATION DRAWER
 //Menu
 	//res -> New -> Android Resource file -> Resource type -> Menu
+	//Code
+	/*
+	<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:app="http://schemas.android.com/apk/res-auto">
+	    <item
+		android:id="@+id/nav_delete"
+		android:icon="@drawable/ic_delete"
+		android:title="Delete everything"
+		app:showAsAction="withText"
+		/>
+	</menu>
+	*/
 //Values
 	//Strings
 		//Single item
