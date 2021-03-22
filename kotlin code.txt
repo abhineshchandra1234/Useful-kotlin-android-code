@@ -1630,7 +1630,18 @@ webView.settings.javaScriptEnabled = true
 		android:state_selected="true"/>
 	</selector>
 	*/
-
+	//creating effect
+	//pass the file as drawable resource to get the effect
+		/*
+		 <ImageView
+                    android:id="@+id/iv_smokingSelected"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/smoking_selector" />
+		    */
+		    
 //Fading effect
 	//Code
 	/*
@@ -1643,3 +1654,4 @@ webView.settings.javaScriptEnabled = true
                 android:alpha=".1" //it will fade to 10 percent of its original value, if it was ".5" then it would have been faded to 50 percent of its original value
                 android:src="@drawable/ic_tea" />
 	*/		
+	
