@@ -1654,4 +1654,24 @@ webView.settings.javaScriptEnabled = true
                 android:alpha=".1" //it will fade to 10 percent of its original value, if it was ".5" then it would have been faded to 50 percent of its original value
                 android:src="@drawable/ic_tea" />
 	*/		
+
+//Parcelable data classes
+	//Android Extensions plugin now includes an automatic Parcelable implementation generator. Declare the serialized properties in a primary constructor and add a 
+	//@Parcelize annotation, and writeToParcel()/createFromParcel() methods will be created automatically:
 	
+	/*
+	@Parcelize
+	class User(val firstName: String, val lastName: String) : Parcelable
+	*/
+	
+	So you need to enable them adding this to you module's build.gradle:
+	
+	/*
+	id 'kotlin-android-extensions'
+
+	android {
+	    androidExtensions {
+		experimental = true
+	    }
+	}
+	*/
