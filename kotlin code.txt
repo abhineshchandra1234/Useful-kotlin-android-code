@@ -1600,3 +1600,20 @@ webView.settings.javaScriptEnabled = true
 		*/
 //MVVM project
 	//https://youtu.be/xyzzokLRcCI - MVVM Habit Tracker App Tutorial in Android Studio
+
+//Different States of icon
+	//you can have your icons to display different backgrounds on different states . eg - it will have different background when it is selected or when focussed or hovered
+	//for this you need to create one xml file and inside it specify different xml file for different state
+	//drawable -> new -> drawable resource file -> file name = fastfood_selector && Root element = selector
+	//fastfood_selector
+	/*
+	<?xml version="1.0" encoding="utf-8"?>
+	<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+	    <item android:drawable="@drawable/ic_outline_fastfood"
+		android:state_selected="false"/>
+
+	    <item android:drawable="@drawable/ic_fastfood"
+		android:state_selected="true"/>
+	</selector>
+	*/
