@@ -1640,6 +1640,6 @@ webView.settings.javaScriptEnabled = true
                 android:layout_width="140dp"
                 android:layout_height="140dp"
                 android:layout_margin="10dp"
-                android:alpha=".1" //it will fade to 10 percent of its original value
+                android:alpha=".1" //it will fade to 10 percent of its original value, if it was ".5" then it would have been faded to 50 percent of its original value
                 android:src="@drawable/ic_tea" />
 	*/		
