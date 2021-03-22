@@ -1596,3 +1596,5 @@ webView.settings.javaScriptEnabled = true
 				}
 			}				
 		*/
+//MVVM project
+	//https://youtu.be/xyzzokLRcCI - MVVM Habit Tracker App Tutorial in Android Studio
