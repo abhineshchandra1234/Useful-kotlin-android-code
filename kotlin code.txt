@@ -1485,6 +1485,7 @@ webView.settings.javaScriptEnabled = true
 
 //Custom Background
 	//you can create a custom background using xml file
+	//drawable -> new -> drawable resource file -> file name = button_custom_background && Root element = shape
 	//custom_button.xml
 	/*
 	<?xml version="1.0" encoding="utf-8"?>
