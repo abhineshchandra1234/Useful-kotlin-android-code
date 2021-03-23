@@ -1540,7 +1540,9 @@ webView.settings.javaScriptEnabled = true
 		//data is passed using MainActivity
 		//An Interface is used to pass data whose function is called in MainActivity
 
-//Navigation
+//Navigation Component
+	//It is very powerful, It is used for handling navigation of fragments
+	//It will preserve data even if the screen is rotated
 	//Nav Graph
 		//Create
 			//res -> new Android resource file -> file_name = my_nav and file_type = navigation
@@ -1563,8 +1565,8 @@ webView.settings.javaScriptEnabled = true
 		//Animations
 			//Select action -> Animations -> enterAnim & exitAnim -> select your choice
 			
-	//Todo
-		passing data using safe args in navigation component
+	//Data passing 
+		//you can use parcelable data class to pass data or you can pass single values also. Data is passed using arguments.
 //Competative Programming
 	//https://www.codechef.com/
 	//https://codeforces.com/
