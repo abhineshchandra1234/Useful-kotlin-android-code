@@ -352,7 +352,7 @@ this is a sample text
 
 			Log.d("Main", response.body().toString())
 			Log.d("Main", response.code().toString())
-
+			Log.d("Main", response.headers().toString()) //to see header details
 		    	}
 		*/			
 	//data change
