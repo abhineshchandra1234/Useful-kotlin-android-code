@@ -1592,6 +1592,10 @@ webView.settings.javaScriptEnabled = true
 	//Fragment class
 		/* 		
 		class FirstFragment : Fragment(R.layout.fragment_first) {	//you dont need any methods inside of it 
+			override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+				//do whatever you want to do
+				//write some code
+			}
 		}
 		*/
 	//MainActivity
