@@ -354,7 +354,18 @@ this is a sample text
 			Log.d("Main", response.code().toString())
 			Log.d("Main", response.headers().toString()) //to see header details
 		    	}
-		*/			
+		*/
+	//Parsing Array Response
+		/*
+			userinfo = obj.getString("user")
+			    val jsonarray = JSONArray(userinfo)
+			    for (i in 0 until jsonarray.length()) {
+				val jsonobject = jsonarray.getJSONObject(i)
+				username  = jsonobject.getString("name")
+				useremail = jsonobject.getString("email")
+				rack_available = jsonobject.getString("rack_available")
+			    }
+		*/			    
 	//data change
 		change the data class for that particular object only , no need to recreate data classes for all json objects
 		eg - if new variable is added in User object, change only User data class
