@@ -1680,3 +1680,7 @@ webView.settings.javaScriptEnabled = true
 	}
 	*/
 MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
+//Migrate to androidX
+	//refractor -> migrate to androidx
+//Migrate to appCompat
+	//refractor -> migrate to appCompat
