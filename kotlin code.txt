@@ -343,6 +343,18 @@ this is a sample text
 		to get nested data value
 			iterate json array
 			ref - https://stackoverflow.com/questions/17441246/org-json-jsonarray-cannot-be-converted-to-jsonobject
+	//Code
+		/*
+			if (response.isSuccessful) {
+
+			val jsonString = Gson().toJson(response.body())
+			val obj = JSONObject(jsonString)
+
+			Log.d("Main", response.body().toString())
+			Log.d("Main", response.code().toString())
+
+		    	}
+		*/			
 	//data change
 		change the data class for that particular object only , no need to recreate data classes for all json objects
 		eg - if new variable is added in User object, change only User data class
@@ -358,6 +370,14 @@ this is a sample text
 		
 	//Note Api
 		//we cannot call api(viewmodel) from service class. viewmodel is closely associated with lifecycle of activity and can be called from activity only.
+	
+	//Header
+		//it is metadata which is sent with every api request
+		//it can be static and dynamic both.
+		//you can have fixed header or dynamically define your header for api request
+		
+		//libs
+			//implementation 'com.squareup.okhttp3:logging-interceptor:4.5.0'
 			
 //MQTT
 	add libraries
