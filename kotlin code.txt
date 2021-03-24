@@ -1608,6 +1608,20 @@ webView.settings.javaScriptEnabled = true
 				    val date: String,
 				) :Parcelable
 			*/
+		//between fragments
+			//first create arguments using navigation component
+			//first fragment
+				/*
+					 val action = ImageListDirections.actionImageListToImageDetails(imageList[position])
+                			itemView.findNavController().navigate(action)
+				*/
+			//second fragment
+				/*
+					private val args by navArgs<ImageDecriptionArgs>()
+					onViewCreated {
+						tvTitle.text = args.ImageDetails.title
+					}
+				*/					
 //Competative Programming
 	//https://www.codechef.com/
 	//https://codeforces.com/
