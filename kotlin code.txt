@@ -1741,3 +1741,7 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 		val fileInString: String =
             	context?.assets?.open("data.json")?.bufferedReader().use { it?.readText().toString() }
 		*/
+
+//Glide
+	//to show images from url in recyclerview
+		//Glide.with(holder.itemView.context).load("https://apod.nasa.gov/apod/image/1912/M94_Hubble_960.jpg").into(holder.itemView.imageView);
