@@ -334,6 +334,8 @@ this is a sample text
 	SimpleApi
 	Repository
 	MainViewModel
+	//plugin
+		implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
 	//parsing
 		edit post class to receive data
 		convert response from class to string 
@@ -389,7 +391,20 @@ this is a sample text
 		
 		//libs
 			//implementation 'com.squareup.okhttp3:logging-interceptor:4.5.0'
-			
+	
+	//Another Api in same project
+		//just create a new api class or interceptor class
+		//and you can call as many api as you want inside same app
+		/*
+		interface TokenLocalApi {
+		    @FormUrlEncoded
+		    @POST("updateToken.php")
+		    suspend fun pushTokenDetailsLocal(
+			    @Field("token_type") token_type: String,
+			    @Field("expires_in") expires_in: String,
+		    ): Response<TokenResponse>
+		}
+		*/
 //MQTT
 	add libraries
 	add connect,publish,subscribe
