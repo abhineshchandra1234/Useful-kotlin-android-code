@@ -679,6 +679,8 @@ webView.settings.javaScriptEnabled = true
 	 twoBtn.setOnClickListener {
             twoBtn.setBackgroundResource(R.drawable.ic_selected)
         }
+//Job Sites
+	//https://tophire.co/home?
     
 //to remove ssl error in retrofit
 	Retrofit.Builder()
