@@ -1621,7 +1621,16 @@ webView.settings.javaScriptEnabled = true
 					onViewCreated {
 						tvTitle.text = args.ImageDetails.title
 					}
-				*/					
+				*/
+	//Back Button
+		//you can add back button for fragment by writing following code in main Activity
+		//MainActivity
+		/*
+		 override fun onSupportNavigateUp(): Boolean {
+			val navController = findNavController(R.id.navHostFragment)
+			return navController.navigateUp() || super.onSupportNavigateUp()
+		    }
+		*/		    
 //Competative Programming
 	//https://www.codechef.com/
 	//https://codeforces.com/
