@@ -1745,3 +1745,13 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 //Glide
 	//to show images from url in recyclerview
 		//Glide.with(holder.itemView.context).load("https://apod.nasa.gov/apod/image/1912/M94_Hubble_960.jpg").into(holder.itemView.imageView);
+
+//ImageView
+	/*
+	<ImageView
+	android:id="@+id/simpleImageView"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:src="@drawable/lion"
+	android:scaleType="fitXY"/><!--set scale type fit xy-->
+	*/	
