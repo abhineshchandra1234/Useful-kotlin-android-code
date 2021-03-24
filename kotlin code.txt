@@ -1720,4 +1720,14 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 
 //json file
 	//you can read json file locally also
-	//ref - https://bezkoder.com/kotlin-android-read-json-file-assets-gson/
+	//ref - https://stackoverflow.com/questions/56962608/how-to-read-json-file-from-assests-in-android-using-kotlin
+	//activity
+		/*
+		val fileInString: String =
+  		applicationContext.assets.open(fileName).bufferedReader().use { it.readText() }
+		*/
+	//fragment
+		/*
+		val fileInString: String =
+            	context?.assets?.open("data.json")?.bufferedReader().use { it?.readText().toString() }
+		*/
