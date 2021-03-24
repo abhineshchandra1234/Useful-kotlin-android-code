@@ -1717,3 +1717,7 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	//refractor -> migrate to androidx
 //Migrate to appCompat
 	//refractor -> migrate to appCompat
+
+//json file
+	//you can read json file locally also
+	//ref - https://bezkoder.com/kotlin-android-read-json-file-assets-gson/
