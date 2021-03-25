@@ -405,6 +405,34 @@ this is a sample text
 		    ): Response<TokenResponse>
 		}
 		*/
+		
+	//Calling Api Directly without MVVM
+		//Code
+		/*
+		 private fun pushTokenDetails() {
+			Log.d("Main", "pushTokenDetails is called")
+			AndroidNetworking.initialize(this)
+			AndroidNetworking.post("https://saml1.eegrab.com/saml/test/API/updateToken.php")
+			    .addBodyParameter("token_type", "1")
+			    .addBodyParameter("expires_in", "2")			  
+			    .setOkHttpClient(RetrofitInstance.getUnsafeOkHttpClient()?.build())
+			    .build()
+			    .getAsObject(TokenDatabase::class.java, object : ParsedRequestListener<TokenDatabase> {
+
+				override fun onError(anError: ANError?) {
+				    TODO("Not yet implemented")
+				}
+
+				override fun onResponse(response: TokenDatabase?) {
+				    Log.d("Main", "Token Database response is $response")
+				}
+
+			    })
+		    }
+		    */
+		    //Ref
+		    	//https://youtu.be/rBQi_7L-Uc8
+			//documentation - https://github.com/amitshekhariitbhu/Fast-Android-Networking
 //MQTT
 	add libraries
 	add connect,publish,subscribe
