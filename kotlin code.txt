@@ -1795,3 +1795,11 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	android:src="@drawable/lion"
 	android:scaleType="fitXY"/><!--set scale type fit xy--> <!--you can use this to adjust image inside imageView-->
 	*/	
+
+//Context
+	//Activity
+		//this, this@MainActivity
+	//Fragment
+		//context
+	//Adapter
+		//itemview.context
