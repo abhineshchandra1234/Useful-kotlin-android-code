@@ -1802,4 +1802,4 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	//Fragment
 		//context
 	//Adapter
-		//itemview.context
+		//itemview.context, parent.context
