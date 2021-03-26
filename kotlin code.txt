@@ -233,6 +233,10 @@ this is a sample text
 	//Foreign exchange rates API
 	with currency conversion
 		ref - https://exchangeratesapi.io/
+		
+	//Api
+		//Big List of Free and Open Public APIs (No Auth Needed)
+		ref - https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/	
 	
 		
 //change actionbar name
