@@ -218,6 +218,9 @@ this is a sample text
 	//cat-facts api
 		https://alexwohlbruck.github.io/cat-facts/docs/
 		
+	//fake api
+		https://reqres.in/
+		
 	//fake api - Free to use fake Online REST API for testing and prototyping
 		https://jsonplaceholder.typicode.com/
 		
