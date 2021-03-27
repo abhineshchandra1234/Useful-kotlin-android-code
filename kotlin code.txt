@@ -1855,3 +1855,7 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 		//context
 	//Adapter
 		//itemview.context, parent.context
+
+//Maps App
+	//ref - https://youtu.be/TN97RRR-7bk 
+	//It will show basic map in your app and and static location
