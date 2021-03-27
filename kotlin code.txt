@@ -1859,3 +1859,18 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 //Maps App
 	//ref - https://youtu.be/TN97RRR-7bk 
 	//It will show basic map in your app and and static location
+	//How to add marker on google map with Kotlin?(live location)
+	ref - https://stackoverflow.com/questions/60465435/how-to-add-marker-on-google-map-with-kotlin
+	/*
+	map.setOnMapClickListener(object :GoogleMap.OnMapClickListener {
+            override fun onMapClick(latlng : LatLng) {
+                // Clears the previously touched position
+                map.clear();
+                // Animating to the touched position
+                map.animateCamera(CameraUpdateFactory.newLatLng(latlng));
+
+                val location = LatLng(latlng.latitude,latlng.longitude)
+                map.addMarker(MarkerOptions().position(location).title("My Position"))
+            }
+        })
+	*/
