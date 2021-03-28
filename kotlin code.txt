@@ -1699,7 +1699,11 @@ webView.settings.javaScriptEnabled = true
 	       app:layout_constraintStart_toStartOf="parent"
 	       app:layout_constraintTop_toTopOf="parent"
 	       app:navGraph="@navigation/my_nav" />
-		*/		       
+		*/	
+	//Fragment
+		//AppBar
+			//rename app bar
+			//my_nav -> android:label="Notes List"
 //Competative Programming
 	//https://www.codechef.com/
 	//https://codeforces.com/
