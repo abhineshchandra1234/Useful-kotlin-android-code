@@ -156,7 +156,7 @@ this is a sample text
 
      	// Room components
     		implementation "androidx.room:room-runtime:2.2.6"
-    		kapt "androidx.room:room-compiler:2.2.6"
+    		kapt "androidx.room:room-compiler:2.2.6"	//id "kotlin-kapt"
     		implementation "androidx.room:room-ktx:2.2.6"
     		androidTestImplementation "androidx.room:room-testing:2.2.6"
 
