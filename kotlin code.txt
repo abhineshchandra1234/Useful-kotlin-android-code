@@ -1878,3 +1878,6 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
             }
         })
 	*/
+
+//Select opened file
+	//there is an icon of cicle beside 1.Project tab, click on that it will show the location of opened file
