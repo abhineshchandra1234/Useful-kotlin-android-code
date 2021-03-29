@@ -1684,7 +1684,7 @@ webView.settings.javaScriptEnabled = true
 		    }
 		*/	
 	//Plugins
-		id "androidx.navigation.safeargs.kotlin"
+		id "androidx.navigation.safeargs.kotlin"  //It is necessary to generate a directions file and the rest is handled by default
 		classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.3.4"
 	//Main.Xml
 		/*
