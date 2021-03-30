@@ -1914,3 +1914,6 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 
 //Custom Spinner
 	//ref - https://youtu.be/GeO5F0nnzAw
+
+//Locker Tab
+	//1280 * 800
