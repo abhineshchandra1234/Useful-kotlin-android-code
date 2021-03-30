@@ -1917,3 +1917,8 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 
 //Locker Tab
 	//1280 * 800
+
+//SVG File
+	//you can use SVG file in android
+	//use vector Asset to convert SVG file to XML file
+	//and use it as a resource like background etc.
