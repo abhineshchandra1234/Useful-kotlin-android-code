@@ -1911,3 +1911,6 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	
 //Timer
 	//install plugin StopCoding and it will remind u to take break after regular interval
+
+//Custom Spinner
+	//ref - https://youtu.be/GeO5F0nnzAw
