@@ -316,6 +316,13 @@ this is a sample text
 		
 	
 	ref - https://www.datacamp.com/community/tutorials/git-push-pull
+
+//reset code in android studio
+	//select the desired commit
+	//right click -> reset current branch to here -> hard //it will remove your local changes
+	//build -> rebuild project //it is imp for reset of code base
+	//it will remove your local changes and reset the project to the desired commit
+	
 	
 //fonts
 	https://fonts.google.com/
