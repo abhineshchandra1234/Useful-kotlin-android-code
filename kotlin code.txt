@@ -463,7 +463,12 @@ this is a sample text
 //swipe view
 	use viewpager2 to create swipe views
 	ref - https://youtu.be/COZ3j8Dwlog
-	
+	Steps
+	//add fragment in xml file
+	//call mynav file from there
+	//in mynav pass viewpagerfragment
+	//viewpagerfragment will contain all the fragments 
+	//you need to create viewpageradapter also for viewpagerfragment
 //Http request
 	add android:usesCleartextTraffic="true" inside application tag to read data
 	
