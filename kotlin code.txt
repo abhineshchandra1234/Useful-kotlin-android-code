@@ -893,7 +893,7 @@ webView.settings.javaScriptEnabled = true
 	/*
 	private val differCallback = object : DiffUtil.ItemCallback<Article>() {
         override fun areItemsTheSame(oldItem: Article, newItem: Article): Boolean {
-            return oldItem.url == newItem.url
+            return oldItem.url == newItem.url	//it should be unique
         }
 
         override fun areContentsTheSame(oldItem: Article, newItem: Article): Boolean {
