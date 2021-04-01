@@ -1722,7 +1722,7 @@ webView.settings.javaScriptEnabled = true
 	//Data passing 
 		//you can use parcelable data class to pass data or you can pass single values also. Data is passed using arguments.
 		//plugin
-			id 'kotlin-android-extensions'
+			id 'kotlin-parcelize'
 		//code
 			/*
 				@Parcelize
