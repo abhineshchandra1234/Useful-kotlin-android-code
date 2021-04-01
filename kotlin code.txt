@@ -1966,3 +1966,8 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	//you can use SVG file in android
 	//use vector Asset to convert SVG file to XML file
 	//and use it as a resource like background etc.
+
+//Barcode && Qrcode scanner
+	//Note - just make sure to check app's camera permission in phone
+	//ref - https://youtu.be/drH63NpSWyk (video)
+	//ref - https://github.com/yuriy-budiyev/code-scanner (docs)
