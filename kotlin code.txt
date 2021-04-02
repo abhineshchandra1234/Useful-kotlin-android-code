@@ -1975,3 +1975,4 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 //Room
 	//Database - database
 	//Dao - for operations on database
+	//Database Inspector - you can use this to view the Database(table)
