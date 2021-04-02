@@ -901,6 +901,9 @@ webView.settings.javaScriptEnabled = true
 		
 	//populate recyclerview with retrofit response
 		//response.body()?.let {  myAdapter.setData(it)	}
+		
+	//add scroll to RecyclerView
+		//android:scrollbars="vertical"
 //DiffUtil
 	/*
 	private val differCallback = object : DiffUtil.ItemCallback<Article>() {
