@@ -1976,3 +1976,13 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	//Database - database
 	//Dao - for operations on database
 	//Database Inspector - you can use this to view the Database(table)
+	//ref - https://gabrieltanner.org/blog/android-room
+	
+//Coroutines
+	/*
+	 private fun checkNumberStatus() {
+		GlobalScope.launch {
+		    Log.d("Main", "value is ${userViewModel.checkNumber(number)} ")
+		}
+	    }
+	*/	   
