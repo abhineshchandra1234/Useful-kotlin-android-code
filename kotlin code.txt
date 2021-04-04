@@ -971,6 +971,9 @@ webView.settings.javaScriptEnabled = true
 		// app:layout_constraintBottom_toBottomOf="@+id/btnConvert"   //here base view bottom will only be aligned to bottom of destination view
 		//if you add app:layout_constraintTop_toTopOf="@+id/btnConvert" then base view top will only be aligned to top of destination view and base view will be
 		//in center of destination view
+	//center
+		//you can center your view with respect to other view
+		//just align top, left and right of base view with respect to destination view
 		
 //Guideline
 	//you can use it to align views on screen 
