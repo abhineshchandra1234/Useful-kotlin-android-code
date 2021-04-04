@@ -1126,6 +1126,10 @@ webView.settings.javaScriptEnabled = true
 	//google sign in
 		//add coroutines dependency from above
 		//google sign in dependency
+
+	//phone authentication
+		//firebase doesnt provide user phone no
+		//there is limitation on OTP for testing, so add testing no then test
 		
 //Coroutines
 	//def
