@@ -997,6 +997,7 @@ webView.settings.javaScriptEnabled = true
 		ref - https://stackoverflow.com/questions/7221930/change-text-color-of-one-word-in-a-textview
 	//to adjust text within textview dimension
 		android:autoSizeTextType="uniform"
+		android:singleLine="true" //to keep text in one line
 	//code
 		android:textStyle="bold"  // to change text style
 		android:textColor="@color/black" //to change text color
@@ -1997,3 +1998,7 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 //Code Template
 	//ref - https://carbon.now.sh/
 	//with this you can share code with beautiful template
+
+//Ui
+	//to create UI for android screen
+	//use adobe xd 
