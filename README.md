@@ -19,3 +19,12 @@
 ![picture alt](https://github.com/abhineshchandra1234/ComposePractice/blob/master/ComposePractice.jpg "Title is optional") 
 
 [apk](https://youtu.be/N7J27pBTtuI "Named link title")
+
+
+## Tasks to be done
+- add viewpager2
+
+## Improvements to be done
+- add diffutil in recyclerview
+- add viewbinding in the adapter class
+- custom bg for edittext
