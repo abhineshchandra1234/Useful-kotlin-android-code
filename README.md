@@ -28,3 +28,8 @@
 - add diffutil in recyclerview
 - add viewbinding in the adapter class
 - custom bg for edittext
+
+## Learning
+- learn diff util from this
+- learn on click listner for adapter from this
+- learn apply method from onBindViewHolder func from this
