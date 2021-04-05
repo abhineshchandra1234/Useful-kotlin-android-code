@@ -589,6 +589,8 @@ this is a sample text
 
 		
 //view binding
+	//it is a very powerful lib
+	//it avoids confusion between same views having same id, It will only show id of view associated with activity or fragment
 	Module gradle
 	 defaultConfig {
 	 	...
