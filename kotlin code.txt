@@ -2106,3 +2106,7 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
                 }
 	*/	
 	
+//Null check
+	//oldArticles?.addAll(newArticles)
+	//it means if oldArticles is not null then only newArticles will be added
+	//whatever comes before "?" mark will be checked if it is null or not
