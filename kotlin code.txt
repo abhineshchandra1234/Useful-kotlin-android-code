@@ -450,6 +450,13 @@ this is a sample text
 		    //Ref
 		    	//https://youtu.be/rBQi_7L-Uc8
 			//documentation - https://github.com/amitshekhariitbhu/Fast-Android-Networking
+	
+	//Calling Api best practice
+		//use viewmodel to call api 
+			//advantages
+				//api will not get called again when you rotate your screen
+				//api will not get called again when you come back to base fragment
+				//this happens because viewmodel has its own lifecycle
 //MQTT
 	add libraries
 	add connect,publish,subscribe
