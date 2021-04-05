@@ -2058,3 +2058,16 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 //Ui
 	//to create UI for android screen
 	//use adobe xd 
+
+//Snackbar
+	//It will display a text at bottom of the screen
+	//Code
+	/*
+		 Snackbar.make(view,"Successfully deleted article", Snackbar.LENGTH_LONG).apply {
+                    setAction("Undo") {		//if you want to add some func to snackbar
+                        viewModel.saveArticle(article)
+                    }
+                    show()
+                }
+	*/	
+	
