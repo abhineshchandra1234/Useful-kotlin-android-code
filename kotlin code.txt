@@ -1752,7 +1752,21 @@ webView.settings.javaScriptEnabled = true
 				    val url: String,
 				    val urlToImage: String
 				) : Serializable
-			*/				
+			*/	
+		//between fragments
+			//first create arguments using navigation component
+			//first fragment
+				/*
+					 newsAdapter.setOnItemClickListener {
+					    val bundle = Bundle().apply {
+						putSerializable("article",it) //where article is the argument name
+					    }
+					    findNavController().navigate(
+						R.id.action_breakingNewsFragment_to_articleFragment,
+						bundle
+					    )
+					}
+				*/					
 		//you can use parcelable data class to pass data or you can pass single values also. Data is passed using arguments.
 		//plugin
 			id 'kotlin-parcelize'
