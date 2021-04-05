@@ -1755,6 +1755,7 @@ webView.settings.javaScriptEnabled = true
 			*/	
 		//between fragments
 			//first create arguments using navigation component
+			//create argument of type Serializable
 			//first fragment
 				/*
 					 newsAdapter.setOnItemClickListener {
@@ -1791,6 +1792,7 @@ webView.settings.javaScriptEnabled = true
 			*/
 		//between fragments
 			//first create arguments using navigation component
+			//create argument of type Parcelable
 			//first fragment
 				/*
 					 val action = ImageListDirections.actionImageListToImageDetails(imageList[position])
