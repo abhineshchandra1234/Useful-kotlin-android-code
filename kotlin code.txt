@@ -1766,6 +1766,17 @@ webView.settings.javaScriptEnabled = true
 						bundle
 					    )
 					}
+				*/	
+			//second fragment
+				/*
+					val args: ArticleFragmentArgs by navArgs()
+					onViewCreated {
+						 val article = args.article
+						webView.apply {
+						    webViewClient = WebViewClient()
+						    loadUrl(article.url)
+						}
+					}
 				*/					
 		//you can use parcelable data class to pass data or you can pass single values also. Data is passed using arguments.
 		//plugin
