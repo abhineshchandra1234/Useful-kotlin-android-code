@@ -2121,3 +2121,10 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	app:layout_constraintVertical_bias="0.53" <!-- from 0.0 to 1.0 -->
 	ref - https://stackoverflow.com/questions/37321448/differences-between-constraintlayout-and-relativelayout
 	*/		
+
+//MVVM courses to be done
+	//Project Setup - MVVM Image Search App with Architecture Components & Retrofit #1
+	ref - https://youtu.be/m_cMJehM9xc
+	//for caching
+	//Simple Offline Caching With NetworkBoundResource + Kotlin Coroutines (Flow)
+	ref - https://youtu.be/idaPtfckRx4
