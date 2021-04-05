@@ -2119,4 +2119,5 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	(marked with circle). These percentages (and fractions) offer seamless positioning of the view across different screen densities and sizes.
 	app:layout_constraintHorizontal_bias="0.33" <!-- from 0.0 to 1.0 -->
 	app:layout_constraintVertical_bias="0.53" <!-- from 0.0 to 1.0 -->
+	ref - https://stackoverflow.com/questions/37321448/differences-between-constraintlayout-and-relativelayout
 	*/		
