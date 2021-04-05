@@ -2110,3 +2110,13 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	//oldArticles?.addAll(newArticles)
 	//it means if oldArticles is not null then only newArticles will be added
 	//whatever comes before "?" mark will be checked if it is null or not
+
+//Differences between ConstraintLayout and RelativeLayout
+	/* Intention of ConstraintLayout is to optimize and flatten the view hierarchy of your layouts by applying some rules to each view to avoid nesting.
+		Rules remind you of RelativeLayout, for example setting the left to the left of some other view.
+		app:layout_constraintBottom_toBottomOf="@+id/view1"
+	Unlike RelativeLayout, ConstraintLayout offers bias value that is used to position a view in terms of 0% and 100% horizontal and vertical offset relative to the handles 
+	(marked with circle). These percentages (and fractions) offer seamless positioning of the view across different screen densities and sizes.
+	app:layout_constraintHorizontal_bias="0.33" <!-- from 0.0 to 1.0 -->
+	app:layout_constraintVertical_bias="0.53" <!-- from 0.0 to 1.0 -->
+	*/		
