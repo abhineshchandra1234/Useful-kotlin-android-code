@@ -1739,6 +1739,20 @@ webView.settings.javaScriptEnabled = true
 			//Select action -> Animations -> enterAnim & exitAnim -> select your choice
 			
 	//Data passing 
+		//you can use Serializable also to pass data, it work same as parcelable
+		//diff between Serializable && parcelable
+		//The reason is native code. Parcelable is created not just for interprocess communication.
+		//It also can be used for intercode communication. You can send and 
+		//recieve objects from C++ native layer. That's it.
+		//code
+			/*
+				data class Article(
+				    @PrimaryKey(autoGenerate = true)
+				    var id: Int? = null,
+				    val url: String,
+				    val urlToImage: String
+				) : Serializable
+			*/				
 		//you can use parcelable data class to pass data or you can pass single values also. Data is passed using arguments.
 		//plugin
 			id 'kotlin-parcelize'
