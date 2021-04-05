@@ -239,8 +239,12 @@ this is a sample text
 		ref - https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/	
 		
 	//News api key
+		//ref - https://newsapi.org/
 		//1aef8bff01b34e56b931da95d6c2330f
 	
+	//best api generator
+	//random-data-api
+		//ref - https://random-data-api.com/documentation
 		
 //change actionbar name
 	setupActionBarWithNavController(findNavController(R.id.fragment))
