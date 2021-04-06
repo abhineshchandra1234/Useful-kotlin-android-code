@@ -2162,3 +2162,7 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 //Dagger - Hilt
 	//Is ApplicationComponent deprecated?
 		//ApplicationComponent being renamed to SingletonComponent, to allow usage of Hilt in non-Android Gradle modules link
+
+//Flows 
+	//flows is more efficient than livedata
+	//it can perform more tasks than livedata
