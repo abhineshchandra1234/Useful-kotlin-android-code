@@ -2166,3 +2166,45 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 //Flows 
 	//flows is more efficient than livedata
 	//it can perform more tasks than livedata
+	//it works on the producer-consumer principle
+	//if there is delay on either side then there will be delay in result
+	//if consumer is taking time to process data then producer will delay sending of data
+	//Code
+	/*
+	 val flow = flow {
+            for(i in 1..10) {
+                emit(i)		//It will act as producer
+                delay(1000L)
+            }
+        }
+	
+	GlobalScope.launch {
+            flow.collect {
+                println(it)	//It will act as consumer //it will print data after delay of every one sec        
+            }
+        }
+	
+	GlobalScope.launch {
+            flow.collect {
+                println(it)	//it will print data after delay of every three sec   
+		delay(2000L)	//output 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+            }
+        }
+	
+	GlobalScope.launch {
+            flow.buffer().collect {
+                println(it)	//it will print data after delay of every two sec   //buffer will retain data and provide to consumer when it is free
+		delay(2000L)	//you have to be careful with buffer bcs it has fixed size
+            }			//output 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+        }
+	
+	GlobalScope.launch {
+            flow.buffer().filter{ //it will filter && map data then it will print result
+                it % 2 == 0	//output 4, 16, 36, 64, 100
+            }.map{
+                it * it
+            }.collect {
+                println(it)
+                delay(2000L)
+            }
+        }
