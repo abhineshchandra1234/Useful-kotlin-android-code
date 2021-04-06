@@ -2158,3 +2158,7 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 //Packages
 	//setting
 	//just deselect "Compact middle packages" and you will be able to see empty sub packages easily
+
+//Dagger - Hilt
+	//Is ApplicationComponent deprecated?
+		//ApplicationComponent being renamed to SingletonComponent, to allow usage of Hilt in non-Android Gradle modules link
