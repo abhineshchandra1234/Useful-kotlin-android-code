@@ -898,7 +898,7 @@ webView.settings.javaScriptEnabled = true
 	 
 	//preview
 		<androidx.recyclerview.widget.RecyclerView
-		tools:listitem="@layout/example_item"
+		tools:listitem="@layout/example_item" //useful if you want to see your recyclerview with filling layout
 		/>
 		
 	//RecyclerView Intent
