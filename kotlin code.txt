@@ -1024,6 +1024,10 @@ webView.settings.javaScriptEnabled = true
 		//you can center your view with respect to other view
 		//just align top, left and right of base view with respect to destination view
 		
+	//center view in screen
+		//use tools to constraint view horizontally && vertically in parent
+		//it will align the view automatically in center of screen
+		
 //Guideline
 	//you can use it to align views on screen 
 	//eg - guideline1 - 35%
