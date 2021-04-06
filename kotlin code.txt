@@ -2138,6 +2138,6 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	//Gradient
 		  /* <gradient
 			android:startColor="#00FFFFFF"
-			android:endColor="#000"
+			android:endColor="#000"  //it will create a nice rectangle box with transparent start color and dark end color
 			android:angle="270"
 			/> */
