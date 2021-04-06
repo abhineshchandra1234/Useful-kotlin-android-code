@@ -1055,6 +1055,7 @@ webView.settings.javaScriptEnabled = true
 		app:drawableStartCompat = "@drawable/ic_person" //to add a icon at start of textview
 		android:maxLines="1" //text will be in one line only irrespective of length
         	android:ellipsize="end" //it will give dot effect at end if text is long
+		android:drawablePadding="4dp" //it will add padding between icon and text 
 	
 //project name 
 	//Change project name on Android Studio
