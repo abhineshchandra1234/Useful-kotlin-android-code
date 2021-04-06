@@ -57,6 +57,9 @@
 	Alt + F7 - To find usages
 	shift + F6 - to rename files
 	tab - right-click -> close other tabs
+	Ctrl + Alt + l - To reformat code //useful for xml layout
+	Ctrl + / - comment with line comment
+	Ctrl + shift + / - comment with block comment //useful for multi line comment 
 
 //to generate constructors
 	right-click -> generate -> secondary constructors
