@@ -407,6 +407,8 @@ this is a sample text
 		
 	//Note Api
 		//we cannot call api(viewmodel) from service class. viewmodel is closely associated with lifecycle of activity and can be called from activity only.
+		//just create parameters for which you want data in Data class. No need to create all the parameters of response
+		//you will get response for the parameters you created
 	
 	//Header
 		//it is metadata which is sent with every api request
