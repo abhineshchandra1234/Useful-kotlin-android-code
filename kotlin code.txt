@@ -2132,3 +2132,12 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	//for caching
 	//Simple Offline Caching With NetworkBoundResource + Kotlin Coroutines (Flow)
 	ref - https://youtu.be/idaPtfckRx4
+
+
+//Shape
+	//Gradient
+		  /* <gradient
+			android:startColor="#00FFFFFF"
+			android:endColor="#000"
+			android:angle="270"
+			/> */
