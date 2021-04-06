@@ -1052,6 +1052,7 @@ webView.settings.javaScriptEnabled = true
 		android:textColor="@color/black" //to change text color
 	//attribute
 		android:textSize="30sp"
+		app:drawableStartCompat = "@drawable/ic_person" //to add a icon at start of textview
 	
 //project name 
 	//Change project name on Android Studio
