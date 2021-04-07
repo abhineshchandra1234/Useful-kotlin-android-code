@@ -2162,6 +2162,10 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 //Dagger - Hilt
 	//Is ApplicationComponent deprecated?
 		//ApplicationComponent being renamed to SingletonComponent, to allow usage of Hilt in non-Android Gradle modules link
+	//it allows repository to be injected in ViewModel class without the need of creating ViewModelFactory class
+	//@ViewModelInject is deprecated use @Inject instead
+	//Injecting ViewModel with Dagger Hilt
+	//ref - https://medium.com/mobile-app-development-publication/injecting-viewmodel-with-dagger-hilt-54ca2e433865
 
 //Flows 
 	//flows is more efficient than livedata
