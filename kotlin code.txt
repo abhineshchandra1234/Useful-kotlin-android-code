@@ -124,11 +124,15 @@ this is a sample text
 		//implementation 'androidx.appcompat:appcompat:1.2.0'
 		//androidx -> refers to the latest version, android is deprecated
 	//Dagger - Hilt
-		implementation "com.google.dagger:hilt-android:2.28-alpha"
-    		kapt "com.google.dagger:hilt-android-compiler:2.28-alpha"
+		implementation "com.google.dagger:hilt-android:2.31-alpha"
+		kapt "com.google.dagger:hilt-android-compiler:2.31.2-alpha"
 
-    		implementation "androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha02"
-    		kapt "androidx.hilt:hilt-compiler:1.0.0-alpha02"
+    		implementation "androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03"
+		kapt "androidx.hilt:hilt-compiler:1.0.0-beta01"
+		
+		//classpath Dagger - Hilt
+		classpath "com.google.dagger:hilt-android-gradle-plugin:2.31-alpha"
+		 
 
 	//Activity KTX for viewModels()
     		implementation "androidx.activity:activity-ktx:1.1.0"
