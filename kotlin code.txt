@@ -2,12 +2,6 @@
 	//databinding
 		//to bind views as well as their data
 		//slows the system a bit
-//plugins
-	//for referencing views
-		id 'kotlin-android-extensions' 
-	//data binding		
-		id 'kotlin-kapt'
-		
 		
 //to hide actionbar
 	supportActionBar?.hide()
@@ -112,6 +106,12 @@ this is a sample text
 		//-ktx -> refers to kotlin version of firestore and it is optimized for kotlin
 		//implementation 'androidx.appcompat:appcompat:1.2.0'
 		//androidx -> refers to the latest version, android is deprecated
+		
+	//plugins
+	//for referencing views
+		id 'kotlin-android-extensions' 
+	//data binding		
+		id 'kotlin-kapt'
 		
 	//Dagger - Hilt
 		implementation "com.google.dagger:hilt-android:2.31-alpha"
