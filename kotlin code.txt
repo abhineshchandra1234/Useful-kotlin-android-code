@@ -603,6 +603,7 @@ this is a sample text
 //view binding
 	//it is a very powerful lib
 	//it avoids confusion between same views having same id, It will only show id of view associated with activity or fragment
+	//you can give views same id in multiple layout bcs you can only access views of layout associated with binding object
 	Module gradle
 	 defaultConfig {
 	 	...
