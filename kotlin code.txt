@@ -1111,6 +1111,18 @@ webView.settings.javaScriptEnabled = true
 	you can also create custom alert dialog with checkbox, edit text and buttons
 	ref - https://www.youtube.com/watch?v=PqRp3-t9GPM
 	
+	//to show simple alert dialog
+	//Code
+	/*
+	AlertDialog.Builder(this)
+            .setTitle("Not compatible")		//it will show a simple alert dialog && when clicked on yes it will dismiss and do nothing
+            .setMessage("Your phone does not support Bluetooth")
+            .setPositiveButton("yes") { _, _ ->
+	    //do something
+            }
+            .show()
+	*/	    
+	//docs ref - https://www.journaldev.com/309/android-alert-dialog-using-kotlin
 //timer
 	val timer1 = object: CountDownTimer(5000, 1000) {	//declare it as global variable
         override fun onTick(millisUntilFinished: Long) {
