@@ -252,6 +252,9 @@ this is a sample text
 	//random-data-api
 		//ref - https://random-data-api.com/documentation
 		
+	//public api
+		//ref - https://github.com/public-apis/public-apis#health
+		
 //change actionbar name
 	setupActionBarWithNavController(findNavController(R.id.fragment))
 	
