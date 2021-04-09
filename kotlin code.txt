@@ -1252,6 +1252,12 @@ webView.settings.javaScriptEnabled = true
         Log.d(TAG, "After runblocking") */
 	//types
 		//Dispatchers.Main, Default, IO, unconfined // it refers to diff types of threads
+		//Dispatchers.Main - 
+			//Use this dispatcher to run a coroutine on the main Android thread. This should be used only for interacting with the UI and performing quick work.
+		//Dispatchers.IO -
+			//This dispatcher is optimized to perform disk or network I/O outside of the main thread.
+		//Dispatchers.Default - 
+			//This dispatcher is optimized to perform CPU-intensive work outside of the main thread.
 	//Coroutines jobs
 	val job = GlobalScope.launch(Dispatchers.Default) {		//it will return job
                 repeat(5) {	//it will repeat for five times
