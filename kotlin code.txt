@@ -2245,3 +2245,12 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 
 //Difference between ASyncTask && Service
 	//
+
+//Android Launch Mode
+	//There are four launch modes for activity.
+		//standard, singleTop, singleTask, singleInstance
+		//ref - https://medium.com/mindorks/android-launch-mode-787d28952959
+	//Is there any launch modes for fragments like Activity launch modes?
+		//FragmentManager allows you to retrieve Fragments from the back stack:
+		findFragmentById(int)
+		findFragmentByTag(String)
