@@ -551,9 +551,29 @@ this is a sample text
 		//onPause: is called
 		//onStop: is called
 		//onDestroy: is called
+		
 //Fragment lifecycle
-	//Todo
-		Detail explanation
+	//when you open the app
+		//onAttach: is called
+		//onCreate: is called
+		//onCreateView: is called
+		//onViewCreated: is called  //ignore this
+		//onActivityCreated: is called
+		//onStart: is called
+		//onResume: is called
+	//when you minimize the app		
+		//onPause: is called
+		//onStop: is called
+	//when you reopen the app
+		//onStart: is called
+		//onResume: is called
+	//when you change the orientation of the app
+		//onPause: is called
+		//onStop: is called
+		//onDestroyView: is called
+		//onDestroy: is called
+		//when you open the app, methods is called
+		
 //Services
 	ref - https://youtu.be/EwwB_wZhBaw
 	//intent
