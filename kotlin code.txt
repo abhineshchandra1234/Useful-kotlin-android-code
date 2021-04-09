@@ -2236,3 +2236,6 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	//Delete .gradle folder(root directory) and build folder(project directory) and then invalidate caches/restart android studio, run your project again hopefully it will 
 	//work. It might take some time for the background tasks. In some countries, you may need to turn on the VPN to download.
 	ref - https://stackoverflow.com/questions/29808199/error-running-android-gradle-project-sync-failed-please-fix-your-project-and-t
+
+//Difference between ASyncTask && Service
+	//
