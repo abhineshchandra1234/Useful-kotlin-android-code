@@ -573,7 +573,8 @@ this is a sample text
 		//onDestroyView: is called
 		//onDestroy: is called
 		//when you open the app, methods is called
-		
+	//when you move from one fragment to another
+		//
 //Services
 	ref - https://youtu.be/EwwB_wZhBaw
 	//intent
