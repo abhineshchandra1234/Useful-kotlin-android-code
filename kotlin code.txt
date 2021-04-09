@@ -2244,12 +2244,21 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	ref - https://stackoverflow.com/questions/29808199/error-running-android-gradle-project-sync-failed-please-fix-your-project-and-t
 
 //Difference between ASyncTask && Service
-	//
-
+	//ASyncTask
+		//It is used for small operations
+		//AsyncTask s are designed for once-off time-consuming tasks that cannot be run of the UI thread.
+		//A common example is fetching/processing data when a button is 
+		//pressed.
+	//Service
+		//It is used for large operation
+		//Service s are designed to be continually running in the background. 
+		//services do not necessarily run off of the UI thread.
+		 
 //Android Launch Mode
 	//There are four launch modes for activity.
 		//standard, singleTop, singleTask, singleInstance
 		//ref - https://medium.com/mindorks/android-launch-mode-787d28952959
+		TODO()
 	//Is there any launch modes for fragments like Activity launch modes?
 		//FragmentManager allows you to retrieve Fragments from the back stack:
 		findFragmentById(int)
