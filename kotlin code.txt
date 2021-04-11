@@ -2304,3 +2304,8 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 		//FragmentManager allows you to retrieve Fragments from the back stack:
 		findFragmentById(int)
 		findFragmentByTag(String)
+
+//tools
+	//It is a simple but very powerful command
+	//User can imitate any commands of view and see how it looks, It will not affect the view in deployment
+	eg - tools:layout_height="300dp" //user can use this even to see height
