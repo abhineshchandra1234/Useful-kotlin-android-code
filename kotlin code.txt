@@ -2287,7 +2287,9 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 		//jdk path maybe wrongly set 
 		//set it to java home
 		//user will get warning about this in event log
+		//this bug has troubled me alot for few days:(
 		//ref - https://stackoverflow.com/questions/58432643/how-to-instruct-gradle-to-use-java-from-different-location
+		//if there is any lock files, just do above steps and restart your computer, it will work fine
 
 
 //Difference between ASyncTask && Service
