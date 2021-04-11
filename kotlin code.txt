@@ -1478,7 +1478,15 @@ webView.settings.javaScriptEnabled = true
 		android:title="Delete everything"
 		app:showAsAction="withText"
 		/>
+	 	<item
+			android:id="@+id/action_search"
+			android:icon="@drawable/ic_search"
+			android:title="Search"
+			app:actionViewClass="androidx.appcompat.widget.SearchView"
+			app:showAsAction="ifRoom|collapseActionView" //it will expand && collapse on click
+        	/>
 	</menu>
+	
 	*/
 	//Integration
 		//NotesUpdation.kt
