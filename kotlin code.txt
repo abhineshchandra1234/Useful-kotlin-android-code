@@ -2088,9 +2088,14 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
 	android:src="@drawable/lion"
-	android:scaleType="fitXY"/><!--set scale type fit xy--> <!--you can use this to adjust image inside imageView-->
+	android:scaleType="fitXY"
+	/><!--set scale type fit xy--> <!--you can use this to adjust image inside imageView-->
 	*/	
-
+	//android:adjustViewBounds="true" 
+		//Wrap Content ImageView with AdjustViewBounds
+		//To eliminate the additional padding (indicated by the blue), we just need to set AdjustViewBounds = true.
+		//AdjustViewBounds = true other than Adjust the ImageView bounds, it also Preserve the aspect ratio of its drawable.
+		//ref - https://medium.com/mobile-app-development-publication/android-imageview-adjustviewbounds-demystified-2f91ce7fe349
 //Context
 	//Activity
 		//this, this@MainActivity
