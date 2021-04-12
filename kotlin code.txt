@@ -2383,6 +2383,7 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 
 //location check && enabler
 	//below code will check location permission && enable it also
+	//for activity
 	/*
 		private fun checkLocationPermission() {
 		if (ContextCompat.checkSelfPermission(
@@ -2409,3 +2410,27 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 			}
 		    }
 	    */
+	//for fragment
+	/*
+		private fun checkLocationPermission() {
+		if (ActivityCompat.checkSelfPermission(
+			requireContext(),
+			ACCESS_FINE_LOCATION
+		    ) != PackageManager.PERMISSION_GRANTED &&
+		    ActivityCompat.checkSelfPermission(
+			requireContext(),
+			Manifest.permission.ACCESS_COARSE_LOCATION
+		    ) != PackageManager.PERMISSION_GRANTED
+		) {
+		    requestPermissions(
+			requireActivity(), arrayOf(
+			    Manifest.permission.ACCESS_COARSE_LOCATION,
+			    ACCESS_FINE_LOCATION
+			),
+			REQUEST_LOCATION
+		    )
+		} else {
+		    Log.e("DB", "PERMISSION GRANTED")
+		}
+	    }
+	*/	    
