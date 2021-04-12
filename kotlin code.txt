@@ -1384,6 +1384,13 @@ webView.settings.javaScriptEnabled = true
             	}
         	} */
 		//output // D/MainActivity: Still running...
+	//Coroutines Scopes
+		//GlobalScope
+			//it will keep on running coroutine even if the activity is destroyed
+		//lifecycleScope
+			//it will destroy the coroutine once the activity is destroyed
+		//viewModelScope
+			//t will destroy the coroutine once the viewModel is destroyed
 	//Coroutines firebase
 		//we can integrate firebase with coroutines
 		/* data class Person(
