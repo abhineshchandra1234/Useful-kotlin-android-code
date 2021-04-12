@@ -2307,7 +2307,14 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	//There are four launch modes for activity.
 		//standard, singleTop, singleTask, singleInstance
 		//ref - https://medium.com/mindorks/android-launch-mode-787d28952959
-		TODO()
+		//Standard
+			//This is the default launch mode of activity. It creates a new instance of activity every time even if activity instance is already present.
+			//Suppose we have A, B, C, and D activities and your activity B has standard launch mode. Now again launching activity B
+			//State of Activity Stack before launch B
+			//A →B→ C→D
+			//State of Activity Stack after launch B
+			//A → B → C→D→ B
+			//We can see that new instance of B is created again.
 	//Is there any launch modes for fragments like Activity launch modes?
 		//FragmentManager allows you to retrieve Fragments from the back stack:
 		findFragmentById(int)
