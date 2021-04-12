@@ -2411,6 +2411,7 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 		    }
 	    */
 	//for fragment
+		//ref - https://stackoverflow.com/questions/40760625/how-to-check-permission-in-fragment
 	/*
 		private fun checkLocationPermission() {
 		if (ActivityCompat.checkSelfPermission(
