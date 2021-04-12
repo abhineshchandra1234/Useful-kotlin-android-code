@@ -2334,6 +2334,22 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 			//Now suppose we have A →B →C →D →C like this
 			//then we if again launch C activity then in this case new instance will not be created. Instead, we will receive the callback on onNewIntent() method.
 			
+		//SingleTask
+			/* An activity declared with launch mode as singleTask can have only one instance in the system (singleton). At a time
+			only one instance of activity will exist.
+			If activity instance is not present then the new instance will be created and if the instance is already present in the system then the onNewIntent() 
+			method will receive the callback. */
+			
+			//Suppose we have A, B, C activities(A →B →C ) and we are launching D that has a singleTask launch mode. In that case, the new instance of D will be 
+			//created so the current state will look like this. (A →B →C →D)
+			
+			//Now let suppose if we launch B that also have has a singleTask launch mode then current state will look like this.
+			//A →B
+			//Here old instance gets called and intent data route through onNewIntent() callback. Also, notice that C and D activities get destroyed here.
+			
+			
+
+			
 	//Is there any launch modes for fragments like Activity launch modes?
 		//FragmentManager allows you to retrieve Fragments from the back stack:
 		findFragmentById(int)
