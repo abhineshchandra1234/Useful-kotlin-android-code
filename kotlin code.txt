@@ -1414,8 +1414,12 @@ webView.settings.javaScriptEnabled = true
 	
 //wifi status
 	https://johncodeos.com/how-to-check-for-internet-connection-in-android-using-kotlin/
+	
 //toggle button
 		https://www.geeksforgeeks.org/togglebutton-in-kotlin/
+		//set text for diff states
+		/* android:textOn="Scanning"
+        	android:textOff="Scan" */
 //bluetooth
 		//enable or disable 
 		mBluetoothAdapter.enable()
