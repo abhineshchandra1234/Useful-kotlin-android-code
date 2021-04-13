@@ -2451,3 +2451,36 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 		}
 	    }
 	*/	    
+
+//Lazy keyword
+	//There are certain classes whose object initialization is very heavy and so much time taking that it results in the delay of the whole class creation process.
+	//benefits
+		1. Now, the benefit of using lazy is that the object will be created only when it is called otherwise it will not be created.
+		2. The other benefit of using lazy is that once the object is initialized, you will use the same object again when called.
+	//Code
+		/*
+			class SomeClass {
+		    private val heavyObject: HeavyClass by lazy {
+			println("Heavy Object initialised")
+			HeavyClass()
+		    } 
+
+		    fun accessObject() {
+			println(heavyObject)
+		    }
+		}
+
+		fun main(args: Array<String>) {
+		    val someClass = SomeClass()
+		    println("SomeClass initialised")
+		    someClass.accessObject()
+		    someClass.accessObject()
+		}
+	*/
+	//Output
+		/*
+			SomeClass initialised 
+			Heavy Object initialised 
+			HeavyClass@2a84aee7 
+			HeavyClass@2a84aee7
+		*/			
