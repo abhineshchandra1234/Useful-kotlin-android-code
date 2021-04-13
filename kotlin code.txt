@@ -1936,20 +1936,32 @@ webView.settings.javaScriptEnabled = true
 	//Plugins
 		id "androidx.navigation.safeargs.kotlin"  //It is necessary to generate a directions file and the rest is handled by default
 		classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.3.4"
-	//Main.Xml
+	
+	//Fragment Setup		
+	//Main.xml
 		/*
-		<fragment
-	       android:id="@+id/navHostFragment"
-	       android:name="androidx.navigation.fragment.NavHostFragment"
-	       android:layout_width="0dp"
-	       android:layout_height="0dp"
-	       app:defaultNavHost="true"
-	       app:layout_constraintBottom_toBottomOf="parent"
-	       app:layout_constraintEnd_toEndOf="parent"
-	       app:layout_constraintStart_toStartOf="parent"
-	       app:layout_constraintTop_toTopOf="parent"
-	       app:navGraph="@navigation/my_nav" />
-		*/	
+			<fragment
+			android:id="@+id/navHostFragment"
+			android:name="androidx.navigation.fragment.NavHostFragment"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			app:defaultNavHost="true"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:navGraph="@navigation/my_nav" />
+		*/
+	//MainActivity.kt
+		/*
+			onCreate {
+				setupActionBarWithNavController(findNavController(R.id.navHostFragment))
+			}
+			override fun onSupportNavigateUp(): Boolean {
+			val navController = findNavController(R.id.navHostFragment)
+			return super.onSupportNavigateUp() || navController.navigateUp()
+		    }
+		*/		    
 	//Fragment
 		//AppBar
 			//rename app bar
