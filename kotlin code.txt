@@ -2454,6 +2454,8 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 
 //Lazy keyword
 	//There are certain classes whose object initialization is very heavy and so much time taking that it results in the delay of the whole class creation process.
+	//ref - https://blog.mindorks.com/learn-kotlin-lateinit-vs-lazy#:~:text=Lazy%20keyword,-
+	There%20are%20certain&text=Now%2C%20the%20benefit%20of%20using,same%20object%20again%20when%20called.
 	//benefits
 		1. Now, the benefit of using lazy is that the object will be created only when it is called otherwise it will not be created.
 		2. The other benefit of using lazy is that once the object is initialized, you will use the same object again when called.
