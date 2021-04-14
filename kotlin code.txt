@@ -988,6 +988,9 @@ webView.settings.javaScriptEnabled = true
 			}
 		*/		
 //DiffUtil
+	//It doesnt work best with mutable list. convert mutable to list then it will work. Working on the bug
+	//ref - https://stackoverflow.com/questions/56881149/diffutil-is-not-updating-the-recyclerview
+	//employeeList.toList()
 	/*
 	private val differCallback = object : DiffUtil.ItemCallback<Article>() {
         override fun areItemsTheSame(oldItem: Article, newItem: Article): Boolean {
