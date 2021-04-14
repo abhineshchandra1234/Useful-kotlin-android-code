@@ -651,8 +651,10 @@ this is a sample text
 	//for fragment
 		class SampleFragment : Fragment(R.layout.fragment_sample)
 		private lateinit var binding: FragmentSampleBinding
-		binding = FragmentSampleBinding.bind(view)
-        	binding.tvFrag.text = "Chandra"
+		onViewCreated{
+			binding = FragmentSampleBinding.bind(view)
+			binding.tvFrag.text = "Chandra"
+		}
 		
 //data binding
 	//plugin
