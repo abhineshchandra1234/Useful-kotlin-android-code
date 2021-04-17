@@ -2128,7 +2128,7 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	//Activity
 		//this, this@MainActivity
 	//Fragment
-		//context
+		//context, requireContext()
 	//Adapter
 		//itemview.context, parent.context
 
