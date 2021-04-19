@@ -1786,8 +1786,8 @@ webView.settings.javaScriptEnabled = true
 	//ref - https://imagecolorpicker.com/en
 
 //plugins
-	//useful plugin for visual studio code
-	//install && enjoy
+	//Top 9 Android Studio Plugins as of January 2020 (Kotlin Friendly)
+	//ref - https://www.ericdecanini.com/2019/12/30/top-9-android-studio-plugins-as-of-january-2020-kotlin-friendly/
 
 //Custom Background
 	//you can create a custom background using xml file
