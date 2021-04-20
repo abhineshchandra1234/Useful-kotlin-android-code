@@ -2255,8 +2255,21 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	//it also helps to inject api wherever it is needed in the app
 	//@ViewModelInject is deprecated use @Inject instead
 	//Injecting ViewModel with Dagger Hilt
-	//ref - https://medium.com/mobile-app-development-publication/injecting-viewmodel-with-dagger-hilt-54ca2e433865
-
+		//ref - https://medium.com/mobile-app-development-publication/injecting-viewmodel-with-dagger-hilt-54ca2e433865
+	
+	//Def -
+		//suppose you have xps & dell and a truck to keep it. Dagger will help where to keep this products.
+	
+	//there are 4 important keywords
+		//ref - https://blog.mindorks.com/dagger-hilt-tutorial
+		//Module
+			//Class
+		//Component
+			//Interface
+		//Provides
+			//Method
+		//Inject
+			//Constructor or field
 //Flows 
 	//flows is more efficient than livedata
 	//it can perform more tasks than livedata
