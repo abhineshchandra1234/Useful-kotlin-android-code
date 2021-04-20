@@ -2259,6 +2259,7 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	
 	//Def -
 		//suppose you have xps & dell and a truck to keep it. Dagger will help where to keep this products.
+		//it is very powerful, it is used by google in their search funcs
 	
 	//there are 4 important keywords
 		//ref - https://blog.mindorks.com/dagger-hilt-tutorial
@@ -2270,6 +2271,18 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 			//Method
 		//Inject
 			//Constructor or field
+			
+	//keywords eg
+		//Code
+		/* class MyActivity: Activity() {
+			@Inject
+			lateinit var computer: Computer
+		} */
+		//in the above code complier will ask dagger to find module which is returning the object & assign the object
+		//dagger will search the @Module class then it will search the @Provides methods which return the object
+		//and assign the object
+		//naming convention of func provideRestaurantApi whatever thing we are providing out of module is prefixed with
+		//provide
 //Flows 
 	//flows is more efficient than livedata
 	//it can perform more tasks than livedata
