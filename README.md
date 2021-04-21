@@ -12,6 +12,7 @@
 - Room
 - ViewPager2
 - ViewBinding
+- Dagger & Hilt
 
 [Jetpack Compose](https://youtu.be/b_F2wzV45ZQ "Named link title")
 
