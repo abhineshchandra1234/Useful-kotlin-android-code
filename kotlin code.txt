@@ -185,7 +185,7 @@ this is a sample text
 		implementation 'com.android.support:multidex:1.0.3'
 		multiDexEnabled true -- inside defaultConfig
 		
-	//ViewModel and LiveData
+	//ViewModel, LiveData and Lifecycle
 		implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
 
     	//Recyclerview
