@@ -988,6 +988,9 @@ webView.settings.javaScriptEnabled = true
 			}
 		*/		
 //DiffUtil
+	//DiffUtil is a utility class that can calculate the difference between two lists and output a list of update operations that converts the first list into 
+	//the second one. DiffUtils is based on Eugene Myers’ algorithm.
+		//ref - https://blog.mindorks.com/the-powerful-tool-diff-util-in-recyclerview-android-tutorial
 	//It doesnt work best with mutable list. convert mutable to list then it will work. Working on the bug
 	//ref - https://stackoverflow.com/questions/56881149/diffutil-is-not-updating-the-recyclerview
 	//employeeList.toList()
