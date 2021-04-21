@@ -2532,6 +2532,6 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
             android:id="@+id/check_box_important"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Important task"
+            android:text="Important task" //it will provide text just beside checkbox
             />
 	*/	   
