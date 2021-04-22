@@ -2538,3 +2538,13 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
             android:text="Important task" //it will provide text just beside checkbox
             />
 	*/	   
+
+//ScreenOrientation
+	//you can use this to fix orientation of the activity
+	//Code
+		//Manifest.xml
+		/* <activity android:name=".MainActivity"
+		    android:screenOrientation="portrait"
+		    >
+        	</activity>
+		*/
