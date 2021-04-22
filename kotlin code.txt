@@ -2548,3 +2548,23 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 		    >
         	</activity>
 		*/
+
+//Companion object
+	//In Kotlin, if you want to write a function or any member of the class that can be called without having the instance of the class then you can write the 
+	//same as a member of a companion object inside the class. So, by declaring the companion object, you can access the members of the class by class name 
+	//only(which is without explicitly creating the instance of the class).
+	//ref - https://blog.mindorks.com/companion-object-in-kotlin
+	//Code
+		/*class ToBeCalled {
+		    companion object Test {
+			var someInteger: Int = 10
+			fun callMe() = println("You are calling me :)")
+		    }
+		}
+		fun main(args: Array<String>) {
+		    print(ToBeCalled.someInteger)
+		}
+		*/
+	//We can remove the Test name from the above code,
+	//Todo()
+	//use this for val TAG
