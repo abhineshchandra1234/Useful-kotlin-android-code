@@ -1950,7 +1950,7 @@ webView.settings.javaScriptEnabled = true
 		/*
 			<fragment
 			android:id="@+id/navHostFragment"
-			android:name="androidx.navigation.fragment.NavHostFragment"
+			android:name="androidx.navigation.fragment.NavHostFragment" //it is the default value given by android, it is mandtory for fragment
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			app:defaultNavHost="true"
