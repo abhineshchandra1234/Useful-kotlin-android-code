@@ -627,6 +627,7 @@ this is a sample text
 
 		
 //view binding
+	//a viewbinding class is automatically generated for each layout file
 	//it is a very powerful lib
 	//it avoids confusion between same views having same id, It will only show id of view associated with activity or fragment
 	//you can give views same id in multiple layout bcs you can only access views of layout associated with binding object
@@ -657,6 +658,7 @@ this is a sample text
 		}
 		
 //data binding
+	//you have to specify this explicilty for each layout file
 	//plugin
 		//id 'kotlin-kapt'
 	Module gradle
