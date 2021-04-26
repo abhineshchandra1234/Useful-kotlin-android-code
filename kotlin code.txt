@@ -161,10 +161,10 @@ this is a sample text
 		classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.3.1"
 
      	// Room components
-    		implementation "androidx.room:room-runtime:2.2.6"
-    		kapt "androidx.room:room-compiler:2.2.6"	//id "kotlin-kapt"
-    		implementation "androidx.room:room-ktx:2.2.6"
-    		androidTestImplementation "androidx.room:room-testing:2.2.6"
+		    implementation "androidx.room:room-runtime:2.3.0"
+		    kapt "androidx.room:room-compiler:2.3.0"        //id "kotlin-kapt"
+		    implementation "androidx.room:room-ktx:2.3.0"
+		    androidTestImplementation "androidx.room:room-testing:2.3.0"
 
     	//Lifecycle components
 		//ViewModel && LiveData
