@@ -2576,3 +2576,6 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	//And Metadata is a set of data that gives information about other data.
 	//it basically tells compiler what each data represents
 	//ref - https://blog.mindorks.com/improve-your-android-coding-through-annotations-26b3273c137a
+
+//sample project
+	//search topics in github chose language and you will get sample project for your desired topic
