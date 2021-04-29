@@ -2254,6 +2254,12 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	//just deselect "Compact middle packages" and you will be able to see empty sub packages easily
 
 //Dagger - Hilt
+
+	//Dependency Injection
+		//It is very useful concept. It sounds challenging but the concept is very simple.
+		//suppose you have created object of some class and after some time the class property is changed like a constructor is added.
+		//this can cause issues. So we use dependency injection to tackle this problem.
+		
 	//Is ApplicationComponent deprecated?
 		//ApplicationComponent being renamed to SingletonComponent, to allow usage of Hilt in non-Android Gradle modules link
 	//it allows repository to be injected in ViewModel class without the need of creating ViewModelFactory class
