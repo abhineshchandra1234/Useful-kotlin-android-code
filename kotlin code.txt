@@ -2129,6 +2129,12 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 		//To eliminate the additional padding (indicated by the blue), we just need to set AdjustViewBounds = true.
 		//AdjustViewBounds = true other than Adjust the ImageView bounds, it also Preserve the aspect ratio of its drawable.
 		//ref - https://medium.com/mobile-app-development-publication/android-imageview-adjustviewbounds-demystified-2f91ce7fe349
+	
+	//How to crop the image using four (x,y) coordinates
+		//Using an instance of the Bitmap class, you can use the Bitmap.creatBitmap(); method passing the original image x y (for the top left corner) and 
+		//then width and height.
+		//Bitmap newBitmap=Bitmap.createBitmap(oldBitmap,10,20,70,80);
+		//ref - https://stackoverflow.com/questions/23130183/how-to-crop-the-image-using-four-x-y-coordinates
 //Context
 	//Activity
 		//this, this@MainActivity
