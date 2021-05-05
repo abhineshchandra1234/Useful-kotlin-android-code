@@ -2597,3 +2597,12 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	TODO()
 	//ref - https://youtu.be/6fKn4rgk4jM
 	//ref - https://www.guru99.com/agile-scrum-extreme-testing.html
+
+//Resize
+	//How to stop activity resizing/pushing up on keyboard open in dialog?
+	//ref - https://stackoverflow.com/questions/52152693/how-to-stop-activity-resizing-pushing-up-on-keyboard-open-in-dialog/52222416#52222416
+		//use this in your activity tag on manifest:
+		    android:configChanges="orientation|screenSize"
+		    android:windowSoftInputMode="stateHidden|adjustPan"
+	
+	
