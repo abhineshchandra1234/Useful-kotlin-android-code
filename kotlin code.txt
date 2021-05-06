@@ -43,6 +43,7 @@
 	Ctrl + Alt + l - To reformat code //useful for xml layout
 	Ctrl + / - comment with line comment
 	Ctrl + shift + / - comment with block comment //useful for multi line comment 
+	double click shift - shortcut to jump to any file
 
 //to generate constructors
 	right-click -> generate -> secondary constructors
