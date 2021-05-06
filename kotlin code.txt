@@ -700,6 +700,20 @@ this is a sample text
 			setContentView(R.layout.activity_main)
         		binding = DataBindingUtil.setContentView(this,R.layout.activity_main)
 		}
+	//one way && two way
+		//two way
+			//"@=" means two way data binding. below code means it will update the value of livedata in viewmodel as well as text of edittext 
+			//code
+			/* <EditText
+			android:text="@={viewmodel.editTextContent}"
+			/>
+			*/
+		//one way
+			//"@" means one way data binding. below code means it will update TextView text based on the value of livedata in viewmodel. 
+			//Code
+			/* <TextView
+			 android:text="@{viewmodel.currentRandomFruitName}"
+			/> 
 //ViewModel
 	/* 
 	class SubscriberViewModel(private val repository: SubscriberRepository): ViewModel() {
