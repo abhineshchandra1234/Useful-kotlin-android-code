@@ -2594,10 +2594,15 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 
 
 //Agile Methodology
-	TODO()
 	//ref - https://youtu.be/6fKn4rgk4jM
 	//ref - https://www.guru99.com/agile-scrum-extreme-testing.html
-
+	Agile methodology is very flexible in compared to waterfall model.
+	In comparison to waterfall model where whole project is planned in advance and then executed, here project development is done feature by feature.
+	In agile method less importance is given to documentation.
+		//Agile stages for new feature
+			//Plan -> Implement -> Test -> Review
+		//Waterfall stages for whole project
+			//Requirements -> Design -> Implementation -> Testing -> Deployment -> Maintenance
 //Resize
 	//How to stop activity resizing/pushing up on keyboard open in dialog?
 	//ref - https://stackoverflow.com/questions/52152693/how-to-stop-activity-resizing-pushing-up-on-keyboard-open-in-dialog/52222416#52222416
