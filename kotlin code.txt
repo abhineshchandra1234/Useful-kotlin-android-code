@@ -940,12 +940,15 @@ webView.settings.javaScriptEnabled = true
             Toast.makeText(holder.title.context,"title is "+movie.getTitle(),Toast.LENGTH_SHORT).show()
         }
 
-    
+//gridview   
 	//how to change recyclerview to gridview
 		private var gridLayoutManager: GridLayoutManager?= null
 		gridLayoutManager = GridLayoutManager(applicationContext,3, LinearLayoutManager.VERTICAL,false)
         	rv_recyclerView?.layoutManager = gridLayoutManager
 		//just change the layout manager of recyclerview
+		
+	//dynamically change size of gridview
+		//gridLayoutManager!!.spanCount = it ?: 1 //it cannot be null
 	 
 	//preview
 		<androidx.recyclerview.widget.RecyclerView
