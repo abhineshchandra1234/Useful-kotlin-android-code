@@ -2628,4 +2628,6 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 		    android:configChanges="orientation|screenSize"
 		    android:windowSoftInputMode="stateHidden|adjustPan"
 	
-	
+//disk cleanup
+	//%temp% - you can use run to delete it
+	//disk cleanup - you can use system default software to clean disk
