@@ -2635,7 +2635,7 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 //Testing
 	//types
 	//Unit tests, Integration tests, UI tests
-	//Unit Test(70%)
+	//Unit Test(70% of test cases)
 		//Tests of single units of our app(eg - testing the functions of a class)
 	//Integration Tests(20%)
 		//Tests how two components of our app work together(eg - Fragment and ViewModel)
