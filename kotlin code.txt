@@ -2631,3 +2631,10 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 //disk cleanup
 	//%temp% - you can use run to delete it
 	//disk cleanup - you can use system default software to clean disk
+
+//Testing
+	//types
+	//Unit tests, Integration tests, UI tests
+	//Unit Test(70%)
+		//Tests of single units of our app(eg - testing the functions of a class)
+	//
