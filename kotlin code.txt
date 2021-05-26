@@ -208,6 +208,10 @@ this is a sample text
     	//Rx
 		implementation 'io.reactivex.rxjava2:rxjava:2.2.7'
 		implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+		
+	//testing
+		//it makes assertion in our test cases much more readable for us. assertion - it should do this at certaion condition(mandatory).
+		testImplementation "com.google.truth:truth:1.0.1"
 
 //to print log msg
 	Log.d("MyIntentService","Service is stopping...")
