@@ -2646,3 +2646,11 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 		//Tests how two components of our app work together(eg - Fragment and ViewModel)
 	//Unit Tests(10%)
 		//Tests that check if many or all components of your app work together well && if the UI looks like it should
+	//Source Sets
+		//there are two types of source set
+		//test
+			//independent test cases
+			//lib - testImplementation "com.google.truth:truth:1.0.1"
+		//androidTest
+			//integrated test cases
+			//lib - androidTestImplementation "com.google.truth:truth:1.0.1"
