@@ -2656,3 +2656,16 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 			//lib - androidTestImplementation "com.google.truth:truth:1.0.1"
 	//generate test class
 		//right click class name(RegistrationUtil) -> generate -> test -> junit4(stable) -> location(test or androidTest) test class is generated(RegistrationUtilTest)
+	
+	//Before
+	//It will run before every test function
+	/*@Before
+    	fun setup() {
+        resourceComparer = ResourceComparer()
+    	}*/
+	
+	//After 
+	//It will run after every test function. It is useful in case of database when we have to close the database after every test function.
+	/*@After
+    	fun teardown() {
+    	}*/
