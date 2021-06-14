@@ -2661,6 +2661,8 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	//It will run before every test function
 	/*@Before
     	fun setup() {
+	//each test should be completely independent of each other
+	//so it must have unique instance of ResourceComparer class 
         resourceComparer = ResourceComparer()
     	}*/
 	
