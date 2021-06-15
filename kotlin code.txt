@@ -2679,3 +2679,8 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	//testImplementation libs is for test module only
 	//androidTestImplementation is for androidTest module only
 	//if you want your lib to be available for both modules then you have define it in both testImplementation & androidTestImplementation
+	
+	//ref - https://youtu.be/rM25aJ0o3Us
+	
+	//asserting lib
+		//testImplementation "com.google.truth:truth:1.0.1"
