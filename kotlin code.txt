@@ -2674,7 +2674,7 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	//androidTest
 		//for ui testing like fragment,activity
 	//test
-		//for business logic testing
+		//for business logic testing(unit test)
 	
 	//testImplementation libs is for test module only
 	//androidTestImplementation is for androidTest module only
