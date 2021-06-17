@@ -2683,4 +2683,5 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	//ref - https://youtu.be/rM25aJ0o3Us
 	
 	//asserting lib
+		//remove default assertion lib "import org.junit.Assert.*"
 		//testImplementation "com.google.truth:truth:1.0.1"
