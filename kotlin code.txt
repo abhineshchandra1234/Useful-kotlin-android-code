@@ -2689,3 +2689,7 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 		//remove default assertion lib "import org.junit.Assert.*"
 		//testImplementation "com.google.truth:truth:1.0.1"
 	//next - https://youtu.be/Hb0UV0f6kmQ
+	
+	//testing room
+		//testing of room database is easy. You have to insert some data in temporary database. Then check if data exist in temp database
+		//if it does your test case is passed
