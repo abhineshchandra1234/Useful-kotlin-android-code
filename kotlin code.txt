@@ -2698,3 +2698,8 @@ MVVM Habit Tracker App Tutorial - https://youtu.be/1NomRnyIUYo?t=779
 	//In computer science, recursion is a method of solving a problem where the solution depends on solutions to smaller instances of the same problem.
 	//ref - https://youtu.be/glaVznehaCk
 	//ref - https://youtu.be/YZcO_jRhvxs
+
+//Difference between Overloading and Overriding
+	//ref - https://www.google.com/search?q=difference+between+overloading+and+overriding&oq=di&aqs=edge.2.69i57j69i59j0i67l2j69i60l3.2961j0j1&sourceid=chrome&ie=UTF-8
+	//Overloading - When two or more methods in the same class have the same name but different parameters, it's called Overloading. 
+	//Overriding - When the method signature (name and parameters) are the same in the superclass and the child class, it's called Overriding.
